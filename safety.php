@@ -52,10 +52,9 @@
 
     <div class="container">
         <!-- Introduction -->
-        <div class="row wow fadeInDownBig text-center" data-wow-delay="1.5s">
+        <div class="row py-5 text-center" data-wow-delay="1.5s">
             <div class="col-lg-12">
                 <h2 class="arial text-main font-weight-bold">Demo Traders</h2>
-                <div class="smallborder1"></div>
                 <p class="helvetica">
                     Following specific do's and don'ts during the purchase, use, and storage of fireworks is crucial.
                     Even a slight lapse in attention can lead to serious injuries.
@@ -70,39 +69,46 @@
                 </h2>
             </div>
 
-            <!-- Do's Cards -->
+            <!-- Do's Cards (6 Cards) -->
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success h2 mr-3"></i>
-                    <p class="m-0">Always read and follow the manufacturer’s instructions before lighting fireworks.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-check-circle-fill text-success h2"></i>
+                    <p>Always read and follow the manufacturer’s instructions before lighting fireworks.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success h2 mr-3"></i>
-                    <p class="m-0">Keep a bucket of water or fire extinguisher nearby for emergencies.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-check-circle-fill text-success h2"></i>
+                    <p>Keep a bucket of water or fire extinguisher nearby for emergencies.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success h2 mr-3"></i>
-                    <p class="m-0">Use a long-handled lighter and maintain a safe distance while igniting.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-check-circle-fill text-success h2"></i>
+                    <p>Use a long-handled lighter and maintain a safe distance while igniting.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success h2 mr-3"></i>
-                    <p class="m-0">Ensure children and pets stay away from fireworks to prevent accidents.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-check-circle-fill text-success h2"></i>
+                    <p>Ensure children and pets stay away from fireworks to prevent accidents.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success h2 mr-3"></i>
-                    <p class="m-0">Soak used fireworks in water before safely disposing of them.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-check-circle-fill text-success h2"></i>
+                    <p>Soak used fireworks in water before safely disposing of them.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4">
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-check-circle-fill text-success h2"></i>
+                    <p>Only light one firework at a time and move away quickly after ignition.</p>
                 </div>
             </div>
         </div>
@@ -110,36 +116,50 @@
         <!-- Don'ts Section -->
         <div class="row bg-danger text-light pt-4 pb-5 px-3 wow fadeInLeft" data-wow-delay="1.5s">
             <div class="col-lg-12">
-                <h2 class="text-center font-weight-bold"><i class="bi bi-x-circle-fill text-warning p-2"></i> Don'ts
+                <h2 class="text-center font-weight-bold"><i class="bi bi-x-circle-fill text-warning p-2"></i> Dont's
                 </h2>
             </div>
 
-            <!-- Don'ts Cards -->
+            <!-- Don'ts Cards (6 Cards) -->
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-x-circle-fill text-danger h2 mr-3"></i>
-                    <p class="m-0">Do not allow children to handle fireworks. Always supervise young ones.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-x-circle-fill text-danger h2"></i>
+                    <p>Do not allow children to handle fireworks. Always supervise young ones.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-x-circle-fill text-danger h2 mr-3"></i>
-                    <p class="m-0">Do not light fireworks near dry grass, fuel, or flammable materials.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-x-circle-fill text-danger h2"></i>
+                    <p>Do not light fireworks near dry grass, fuel, or flammable materials.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-x-circle-fill text-danger h2 mr-3"></i>
-                    <p class="m-0">Do not hold fireworks in your hand while lighting—use a stable surface.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-x-circle-fill text-danger h2"></i>
+                    <p>Do not hold fireworks in your hand while lighting—use a stable surface.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-                <div class="custom-box p-3 bg-light text-dark rounded d-flex align-items-center">
-                    <i class="bi bi-x-circle-fill text-danger h2 mr-3"></i>
-                    <p class="m-0">Do not relight malfunctioning fireworks. Soak them in water instead.</p>
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-x-circle-fill text-danger h2"></i>
+                    <p>Do not relight malfunctioning fireworks. Soak them in water instead.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4">
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-x-circle-fill text-danger h2"></i>
+                    <p>Do not use fireworks while intoxicated or under the influence of drugs.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4">
+                <div class="card text-dark bg-light p-3 rounded">
+                    <i class="bi bi-x-circle-fill text-danger h2"></i>
+                    <p>Do not wear loose clothing while lighting fireworks to avoid accidental burns.</p>
                 </div>
             </div>
         </div>

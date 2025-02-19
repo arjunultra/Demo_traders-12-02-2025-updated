@@ -36,8 +36,9 @@
                                             title="Demo Traders">
                                     </div>
                                     <div class="col-9">
-                                        <h6 class="text-main">Address</h6>
-                                        <p class="helvetica m-0 font-weight-normal">123, Demo Street, Sivakasi</p>
+                                        <h6 class="text-main text-center text-lg-left">Address</h6>
+                                        <p class="helvetica m-0 font-weight-normal text-center text-lg-left">123, Demo
+                                            Street, Sivakasi</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +53,9 @@
                                             title="Demo Traders">
                                     </div>
                                     <div class="col-9">
-                                        <h6 class="text-main">Call Us</h6>
-                                        <p class="helvetica m-0 font-weight-normal smallfnt">(+91) 99999 99999</p>
+                                        <h6 class="text-main text-center text-lg-left">Call Us</h6>
+                                        <p class="helvetica m-0 font-weight-normal text-center text-lg-left">(+91) 99999
+                                            99999</p>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +69,9 @@
                                         <img class="info-icon" src="./images/mail.png" alt="Mail" title="Demo Traders">
                                     </div>
                                     <div class="col-9">
-                                        <h6 class="text-main">Mail Us</h6>
-                                        <p class="helvetica m-0 font-weight-normal">contact@demotraders.com</p>
+                                        <h6 class="text-main text-center text-lg-left">Mail Us</h6>
+                                        <p class="helvetica m-0 font-weight-normal text-center text-lg-left">
+                                            contact@demotraders.com</p>
                                     </div>
                                 </div>
                             </div>

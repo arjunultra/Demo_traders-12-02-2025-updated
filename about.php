@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -38,7 +39,7 @@
 <body itemscope itemtype="http://schema.org/WebPage">
     <?php include "header.php"; ?>
     <!-- banner -->
-    <section class="about">
+    <section class="about" data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-delay="300">
         <div class="about-banner d-flex flex-column align-items-center justify-content-center">
             <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
@@ -54,8 +55,9 @@
     </section>
     <!-- Our Story Section -->
     <section class=" about-first text-center text-md-left">
-        <div class="container custom-story">
+        <div class="container custom-story" data-aos="fade-left" data-aos-easing="ease-in-back" data-aos-delay="5s">
             <div class="row align-items-center">
+
                 <div class="col-12 col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="2s">
                     <h6 class="section-title heading6 text-blu cursive-font text-uppercase">About Us
                     </h6>
@@ -66,7 +68,7 @@
                         do.</p>
                     <p>From small family gatherings to large public events, we provide the best selection of fireworks
                         to make every occasion special.</p>
-                    <a href="#products.php"><button class="btn btn-outline-danger btn-lg">Order Now</button></a>
+                    <a class="theme-btn" href="products.php">Order Now</a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 fadeInRight" data-wow-delay="2s">
                     <img src="./images/about-3.webp" alt="Fireworks" class="img-fluid rounded-lg">
@@ -75,7 +77,8 @@
         </div>
     </section>
     <!-- why choose us -->
-    <section class="py-5 px-3 text-light why-choose text-center">
+    <section class="py-5 px-3 text-light why-choose text-center" data-aos="fade-up" data-aos-easing="ease-in-sine"
+        data-aos-delay="300" data-aos-offset="0">
         <div class="container pad">
             <!-- Section Heading -->
             <div class="row justify-content-center">
@@ -155,44 +158,10 @@
             </div> <!-- End of row -->
         </div> <!-- End of container -->
     </section>
-    <section class="contact-section py-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-2 col-md-2 col-6 align-self-center">
-                    <img src="images/gift-boxes.webp" class="img-fluid" alt="Diwali Crackers Sale"
-                        title="Diwali Crackers Sale">
-                </div>
-                <div class="col-md-8 col-lg-8 text-center">
-                    <h2 class="text-main font-weight-bold h1 mb-4 my-text">Light Up Your Celebrations</h2>
-                    <p class="contact-text mb-5 lead">
-                        At Demo Traders, we're passionate about creating unforgettable moments.
-                        Whether you're planning a wedding, festival, or special event, our expert
-                        team is here to help you find the perfect fireworks. Have questions or
-                        need assistance? Reach out - we're always excited to spark new connections!
-                    </p>
-                    <a href="contact.php"><button class="theme-btn">Get in Touch</button></a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-6 align-self-center">
-                    <img src="images/fireworks-1.webp" class="img-fluid" alt="Diwali Crackers Sale"
-                        title="Diwali Crackers Sale">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Call-to-Action Section -->
-    <section class="about-parallax text-white wow flipInX" data-wow-delay="2s">
-        <div class="container text-center">
-            <h2 class="heading1 font-weight-bold">Ready to Light Up the Sky?</h2>
-            <p class="lead">Explore our wide range of fireworks and make your next event unforgettable.</p>
-            <a href="products.html" class="btn btn-outline-success btn-lg">Shop Now</a>
-        </div>
-    </section>
-
     <!-- Our Mission Section -->
     <section class="mission-section py-5">
         <div class="container wow bounceInUp" data-wow-delay="1.5s">
-            <h2 class="text-center mb-5 font-weight-bold">Our Mission</h2>
+            <h2 class="text-center mb-5 font-weight-bold section-title">Our Mission</h2>
             <div class="row justify-content-center">
                 <!-- Quality -->
                 <div class="col-12 col-md-4">
@@ -223,17 +192,53 @@
                         <div class="mission-icon">
                             <i class="bi bi-people-fill"></i>
                         </div>
-                        <h3 class="font-weight-bold">Customer fulfillment</h3>
-                        <p>We ensure top-quality fireworks, reliable service, friendly support, on-time delivery, and
-                            unforgettable celebrations. </p>
+                        <h3 class="font-weight-bold">fulfillment</h3>
+                        <p>We ensure top-quality fireworks, reliable service, friendly support, on-time delivery. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Call-to-Action Section -->
+    <section class="about-parallax text-white" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <div class="container text-center">
+            <h2 class="heading1 font-weight-bold">Ready to Light Up the Sky?</h2>
+            <p class="lead">Explore our wide range of fireworks and make your next event unforgettable.</p>
+            <a href="products.php" class="btn btn-danger btn-lg">Shop Now</a>
+        </div>
+    </section>
+    <section class="contact-section py-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+        data-aos-offset="0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-2 col-6 align-self-center">
+                    <img src="images/gift-boxes.webp" class="img-fluid" alt="Diwali Crackers Sale"
+                        title="Diwali Crackers Sale">
+                </div>
+                <div class="col-md-8 col-lg-8 text-center margin-bottom-4">
+                    <h2 class="text-main font-weight-bold h1 mb-4 section-title">Light Up Your Celebrations</h2>
+                    <p class="contact-text mb-5 lead">
+                        At Demo Traders, we're passionate about creating unforgettable moments.
+                        Whether you're planning a wedding, festival, or special event, our expert
+                        team is here to help you find the perfect fireworks. Have questions or
+                        need assistance? Reach out - we're always excited to spark new connections!
+                    </p>
+                    <a href="contact.php"><button class="theme-btn">Get in Touch</button></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6 align-self-center">
+                    <img src="images/fireworks-1.webp" class="img-fluid" alt="Diwali Crackers Sale"
+                        title="Diwali Crackers Sale">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <?php include "footer.php"; ?>
+
+
+
+
     <div class="fixed point w0">
         <a href="https://api.whatsapp.com/send?phone=91">
             <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
@@ -257,7 +262,6 @@
             <img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
         </a>
     </div>
-    <div class="custom-cursor"></div>
     <div class="click-effect"></div>
     <div id="top-btn">
         <button id="goTopBtn" class="go-top">
@@ -267,15 +271,18 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/gsap.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
     <script>
-        new WOW().init();
+        AOS.init({
+            duration: 800,
+            mirror: false,
+            offset: 120,
+        });
     </script>
     <script src="js/script.js"></script>
     <!-- jsDelivr  -->
     <!-- footer -->
-
+    <?php include "footer.php"; ?>
 </body>
 
 </html>

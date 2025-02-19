@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="logo-area bg-light text-color">
-        <div class="container-fluid px-lg-5">
+        <div class="container-fluid px-lg-5 py-lg-3">
             <div class="row">
                 <div class="col-lg-4 col-md-12 my-auto crac2">
                     <div class="logo">
@@ -26,54 +26,62 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="row">
+                    <div class="row p-5 p-md-0">
+                        <!-- Address -->
                         <div class="col-lg-4 col-md-4 col-12 text-dark text-center">
-                            <div class="header-info-box text-center text-md-left d-flex flex-column align-items-start">
-                                <div class="d-flex align-items-center">
-                                    <div class="header-info-icon mr-2">
-                                        <i class="bi bi-geo-alt-fill text-primary h3"></i>
+                            <div class="header-info-box">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-3">
+                                        <img class="info-icon" src="./images/location-pin.png" alt="location-pin"
+                                            title="Demo Traders">
                                     </div>
-                                    <div class="arial font-weight-bold">Address
-                                        <p class="helvetica m-0 font-weight-normal">Demo Building, Demo Street, <br>
-                                            Sivakasi
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-12 text-dark text-center">
-                            <div class="header-info-box text-center text-md-left d-flex flex-column align-items-start">
-                                <div class="d-flex align-items-center">
-                                    <div class="header-info-icon mr-2">
-                                        <i class="bi bi-envelope-fill text-success h3"></i>
-                                    </div>
-                                    <div class="arial font-weight-bold">Mail Us
-                                        <p class="helvetica m-0 font-weight-normal smallfnt">demotraders@demo.com</p>
+                                    <div class="col-9">
+                                        <h6 class="text-main">Address</h6>
+                                        <p class="helvetica m-0 font-weight-normal">123, Demo Street, Sivakasi</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        <!-- Phone -->
                         <div class="col-lg-4 col-md-4 col-12 text-dark text-center">
-                            <div class="header-info-box text-center text-md-left d-flex flex-column align-items-start">
-                                <div class="d-flex align-items-center">
-                                    <div class="header-info-icon mr-2">
-                                        <i class="bi bi-telephone-fill text-warning h3"></i>
+                            <div class="header-info-box">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-3">
+                                        <img class="info-icon" src="./images/phone.png" alt="Phone"
+                                            title="Demo Traders">
                                     </div>
-                                    <div class="arial font-weight-bold">Call Us
+                                    <div class="col-9">
+                                        <h6 class="text-main">Call Us</h6>
                                         <p class="helvetica m-0 font-weight-normal smallfnt">(+91) 99999 99999</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        <!-- Mail -->
+                        <div class="col-lg-4 col-md-4 col-12 text-dark text-center">
+                            <div class="header-info-box">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-3">
+                                        <img class="info-icon" src="./images/mail.png" alt="Mail" title="Demo Traders">
+                                    </div>
+                                    <div class="col-9">
+                                        <h6 class="text-main">Mail Us</h6>
+                                        <p class="helvetica m-0 font-weight-normal">contact@demotraders.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
 
     <!-- Navbar -->
     <nav id="my-nav" class="navbar navbar-expand-lg navbar-light sticky-top">

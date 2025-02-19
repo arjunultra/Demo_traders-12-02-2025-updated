@@ -1,78 +1,120 @@
-// cursor
-// custom cursor animations
-// Select cursor elements
+// // cursor
+// // custom cursor animations
+// // Select cursor elements
 
-const cursor = document.querySelector(".custom-cursor");
-const clickEffect = document.querySelector(".click-effect");
-// console.log(clickEffect);
-// console.log(cursor);
+// const cursor = document.querySelector(".custom-cursor");
+// const clickEffect = document.querySelector(".click-effect");
+// // console.log(clickEffect);
+// // console.log(cursor);
 
-if (cursor && clickEffect) {
-  document.addEventListener("mousemove", (e) => {
-    cursor.style.left = `${e.pageX}px`;
-    cursor.style.top = `${e.pageY}px`;
-    cursor.style.transform = "translate(-60%, -60%)"; // Ensure centering
+// if (cursor && clickEffect) {
+//   document.addEventListener("mousemove", (e) => {
+//     cursor.style.left = `${e.pageX}px`;
+//     cursor.style.top = `${e.pageY}px`;
+//     cursor.style.transform = "translate(-60%, -60%)"; // Ensure centering
 
-    clickEffect.style.left = `${e.pageX}px`;
-    clickEffect.style.top = `${e.pageY}px`;
-  });
+//     clickEffect.style.left = `${e.pageX}px`;
+//     clickEffect.style.top = `${e.pageY}px`;
+//   });
 
-  document.addEventListener("click", () => {
-    clickEffect.style.animation = "clickAnimation 0.4s ease-out";
+//   document.addEventListener("click", () => {
+//     clickEffect.style.animation = "clickAnimation 0.4s ease-out";
 
-    // Reapply centering during click
-    cursor.style.transform = "translate(-60%, -60%)";
+//     // Reapply centering during click
+//     cursor.style.transform = "translate(-60%, -60%)";
 
-    setTimeout(() => {
-      clickEffect.style.animation = "none";
-    }, 400);
-  });
+//     setTimeout(() => {
+//       clickEffect.style.animation = "none";
+//     }, 400);
+//   });
 
-  clickEffect.addEventListener("animationend", () => {
-    clickEffect.style.animation = "none"; // Reset click effect
-  });
-} else {
-  console.error("Cursor or click effect element not found in the DOM.");
-}
+//   clickEffect.addEventListener("animationend", () => {
+//     clickEffect.style.animation = "none"; // Reset click effect
+//   });
+// } else {
+//   console.error("Cursor or click effect element not found in the DOM.");
+// }
 
 // counter
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter-number");
-  const speed = 200;
 
-  const animateCounters = () => {
-    counters.forEach((counter) => {
-      const updateCount = () => {
-        const target = +counter.getAttribute("data-count");
-        const count = +counter.innerText;
+  const animateCounters = (counter) => {
+    const target = +counter.getAttribute("data-count").trim(); // Trim spaces to avoid errors
+    let count = 0;
 
-        const increment = target / speed;
+    // Adjust speed dynamically based on target value
+    let speed = 100;
 
-        if (count < target) {
-          counter.innerText = Math.ceil(count + increment);
-          setTimeout(updateCount, 20);
-        } else {
-          counter.innerText = target;
-        }
-      };
+    const updateCount = () => {
+      const increment = target / speed;
 
-      updateCount();
-    });
+      if (count < target) {
+        count = Math.ceil(count + increment);
+        counter.innerText = count;
+        setTimeout(updateCount, 20);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
   };
 
+  // Observer to trigger animation when counters come into view
   const observer = new IntersectionObserver(
-    (entries, observer) => {
+    (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          animateCounters();
-          observer.disconnect();
+          animateCounters(entry.target); // Animate each counter individually
+          observer.unobserve(entry.target); // Stop observing after animation starts
         }
       });
     },
-    { threshold: 0.5 }
+    { threshold: 0.3 } // Ensures counter is 30% visible before animating
   );
 
   counters.forEach((counter) => observer.observe(counter));
+});
+// slow counter
+
+document.addEventListener("DOMContentLoaded", () => {
+  const slowCounters = document.querySelectorAll(".slow-counter");
+
+  // Function for slow counting (For counter with value 10)
+  const animateSlowCounter = (counter) => {
+    const target = +counter.getAttribute("data-count").trim();
+    let count = 0;
+    const speed = 300; // Slow speed
+
+    const updateCount = () => {
+      if (count < target) {
+        count++;
+        counter.innerText = count;
+        setTimeout(updateCount, 300); // Slower update frequency
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
+  };
+
+  // Intersection Observer for slow counters
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          animateSlowCounter(entry.target);
+          observer.unobserve(entry.target); // Stop observing after animation starts
+        }
+      });
+    },
+    { threshold: 0.3 }
+  );
+
+  // Attach observer only to slow counters
+  slowCounters.forEach((counter) => observer.observe(counter));
 });
 
 // navbar scrolling
@@ -104,20 +146,20 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,
+    nav: false,
     dots: false,
     autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
       0: {
-        items: 1,
-      },
-      600: {
         items: 2,
       },
-      1000: {
+      600: {
         items: 3,
+      },
+      1000: {
+        items: 4,
       },
     },
   });

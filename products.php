@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/hover.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -38,7 +39,7 @@
 <body itemscope itemtype="http://schema.org/WebPage">
     <?php include "header.php"; ?>
     <!-- products banner -->
-    <section class="products">
+    <section class="products" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="products-banner d-flex flex-column align-items-center justify-content-center">
             <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
@@ -85,9 +86,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/gsap.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
     <script>
-        new WOW().init();
+        AOS.init({
+            duration: 800,
+            mirror: false,
+            offset: 120,
+        });
     </script>
     <script src="js/script.js"></script>
     <!-- footer -->

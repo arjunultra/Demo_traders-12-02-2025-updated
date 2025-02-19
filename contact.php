@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -38,7 +39,7 @@
 <body itemscope itemtype="http://schema.org/WebPage">
     <?php include "header.php"; ?>
     <!-- contact banner -->
-    <section class="contact">
+    <section class="contact" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="contact-banner d-flex flex-column align-items-center justify-content-center">
             <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
@@ -51,72 +52,76 @@
             </div>
         </div>
     </section>
-    <section class="container four-card-container mt-5 mb-4">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">
-                            <i class="bi bi-geo-alt"></i> Location
-                        </h2>
-                        <p class="card-text flex-grow-1">Find us at: 123 Main Street, Sivakasi, Tamil Nadu, India</p>
+    <section class="container four-card-container mt-5 mb-4" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+        <div class="row ">
+            <!-- Cards on the Left (Large Screens) -->
+            <div class="col-12 col-md-6 col-lg-6 align-self-center">
+                <div class="row">
+                    <h2 class="section-title text-main font-weight-bold text-center mb-5">Contact Information</h2>
+                    <div class="col-12 col-md-12 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h2 class="card-title">
+                                    <i class="bi bi-geo-alt"></i> Location
+                                </h2>
+                                <p class="card-text flex-grow-1">Find us at: 123 Main Street, Sivakasi, Tamil Nadu,
+                                    India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h2 class="card-title">
+                                    <i class="bi bi-telephone"></i> Phone
+                                </h2>
+                                <p class="card-text flex-grow-1">Call us: +91 99999 99999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h2 class="card-title">
+                                    <i class="bi bi-whatsapp"></i> WhatsApp
+                                </h2>
+                                <p class="card-text flex-grow-1">Chat with us on WhatsApp: +91 88888 88888</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h2 class="card-title">
+                                    <i class="bi bi-envelope"></i> Mail
+                                </h2>
+                                <p class="card-text flex-grow-1">Email us at: demotraders@example.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">
-                            <i class="bi bi-telephone"></i> Phone
-                        </h2>
-                        <p class="card-text flex-grow-1">Call us: +91 99999 99999</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">
-                            <i class="bi bi-whatsapp"></i> WhatsApp
-                        </h2>
-                        <p class="card-text flex-grow-1">Chat with us on WhatsApp: +91 88888 88888</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">
-                            <i class="bi bi-envelope"></i> Mail
-                        </h2>
-                        <p class="card-text flex-grow-1">Email us at: demotraders@example.com</p>
-                    </div>
-                </div>
+
+            <!-- Map on the Right (Large Screens) -->
+            <div class="col-md-6 col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
         </div>
     </section>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
-                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
+
     <!-- footer -->
     <div class="contactlast">
-        <div class="container-fluid">
-            <div class="row bg-main">
-                <div class="col-12 text-center">
-                    <p class="helvetica smallfnt text-white mb-0 py-2">
-                        Copyright &copy; 2025, Demo Traders
-                        <span class="">All rights reserved. Designed & Developed by Sri Softwarez</span>
-                    </p>
-                </div>
-            </div>
+        <div class="container-fluid no-no-gutters bg-danger d-flex align-items-center justify-content-center">
+            <p class="helvetica text-white text-center">
+                Copyright &copy; 2025, Demo Traders
+                <span class="">All rights reserved. Designed & Developed by Sri Softwarez</span>
+            </p>
         </div>
     </div>
 
@@ -148,15 +153,16 @@
             <i class="bi bi-arrow-up"></i>
         </button>
     </div>
-    <div class="custom-cursor"></div>
-    <div class="click-effect"></div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/gsap.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
     <script>
-        new WOW().init();
+        AOS.init({
+            duration: 800,
+            mirror: false,
+            offset: 120,
+        });
     </script>
     <script src="js/script.js"></script>
 </body>

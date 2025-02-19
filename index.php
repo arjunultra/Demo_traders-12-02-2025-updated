@@ -39,7 +39,8 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 	<?php include "header.php"; ?>
 	<!-- index banner -->
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-left"
+		data-aos-easing="ease-in-back">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="./images/index-banner-2.webp" class="d-block w-100" alt="demo traders" title="demo traders">
@@ -48,20 +49,20 @@
 				<img src="./images/index-banner.webp" class="d-block w-100" alt="demo traders" title="demo traders">
 			</div>
 		</div>
-
 	</div>
-	<section class="intro-section">
+
+	<section class="intro-section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back">
 		<div class="about-area py-5">
 			<div class="container">
 				<div class="row align-items-center">
 					<!-- Left Column -->
-					<div class="col-12 col-md-6 col-lg-6">
+					<div class="col-12 col-md-12 col-lg-6">
 						<div class="about-left wow fadeInRight" data-wow-delay=".25s"
 							style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInRight;">
 							<div class="about-img">
 								<img class="img-1 img-fluid" src="images/about-4.webp" alt="About Image 1">
-								<img class="img-2 img-fluid" src="images/about-2.png" alt="About Image 2">
-								<img class="img-3 img-fluid" src="images/about-1.png" alt="About Image 3">
+								<img class="img-2 img-fluid" src="images/about-2.webp" alt="About Image 2">
+								<img class="img-3 img-fluid" src="images/about-1.webp" alt="About Image 3">
 							</div>
 							<div class="about-experience">
 								<span>2007</span>
@@ -70,7 +71,7 @@
 						</div>
 					</div>
 					<!-- Right Column -->
-					<div class="col-12 col-md-6 col-lg-6">
+					<div class="col-12 col-md-12 col-lg-6">
 						<div class="about-right wow fadeInLeft" data-wow-delay=".25s"
 							style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInLeft;">
 							<div class="site-heading mb-3">
@@ -103,7 +104,7 @@
 									</li>
 								</ul>
 							</div>
-							<a href="about.html" class="theme-btn">
+							<a href="about.php" class="theme-btn">
 								Discover More <i class="bi bi-arrow-right"></i>
 							</a>
 						</div>
@@ -117,19 +118,19 @@
 			<div class="row">
 				<div class="col-12">
 					<h2
-						class="heading1 text-yellow text-uppercase font-weight-bold text-center py-2 my-5 my-text bg-white d-block rounded-pill px-3 mx-auto w-50">
+						class="heading1 text-main text-uppercase font-weight-bold text-center   bg-white d-block rounded-pill px-3 py-2 mx-auto my-5">
 						Our Products
 					</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" data-aos="fade-zoom-in" data-aos-easing="ease-in-back">
 				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card">
+					<div class="product-card mb-md-4">
 						<div class="product-img">
 							<img src="./images/pdt2.webp" alt="Ground Chakkars">
 							<div class="overlay">
 								<h3 class="product-title">Ground Chakkars</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -140,7 +141,7 @@
 							<img src="./images/pdt3.webp" alt="Fantastic Flowerpots">
 							<div class="overlay">
 								<h3 class="product-title">Fantastic Flowerpots</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -151,18 +152,18 @@
 							<img src="./images/pdt6.webp" alt="Bombastic Bombs">
 							<div class="overlay">
 								<h3 class="product-title">Bombastic Bombs</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 my-lg-4">
-					<div class="product-card">
+					<div class="product-card mb-md-4">
 						<div class="product-img">
 							<img src="./images/pdt4.webp" alt="Roaring Rockets">
 							<div class="overlay">
 								<h3 class="product-title">Roaring Rockets</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -173,7 +174,7 @@
 							<img src="./images/pdt7.webp" alt="Dazzling Displays">
 							<div class="overlay">
 								<h3 class="product-title">Dazzling Displays</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -184,7 +185,7 @@
 							<img src="./images/pdt11.webp" alt="Sizzling Sparklers">
 							<div class="overlay">
 								<h3 class="product-title">Sizzling Sparklers</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -195,7 +196,7 @@
 							<img src="./images/fancyfountain.webp" alt="Fancy Fountains">
 							<div class="overlay">
 								<h3 class="product-title">Fancy Fountains</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -206,7 +207,7 @@
 							<img src="./images/pdt5.webp" alt="Assorted Giftboxes">
 							<div class="overlay">
 								<h3 class="product-title">Assorted Giftboxes</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -217,7 +218,7 @@
 							<img src="./images/pdt1.webp" alt="Kids Crackers">
 							<div class="overlay">
 								<h3 class="product-title">Kids Crackers</h3>
-								<a class="btn btn-primary btn-lg" href="products.php">Buy Now</a>
+								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
 					</div>
@@ -231,7 +232,7 @@
 	<section class="counter-section pt-5">
 		<div class="container-fluid text-center">
 			<!-- Section Heading -->
-			<h2 class="font-weight-bold text-primary mb-3">Our Pride</h2>
+			<h2 class="font-weight-bold text-main mb-3 text-uppercase section-title">Our Pride</h2>
 			<p class="text-secondary mb-5">
 				We pride ourselves on providing the most spectacular fireworks displays and an unparalleled selection of
 				high-quality products. Over the years, we have become a trusted name in the fireworks industry, serving
@@ -240,33 +241,45 @@
 			</p>
 
 			<!-- Counters -->
-			<div class="row counter-container">
+			<div class="row counter-container" data-aos="fade-right" data-aos-easing="ease-in-back">
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="counter-box p-4">
-						<i class="bi bi-clock-fill h1 text-main"></i>
-						<div class="counter-number" data-count="10">0</div><span class="text-main h1">+</span>
-						<h6 class="mt-2 text-main font-weight-bold">Years of Experience</h6>
+						<i class="bi bi-clock-fill h1"></i>
+						<div class="d-flex align-items-center justify-content-center">
+							<div class="counter-number slow-counter font-weight-bold" data-count="10">0</div>
+							<div class="counter-sign h1">+</div>
+						</div>
+						<h6 class="mt-2 counter-label font-weight-bold">Years of Experience</h6>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="counter-box p-4">
-						<i class="bi bi-box-seam-fill h1 text-main"></i>
-						<div class="counter-number" data-count="100">0</div><span class="text-blu h1">+</span>
-						<h6 class="mt-2 text-main font-weight-bold">Products</h6>
+						<i class="bi bi-box-seam-fill h1"></i>
+						<div class="d-flex align-items-center justify-content-center">
+							<div class="counter-number font-weight-bold" data-count="100">0</div>
+							<div class="counter-sign h1">+</div>
+						</div>
+						<h6 class="mt-2 counter-label font-weight-bold">Products</h6>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="counter-box p-4">
-						<i class="bi bi-emoji-smile-fill h1 text-main"></i>
-						<div class="counter-number" data-count="2000">0</div><span class="text-blu h1">+</span>
-						<h6 class="mt-2 text-main font-weight-bold">Happy Clients</h6>
+						<i class="bi bi-emoji-smile-fill h1"></i>
+						<div class="d-flex align-items-center justify-content-center">
+							<div class="counter-number font-weight-bold" data-count="2000">0</div>
+							<div class="counter-sign h1">+</div>
+						</div>
+						<h6 class="mt-2 font-weight-bold counter-label">Happy Clients</h6>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="counter-box p-4">
-						<i class="bi bi-hand-thumbs-up-fill h1 text-main"></i>
-						<div class="counter-number" data-count="100">0</div><span class="text-blu h1">%</span>
-						<h6 class="mt-2 text-main font-weight-bold">Satisfaction</h6>
+						<i class="bi bi-hand-thumbs-up-fill h1"></i>
+						<div class="d-flex align-items-center justify-content-center">
+							<div class="counter-number font-weight-bold" data-count="100">0</div>
+							<div class="counter-sign h1">%</div>
+						</div>
+						<h6 class="mt-2 font-weight-bold counter-label">Satisfaction</h6>
 					</div>
 				</div>
 			</div>
@@ -281,12 +294,20 @@
 						title="Demo Traders" style="visibility: visible; animation-name: rotateIn;">
 
 				</div>
-				<div class="col-lg-6 text-center d-flex align-items-center">
+				<div
+					class="col-lg-6 text-center text-lg-left d-flex flex-column align-items-center justify-content-center">
+					<h2 class="text-warning font-weight-bold text-uppercase">Light Up Your Events with Our Exclusive
+						Price List</h2>
+					<p class="text-light">Unlock the magic of breathtaking fireworks and dazzling displays! Download our
+						comprehensive
+						price list now to find the perfect fireworks for your celebrations.</p>
 					<div class="">
-						<a class="theme-btn px-5 py-3 hvr-grow-shadow" href="products.php">Download Our Pricelist</a>
+						<a class="theme-btn mb-4 px-3 py-3 px-lg-5 py-lg-3 hvr-grow-shadow" href="products.php">Download
+							Our
+							Pricelist</a>
 					</div>
 				</div>
-				<p class="mx-auto text-center text-light">
+				<p class="mx-auto text-center text-light small-para">
 					"Celebrate big, burst bright, and shop smarter
 					with our
 					festive offers!"
@@ -296,9 +317,9 @@
 
 
 	<!-- Brands Section -->
-	<section class="brands-section bg-white py-5 wow fadeIn" data-wow-duration="1s">
+	<section class="brands-section bg-white py-5">
 		<div class="container">
-			<h2 class="section-title text-center mb-5 text-blu font-weight-bold h1 my-text">Our Trusted Brands</h2>
+			<h2 class="section-title text-center mb-5 my-text text-main font-weight-bold h1">Our Trusted Brands</h2>
 			<!-- Owl Carousel Container -->
 			<div class="custom1 owl-carousel">
 				<!-- Brand 1 -->
@@ -392,14 +413,20 @@
 			<i class="bi bi-arrow-up"></i>
 		</button>
 	</div>
-	<div class="custom-cursor"></div>
-	<div class="click-effect"></div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 800,
+			mirror: false,
+			offset: 120,
+		});
+	</script>
 	<script src="js/script.js"></script>
+	<?php include "footer.php"; ?>
 </body>
-<?php include "footer.php"; ?>
+
 
 </html>

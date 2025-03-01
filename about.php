@@ -41,164 +41,178 @@
     <!-- banner -->
     <section class="about" data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-delay="300">
         <div class="about-banner d-flex flex-column align-items-center justify-content-center">
-            <div class="text-container text-white font-weight-bold wow slideInLeft">
-                <h1
-                    class="text-main text-center font-weight-bold text-uppercase bg-white rounded-pill d-inline-block py-2 px-4 heading3 mb-5">
-                    About
-                    <span class="arial text-blu h1 font-weight-bold">
-                        Us</span>
-                </h1>
-                <p class="heading4 text-center p-3 mt-5">Explosive Celebrations, Unforgettable Memories!</p>
 
-            </div>
         </div>
     </section>
     <!-- Our Story Section -->
-    <section class=" about-first text-center text-md-left">
-        <div class="container custom-story" data-aos="fade-left" data-aos-easing="ease-in-back" data-aos-delay="5s">
-            <div class="row align-items-center">
-
-                <div class="col-12 col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="2s">
-                    <h6 class="section-title heading6 text-blu cursive-font text-uppercase">About Us
-                    </h6>
-                    <h2 class="text-main main-heading-font heading1 my-text">Our Story</h2>
-                    <p class="lead helvetica">Founded in 2007, Demo Traders has been lighting up the skies with the
-                        finest
-                        fireworks for over a decade. Our passion for creating unforgettable moments drives everything we
-                        do.</p>
-                    <p>From small family gatherings to large public events, we provide the best selection of fireworks
-                        to make every occasion special.</p>
-                    <a class="theme-btn" href="products.php">Order Now</a>
+    <section class="our-story py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Story Card -->
+                <div class="col-lg-6">
+                    <div class="story-card" data-aos="fade-right">
+                        <h6 class="section-title">About Us</h6>
+                        <h2 class="story-heading">Our Story</h2>
+                        <p class="lead text-secondary">
+                            Founded in 2007, Demo Traders has been lighting up the skies with the finest fireworks for
+                            over a decade.
+                        </p>
+                        <p class="text-secondary">
+                            From small family gatherings to large public events, we provide the best selection of
+                            fireworks to make every occasion special.
+                        </p>
+                        <a href="products.php" class="theme-btn">Order Now</a>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 fadeInRight" data-wow-delay="2s">
-                    <img src="./images/about-3.webp" alt="Fireworks" class="img-fluid rounded-lg">
+
+                <!-- Image Card -->
+                <div class="col-lg-6">
+                    <div class="story-image" data-aos="fade-left">
+                        <img src="./images/about-3.webp" alt="Fireworks">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- why choose us -->
-    <section class="py-5 px-3 text-light why-choose text-center" data-aos="fade-up" data-aos-easing="ease-in-sine"
-        data-aos-delay="300" data-aos-offset="0">
-        <div class="container pad">
-            <!-- Section Heading -->
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h4 class="arial heading6 section-title cursive-font">Why Choose Us?</h4>
-                    <div class="arial pb-4 heading1 text-main font-weight-bold my-text">Why We Shine Brighter!</div>
-                </div>
-            </div>
 
-            <!-- Main Content -->
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
             <div class="row align-items-center">
-                <!-- Left Image (Shown on Large Screens) -->
-                <div class="col-lg-5 d-none d-lg-block wow slideInDown">
-                    <div class="why-choose-half-section">
-                        <a href="products.php">
-                            <img src="images/about3.webp" class="img-fluid hvr-grow mx-auto d-block rounded shadow"
-                                alt="Demo Traders" title="Demo traders">
-                        </a>
+                <!-- Left Side - Image & Overlay -->
+                <div class="col-lg-6">
+                    <div class="why-image">
+                        <img src="images/about-whychoose.webp" alt="Why Choose Us" class="img-fluid">
                     </div>
                 </div>
 
-                <!-- Right Feature Cards -->
-                <div class="col-lg-7 col-md-12">
-                    <div class="row wow slideInUp">
-
-                        <!-- Feature Card 1 -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card feature-card">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-fire text-main display-3"></i>
-                                    <h5 class="text-main font-weight-bold arial">Premium Quality Fireworks</h5>
-                                    <p class="helvetica pt-2">Experience breathtaking fireworks that turn the night sky
-                                        into a dazzling masterpiece.</p>
-                                </div>
+                <!-- Right Side - Feature Cards -->
+                <div class="col-lg-6">
+                    <div class="section-header">
+                        <h4 class="section-title">Why Choose Us?</h4>
+                        <h2 class="highlighted-text text-main">We Light Up Every Moment!</h2>
+                    </div>
+                    <div class="features ">
+                        <div class="feature-card">
+                            <div class="icon"><i class="bi bi-fire"></i></div>
+                            <div class="content">
+                                <h5>Premium Quality Fireworks</h5>
+                                <p>Experience breathtaking fireworks that turn the night sky into a dazzling
+                                    masterpiece.</p>
                             </div>
                         </div>
 
-                        <!-- Feature Card 2 -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card feature-card">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-tags-fill text-success display-3"></i>
-                                    <h5 class="text-success font-weight-bold arial">Unbeatable Prices & Discounts</h5>
-                                    <p class="helvetica pt-2">Celebrate responsibly with eco-friendly fireworks made
-                                        from sustainable materials.</p>
-                                </div>
+                        <div class="feature-card">
+                            <div class="icon"><i class="bi bi-tags-fill"></i></div>
+                            <div class="content">
+                                <h5>Best Prices & Discounts</h5>
+                                <p>Get the most competitive prices without compromising quality.</p>
                             </div>
                         </div>
 
-                        <!-- Feature Card 3 -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card feature-card">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-patch-check-fill text-info display-3"></i>
-
-                                    <h5 class="text-primary font-weight-bold arial">100% Safety Certified & Legal </h5>
-                                    <p class="helvetica pt-2">We offer high-quality products at the most competitive
-                                        prices.</p>
-                                </div>
+                        <div class="feature-card">
+                            <div class="icon"><i class="bi bi-patch-check-fill"></i></div>
+                            <div class="content">
+                                <h5>Certified & 100% Safe</h5>
+                                <p>All our products are legally certified for maximum safety.</p>
                             </div>
                         </div>
 
-                        <!-- Feature Card 4 -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card feature-card">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-lightning-charge-fill text-info display-3 "></i>
-                                    <h5 class="text-info font-weight-bold arial">Fast & Reliable Delivery</h5>
-                                    <p class="helvetica pt-2">Our top-notch quality and timely delivery have earned us
-                                        loyal customers.</p>
-                                </div>
+                        <div class="feature-card">
+                            <div class="icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                            <div class="content">
+                                <h5>Fast & Reliable Delivery</h5>
+                                <p>We ensure on-time delivery with a trusted network.</p>
                             </div>
                         </div>
-
-                    </div> <!-- End of row -->
-                </div> <!-- End of col-lg-7 -->
-            </div> <!-- End of row -->
-        </div> <!-- End of container -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
     <!-- Our Mission Section -->
     <section class="mission-section py-5">
+        <h2 class="text-center mb-5 font-weight-bold section-title">Our Mission</h2>
         <div class="container wow bounceInUp" data-wow-delay="1.5s">
-            <h2 class="text-center mb-5 font-weight-bold section-title">Our Mission</h2>
-            <div class="row justify-content-center">
-                <!-- Quality -->
-                <div class="col-12 col-md-4">
+
+
+            <!-- Row 1: Three Cards -->
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
                     <div class="mission-card text-center p-4">
-                        <div class="mission-icon text-primary">
-                            <i class="bi bi-shield-fill"></i>
+                        <div class="mission-icon text-danger">
+                            <i class="bi bi-fire"></i>
                         </div>
-                        <h3 class="font-weight-bold">Quality</h3>
-                        <p>We source only the highest quality fireworks to ensure safety and spectacular displays.</p>
+                        <h3 class="font-weight-bold">Premium Quality</h3>
+                        <p>Only high-performance fireworks with vibrant colors and dazzling effects.</p>
                     </div>
                 </div>
 
-                <!-- Safety -->
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 col-lg-4">
                     <div class="mission-card text-center p-4">
-                        <div class="mission-icon">
-                            <i class="bi bi-lock-fill"></i>
+                        <div class="mission-icon text-warning">
+                            <i class="bi bi-shield-lock"></i>
                         </div>
-                        <h3 class="font-weight-bold">Safety</h3>
-                        <p>Your safety is our priority. We provide detailed instructions and guidelines for every
-                            product.</p>
+                        <h3 class="font-weight-bold">Certified Safety</h3>
+                        <p>Every product meets strict safety standards for a secure experience.</p>
                     </div>
                 </div>
 
-                <!-- Customer Satisfaction -->
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 col-lg-4">
                     <div class="mission-card text-center p-4">
-                        <div class="mission-icon">
-                            <i class="bi bi-people-fill"></i>
+                        <div class="mission-icon text-success">
+                            <i class="bi bi-tags"></i>
                         </div>
-                        <h3 class="font-weight-bold">fulfillment</h3>
-                        <p>We ensure top-quality fireworks, reliable service, friendly support, on-time delivery. </p>
+                        <h3 class="font-weight-bold">Competitive Pricing</h3>
+                        <p>Wholesale rates and bulk discounts to maximize your profits.</p>
                     </div>
                 </div>
             </div>
+
+            <!-- Row 2: Two Cards -->
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-6">
+                    <div class="mission-card text-center p-4">
+                        <div class="mission-icon text-primary">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h3 class="font-weight-bold">Fast Delivery</h3>
+                        <p>Swift shipping to ensure your inventory is always stocked.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="mission-card text-center p-4">
+                        <div class="mission-icon text-info">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <h3 class="font-weight-bold">Customer Support</h3>
+                        <p>Dedicated assistance to help you with orders and inquiries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3: One Large Card -->
+            <div class="row justify-content-center mt-4">
+                <div class="col-12">
+                    <div class="mission-card text-center p-5">
+                        <div class="mission-icon text-dark">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h3 class="font-weight-bold">Your Success, Our Commitment</h3>
+                        <p>We empower resellers with the best products, seamless service, and reliable supply chains to
+                            help grow their business.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
+
+
+
 
     <!-- Call-to-Action Section -->
     <section class="about-parallax text-white" data-aos="fade-right" data-aos-offset="300"
@@ -209,31 +223,44 @@
             <a href="products.php" class="btn btn-danger btn-lg">Shop Now</a>
         </div>
     </section>
-    <section class="contact-section py-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
-        data-aos-offset="0">
+    <section class="contact-section py-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-2 col-md-2 col-6 align-self-center">
-                    <img src="images/gift-boxes.webp" class="img-fluid" alt="Diwali Crackers Sale"
-                        title="Diwali Crackers Sale">
+            <div class="row align-items-center">
+                <!-- Left: Image Grid -->
+                <div class="col-lg-6">
+                    <div class="contact-images d-flex flex-wrap">
+                        <div class="w-50 p-2">
+                            <img src="images/about-last-fw.webp" class="img-fluid rounded shadow-lg"
+                                alt="Fireworks Display" title="Fireworks Display">
+                        </div>
+                        <div class="w-50 p-2">
+                            <img src="images/about-last-3.webp" class="img-fluid rounded shadow-lg"
+                                alt="Happy Customers" title="Happy Customers">
+                        </div>
+                        <div class="w-100 p-2">
+                            <img src="images/about-last-2.webp" class="img-fluid rounded shadow-lg"
+                                alt="Fireworks Store" title="Fireworks Store">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-8 col-lg-8 text-center margin-bottom-4">
-                    <h2 class="text-main font-weight-bold h1 mb-4 section-title">Light Up Your Celebrations</h2>
-                    <p class="contact-text mb-5 lead">
-                        At Demo Traders, we're passionate about creating unforgettable moments.
-                        Whether you're planning a wedding, festival, or special event, our expert
-                        team is here to help you find the perfect fireworks. Have questions or
-                        need assistance? Reach out - we're always excited to spark new connections!
-                    </p>
-                    <a href="contact.php"><button class="theme-btn">Get in Touch</button></a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-6 align-self-center">
-                    <img src="images/fireworks-1.webp" class="img-fluid" alt="Diwali Crackers Sale"
-                        title="Diwali Crackers Sale">
+
+                <!-- Right: Content & CTA -->
+                <div class="col-lg-6">
+                    <div class="contact-box p-5 text-white rounded shadow-lg"
+                        style="background: linear-gradient(135deg, #ff4500, #c40000);">
+                        <h2 class="font-weight-bold h1 mb-4">Join the Fireworks Revolution!</h2>
+                        <p class="lead mb-4">
+                            Whether you're a **retailer, event organizer, or bulk buyer**, we offer **top-quality
+                            fireworks**
+                            at unbeatable prices. Let’s create spectacular celebrations together!
+                        </p>
+                        <a href="contact.php" class="btn btn-light btn-lg font-weight-bold px-4 py-2">Let's Talk</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 
@@ -270,7 +297,7 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script>
         AOS.init({
@@ -279,6 +306,7 @@
             offset: 120,
         });
     </script>
+    <script src="js/tsparticles.fireworks.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <!-- jsDelivr  -->
     <!-- footer -->

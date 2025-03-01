@@ -25,14 +25,13 @@
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/hover-min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -52,15 +51,15 @@
             </div>
         </div>
     </section>
-    <section class="container four-card-container mt-5 mb-4" data-aos="flip-right" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
-        <div class="row ">
-            <!-- Cards on the Left (Large Screens) -->
-            <div class="col-12 col-md-6 col-lg-6 align-self-center">
+    <section class="container four-card-container mt-5 mb-4" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="section-title text-main font-weight-bold text-center mb-5">Contact Information</h2>
+
+        <div class="row align-items-center">
+            <!-- Contact Information (Left) -->
+            <div class="col-12 col-md-6">
                 <div class="row">
-                    <h2 class="section-title text-main font-weight-bold text-center mb-5">Contact Information</h2>
-                    <div class="col-12 col-md-12 mb-3">
-                        <div class="card h-100">
+                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-geo-alt"></i> Location
@@ -70,8 +69,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 mb-3">
-                        <div class="card h-100">
+                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-telephone"></i> Phone
@@ -80,8 +79,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 mb-3">
-                        <div class="card h-100">
+                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1600">
+                        <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-whatsapp"></i> WhatsApp
@@ -90,8 +89,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 mb-3">
-                        <div class="card h-100">
+                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1800">
+                        <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-envelope"></i> Mail
@@ -103,27 +102,32 @@
                 </div>
             </div>
 
-            <!-- Map on the Right (Large Screens) -->
-            <div class="col-md-6 col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
-                    width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy">
-                </iframe>
+            <!-- Image on the Right -->
+            <div class="col-12 col-md-6 text-center" data-aos="fade-left" data-aos-duration="1800">
+                <img src="images/contact-us-button.png" alt="Contact Us" class="contact-image img-fluid">
             </div>
         </div>
     </section>
 
+    <!-- Full-width Map Section -->
+    <div class="container-fluid full-width-map" data-aos="fade-up" data-aos-duration="2000">
+        <div class="map-overlay"></div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
+            width="100%" height="100%" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
 
-    <!-- footer -->
+    <!-- Footer -->
     <div class="contactlast">
-        <div class="container-fluid no-no-gutters bg-danger d-flex align-items-center justify-content-center">
+        <div class="container-fluid no-gutters bg-danger d-flex align-items-center justify-content-center">
             <p class="helvetica text-white text-center">
                 Copyright &copy; 2025, Demo Traders
                 <span class="">All rights reserved. Designed & Developed by Sri Softwarez</span>
             </p>
         </div>
     </div>
+
 
     <div class="fixed point w0">
         <a href="https://api.whatsapp.com/send?phone=91">
@@ -155,7 +159,7 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script>
         AOS.init({
@@ -164,6 +168,7 @@
             offset: 120,
         });
     </script>
+    <script src="js/tsparticles.fireworks.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

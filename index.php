@@ -28,8 +28,7 @@
 	<link rel="icon" sizes="192x192" href="images/android-icon-192x192.png">
 	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/owl.carousel.min.css">
-	<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./css/swiper.css">
 	<link rel="stylesheet" href="./css/hover-min.css">
 	<link rel="stylesheet" href="./css/aos.css">
 	<link rel="stylesheet" href="./css/style.css">
@@ -37,88 +36,56 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
+	<div id="fireworks"></div>
 	<?php include "header.php"; ?>
 	<!-- index banner -->
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-left"
-		data-aos-easing="ease-in-back">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./images/index-banner-2.webp" class="d-block w-100" alt="demo traders" title="demo traders">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="./images/index-banner-2.webp" class="slide-img" alt="demo traders" title="demo traders">
 			</div>
-			<div class="carousel-item">
-				<img src="./images/index-banner.webp" class="d-block w-100" alt="demo traders" title="demo traders">
+			<div class="swiper-slide">
+				<img src="./images/index-banner.webp" class="slide-img" alt="demo traders" title="demo traders">
 			</div>
 		</div>
 	</div>
+	<section id="welcome" class="welcome section">
+		<div class="container">
+			<div class="row gy-4">
+				<!-- Image Section -->
+				<div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+					<a href="products.php"><img src="./images/intro.webp" class="img-fluid"
+							alt="Welcome to Demo Traders"></a>
+				</div>
 
-	<section class="intro-section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back">
-		<div class="about-area py-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<!-- Left Column -->
-					<div class="col-12 col-md-12 col-lg-6">
-						<div class="about-left wow fadeInRight" data-wow-delay=".25s"
-							style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInRight;">
-							<div class="about-img">
-								<img class="img-1 img-fluid" src="images/about-4.webp" alt="About Image 1">
-								<img class="img-2 img-fluid" src="images/about-2.webp" alt="About Image 2">
-								<img class="img-3 img-fluid" src="images/about-1.webp" alt="About Image 3">
-							</div>
-							<div class="about-experience">
-								<span>2007</span>
-								<h5>Estd <br> Since</h5>
-							</div>
-						</div>
-					</div>
-					<!-- Right Column -->
-					<div class="col-12 col-md-12 col-lg-6">
-						<div class="about-right wow fadeInLeft" data-wow-delay=".25s"
-							style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInLeft;">
-							<div class="site-heading mb-3">
-								<span class="site-title-tagline cursive-font">Welcome to Demo Traders</span>
-								<h2 class="main-heading-font text-main">
-									Where Every Spark Ignites Joy!
-								</h2>
-							</div>
-							<p class="about-text text-secondary">
-								At Demo Traders, we bring joy to every celebration with our wide range of fireworks. Our
-								commitment to quality and customer satisfaction ensures that every purchase lights up
-								your moments with happiness.
-							</p>
-							<div class="about-list-wrap">
-								<ul class="about-list list-unstyled">
-									<li>
-										<div class="about-item">
-											<h4 class=""><span>01.</span>Wide Variety of Fireworks.</h4>
-										</div>
-									</li>
-									<li>
-										<div class="about-item">
-											<h4><span>02.</span>Competitive Pricing.</h4>
-										</div>
-									</li>
-									<li>
-										<div class="about-item">
-											<h4><span>03.</span> Customer Satisfaction.</h4>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<a href="about.php" class="theme-btn">
-								Discover More <i class="bi bi-arrow-right"></i>
-							</a>
-						</div>
-					</div>
+				<!-- Content Section -->
+				<div class="col-lg-6 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-up"
+					data-aos-delay="200">
+					<h3>Welcome to Demo Traders - Your One-Stop Fireworks Destination!</h3>
+					<p class="fst-italic">
+						Experience the thrill of vibrant fireworks with Demo Traders! We offer a dazzling collection of
+						fireworks for all occasions, ensuring your celebrations are unforgettable.
+					</p>
+					<ul>
+						<li><i class="bi bi-check-circle"></i> <span>Premium-quality fireworks at wholesale & retail
+								prices.</span></li>
+						<li><i class="bi bi-check-circle"></i> <span>Wide variety of crackers, rockets, and colorful
+								displays.</span></li>
+						<li><i class="bi bi-check-circle"></i> <span>Safe, eco-friendly, and high-performance
+								fireworks.</span></li>
+					</ul>
+					<a href="about.php" class="read-more"><span>Explore Now</span><i class="bi bi-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section class="our-products pb-5 pt-2">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<h2
-						class="heading1 text-main text-uppercase font-weight-bold text-center   bg-white d-block rounded-pill px-3 py-2 mx-auto my-5">
+						class="heading1 text-main text-uppercase font-weight-bold text-center   bg-white d-block rounded-pill px-3 py-2 mx-auto my-5 section-title">
 						Our Products
 					</h2>
 				</div>
@@ -190,107 +157,175 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card">
-						<div class="product-img">
-							<img src="./images/fancyfountain.webp" alt="Fancy Fountains">
-							<div class="overlay">
-								<h3 class="product-title">Fancy Fountains</h3>
-								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card">
-						<div class="product-img">
-							<img src="./images/pdt5.webp" alt="Assorted Giftboxes">
-							<div class="overlay">
-								<h3 class="product-title">Assorted Giftboxes</h3>
-								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card">
-						<div class="product-img">
-							<img src="./images/pdt1.webp" alt="Kids Crackers">
-							<div class="overlay">
-								<h3 class="product-title">Kids Crackers</h3>
-								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
 
 
-	<!-- counter section -->
-	<section class="counter-section pt-5">
-		<div class="container-fluid text-center">
+	<!-- Counter Section -->
+	<!-- Counter Section -->
+	<section class="counter-section py-5">
+		<div class="container text-center">
 			<!-- Section Heading -->
-			<h2 class="font-weight-bold text-main mb-3 text-uppercase section-title">Our Pride</h2>
-			<p class="text-secondary mb-5">
-				We pride ourselves on providing the most spectacular fireworks displays and an unparalleled selection of
-				high-quality products. Over the years, we have become a trusted name in the fireworks industry, serving
-				thousands of satisfied customers with our commitment to safety, innovation, and exceptional customer
-				service.
+			<h2 class="font-weight-bold text-yellow text-uppercase section-title mb-4">The Spark Behind Our Success</h2>
+			<p class="text-light lead">
+				We bring you the best fireworks with quality, safety, and spectacular displays.
 			</p>
 
 			<!-- Counters -->
-			<div class="row counter-container" data-aos="fade-right" data-aos-easing="ease-in-back">
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="counter-box p-4">
-						<i class="bi bi-clock-fill h1"></i>
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter-number slow-counter font-weight-bold" data-count="10">0</div>
-							<div class="counter-sign h1">+</div>
+			<div class="row g-4 mt-4 justify-content-center">
+				<!-- Large Counters -->
+				<div class="col-12 col-md-6">
+					<div class="counter-box large">
+						<i class="bi bi-fire h1 text-danger"></i>
+						<div class="counter-content">
+							<span class="counter-number" data-count="15">0</span>+
 						</div>
-						<h6 class="mt-2 counter-label font-weight-bold">Years of Experience</h6>
+						<h6 class="font-weight-bold text-uppercase mt-2">Years of Experience</h6>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="counter-box p-4">
-						<i class="bi bi-box-seam-fill h1"></i>
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter-number font-weight-bold" data-count="100">0</div>
-							<div class="counter-sign h1">+</div>
+				<div class="col-12 col-md-6">
+					<div class="counter-box large">
+						<i class="bi bi-box2-heart h1 text-primary"></i>
+						<div class="counter-content">
+							<span class="counter-number" data-count="250">0</span>+
 						</div>
-						<h6 class="mt-2 counter-label font-weight-bold">Products</h6>
+						<h6 class="font-weight-bold text-uppercase mt-2">Unique Fireworks</h6>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="counter-box p-4">
-						<i class="bi bi-emoji-smile-fill h1"></i>
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter-number font-weight-bold" data-count="2000">0</div>
-							<div class="counter-sign h1">+</div>
+
+				<!-- Small Counters -->
+				<div class="col-12 col-md-4">
+					<div class="counter-box small">
+						<i class="bi bi-people h1 text-success"></i>
+						<div class="counter-content">
+							<span class="counter-number" data-count="5000">0</span>+
 						</div>
-						<h6 class="mt-2 font-weight-bold counter-label">Happy Clients</h6>
+						<h6 class="font-weight-bold text-uppercase mt-2">Happy Customers</h6>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="counter-box p-4">
-						<i class="bi bi-hand-thumbs-up-fill h1"></i>
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter-number font-weight-bold" data-count="100">0</div>
-							<div class="counter-sign h1">%</div>
+				<div class="col-12 col-md-4">
+					<div class="counter-box small">
+						<i class="bi bi-stars h1 text-warning"></i>
+						<div class="counter-content">
+							<span class="counter-number" data-count="98">0</span>%
 						</div>
-						<h6 class="mt-2 font-weight-bold counter-label">Satisfaction</h6>
+						<h6 class="font-weight-bold text-uppercase mt-2">Customer Satisfaction</h6>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="counter-box small">
+						<i class="bi bi-shield-check h1 text-info"></i>
+						<div class="counter-content">
+							<span class="counter-number" data-count="100">0</span>%
+						</div>
+						<h6 class="font-weight-bold text-uppercase mt-2">Safety Guarantee</h6>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- pricelist section -->
+
+
+	<!-- why choose us -->
+	<section class="section bg-light fireworks-info">
+		<div class="container text-center">
+			<p class="fs-12 fw-semibold text-success mb-1">
+				<span class="landing-section-heading cursive-font">FIREWORKS INSIGHTS</span>
+			</p>
+			<h3 class="font-weight-bold mb-2">Why Choose Demo Traders?</h3>
+			<div class="row justify-content-center">
+				<div class="col-xl-6">
+					<p class="text-muted fs-15 mb-5 fw-normal">
+						At Demo Traders, we provide the most spectacular fireworks at unbeatable prices.
+						Whether you're looking for small sparklers or grand aerial shells, we have something for every
+						celebration.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xl-6 col-12">
+					<div class="card custom-card shadow-none info-quality text-start">
+						<div class="card-body d-flex">
+							<div class="me-3">
+								<span class="icon-box bg-primary rounded-circle">
+									<i class="bi bi-star-fill fs-16"></i>
+								</span>
+							</div>
+							<div>
+								<h5 class="fw-semibold">Premium Quality</h5>
+								<p class="mb-0 text-muted fw-normal">
+									Our fireworks are sourced from the best manufacturers, ensuring stunning visuals and
+									safe performances.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card custom-card shadow-none info-variety text-start">
+						<div class="card-body d-flex">
+							<div class="me-3">
+								<span class="icon-box bg-success rounded-circle">
+									<i class="bi bi-fire fs-16"></i>
+								</span>
+							</div>
+							<div>
+								<h5 class="fw-semibold">Wide Variety</h5>
+								<p class="mb-0 text-muted fw-normal">
+									From sparklers to aerial shells, we offer an extensive range of fireworks to make
+									your celebrations unforgettable.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6 col-12">
+					<div class="card custom-card shadow-none info-safety text-start">
+						<div class="card-body d-flex">
+							<div class="me-3">
+								<span class="icon-box bg-info rounded-circle">
+									<i class="bi bi-shield-lock-fill fs-16"></i>
+								</span>
+							</div>
+							<div>
+								<h5 class="fw-semibold">Safety First</h5>
+								<p class="mb-0 text-muted fw-normal">
+									Our products meet strict safety standards, and we provide guidance on responsible
+									firework use.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card custom-card shadow-none info-affordable text-start">
+						<div class="card-body d-flex">
+							<div class="me-3">
+								<span class="icon-box bg-warning rounded-circle">
+									<i class="bi bi-tags-fill fs-16"></i>
+								</span>
+							</div>
+							<div>
+								<h5 class="fw-semibold">Affordable Prices</h5>
+								<p class="mb-0 text-muted fw-normal">
+									Get the best fireworks at competitive prices with exclusive discounts for bulk
+									purchases.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="theme-btn" href="safety.php">Read our Safety Guidelines</a>
+		</div>
+	</section>
+	<!-- index parallax -->
 	<section class="index-parallax">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 text-center">
-					<img src="images/logo.webp" class="img-fluid w25 wow rotateIn" alt="Demo Traders"
+					<img src="images/pricelist.webp" class="img-fluid w25 wow rotateIn" alt="Demo Traders"
 						title="Demo Traders" style="visibility: visible; animation-name: rotateIn;">
 
 				</div>
@@ -316,74 +351,92 @@
 	</section>
 
 
+
 	<!-- Brands Section -->
-	<section class="brands-section bg-white py-5">
+	<section class="brands-section bg-light text-dark py-5">
 		<div class="container">
-			<h2 class="section-title text-center mb-5 my-text text-main font-weight-bold h1">Our Trusted Brands</h2>
-			<!-- Owl Carousel Container -->
-			<div class="custom1 owl-carousel">
-				<!-- Brand 1 -->
-				<div class="item">
-					<div class="brand-card hvr-grow">
-						<div class="brand-logo">
-							<img src="images/brand-1.webp" alt=" brandlogo" class="img-fluid">
+			<div class="row align-items-center">
+				<!-- Left Content -->
+				<div class="col-lg-3 text-center text-lg-left mb-4 mb-lg-0">
+					<h2 class="section-title text-main font-weight-bold text-center">Top Firework Brands</h2>
+					<p class="text-muted mt-lg-4">
+						We bring you the most **explosive** and **vibrant** fireworks from the best brands. Experience
+						stunning visuals and high-quality fireworks for all celebrations.
+					</p>
+					<a href="contact.php" class="theme-btn font-weight-bold mt-3">Contact Us</a>
+				</div>
+
+				<!-- Swiper Carousel (Center) -->
+				<div class="col-lg-6">
+					<div class="swiper brandSwiper">
+						<div class="swiper-wrapper">
+							<!-- Brand 1 -->
+							<div class="swiper-slide">
+								<div class="brand-card">
+									<img src="images/brand-1.webp" alt="Brand 1" class="img-fluid">
+								</div>
+							</div>
+							<!-- Brand 2 -->
+							<div class="swiper-slide">
+								<div class="brand-card">
+									<img src="images/brand-2.webp" alt="Brand 2" class="img-fluid">
+								</div>
+							</div>
+							<!-- Brand 3 -->
+							<div class="swiper-slide">
+								<div class="brand-card">
+									<img src="images/brand-3.webp" alt="Brand 3" class="img-fluid">
+								</div>
+							</div>
+							<!-- Brand 4 -->
+							<div class="swiper-slide">
+								<div class="brand-card">
+									<img src="images/brand-4.webp" alt="Brand 4" class="img-fluid">
+								</div>
+							</div>
+							<!-- Brand 5 -->
+							<div class="swiper-slide">
+								<div class="brand-card">
+									<img src="images/brand-5.webp" alt="Brand 5" class="img-fluid">
+								</div>
+							</div>
+							<!-- Brand 6 -->
+							<div class="swiper-slide">
+								<div class="brand-card">
+									<img src="images/brand-6.webp" alt="Brand 6" class="img-fluid">
+								</div>
+							</div>
 						</div>
-						<!-- <h3 class="brand-name">PyroExplode</h3> -->
 					</div>
 				</div>
 
-				<!-- Brand 2 -->
-				<div class="item">
-					<div class="brand-card hvr-grow">
-						<div class="brand-logo">
-							<img src="images/brand-2.webp" alt="Brand 2 Logo" class="img-fluid" loading="lazy">
-						</div>
-						<!-- <h3 class="brand-name">SkyBlasters</h3> -->
-					</div>
-				</div>
-
-				<!-- Brand 3 -->
-				<div class="item">
-					<div class="brand-card hvr-grow">
-						<div class="brand-logo">
-							<img src="images/brand-3.webp" alt="Brand 2 Logo" class="img-fluid" loading="lazy">
-						</div>
-						<!-- <h3 class="brand-name">NightFury</h3> -->
-					</div>
-				</div>
-
-				<!-- Brand 4 -->
-				<div class="item">
-					<div class="brand-card hvr-grow">
-						<div class="brand-logo">
-							<img src="images/brand-4.webp" alt="Brand 2 Logo" class="img-fluid" loading="lazy">
-						</div>
-						<!-- <h3 class="brand-name">RocketRage</h3> -->
-					</div>
-				</div>
-
-				<!-- Brand 5 -->
-				<div class="item">
-					<div class="brand-card hvr-grow">
-						<div class="brand-logo">
-							<img src="images/brand-5.webp" alt="Brand 2 Logo" class="img-fluid" loading="lazy">
-						</div>
-						<!-- <h3 class="brand-name">BlastWave</h3> -->
-					</div>
-				</div>
-
-				<!-- Brand 6 -->
-				<div class="item">
-					<div class="brand-card hvr-grow">
-						<div class="brand-logo">
-							<img src="images/brand-6.webp" alt="Brand 2 Logo" class="img-fluid" loading="lazy">
-						</div>
-						<!-- <h3 class="brand-name">FireStrike</h3> -->
-					</div>
+				<!-- Right Content -->
+				<div class="col-lg-3 text-center text-lg-left">
+					<h3 class="font-weight-bold mb-3 text-red">Best-Selling Fireworks</h3>
+					<ul class="list-unstyled">
+						<li class="firework-item">
+							<a href="products.php" class="text-dark">🚀 Sky Rockets</a>
+						</li>
+						<li class="firework-item">
+							<a href="products.php" class="text-dark">🎂 Multi-Shot Cakes</a>
+						</li>
+						<li class="firework-item">
+							<a href="products.php" class="text-dark">💦 Fountains</a>
+						</li>
+						<li class="firework-item">
+							<a href="products.php" class="text-dark">🔥 Roman Candles</a>
+						</li>
+						<li class="firework-item">
+							<a href="products.php" class="text-dark">🎡 Spinners</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
 
 	<div class="fixed point w0">
 		<a href="https://api.whatsapp.com/send?phone=919999999999">
@@ -415,7 +468,7 @@
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
 	<script src="js/aos.js"></script>
 	<script>
 		AOS.init({
@@ -424,6 +477,7 @@
 			offset: 120,
 		});
 	</script>
+	<script src="js/tsparticles.fireworks.bundle.min.js"></script>
 	<script src="js/script.js"></script>
 	<?php include "footer.php"; ?>
 </body>

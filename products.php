@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head itemscope itemtype="http://www.schema.org/website">
     <title>Demo Traders | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers Discount Sale |
         Sivakasi Pattasu Kadai</title>
@@ -25,12 +28,12 @@
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+    <link rel="icon" sizes="192x192" href="images/android-icon-192x192.png">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/hover.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -40,10 +43,10 @@
     <?php include "header.php"; ?>
     <!-- products banner -->
     <section class="products" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-        <div class="products-banner d-flex flex-column align-items-center justify-content-center">
+        <div class="products-banner d-flex flex-column align-items-center justify-content-start">
             <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
-                    class="text-yellow d-inline-block px-5 py-2 text-center heading1 font-weight-bold bg-white rounded-pill">
+                    class="text-red d-inline-block px-5 py-2 text-center heading1 font-weight-bold bg-white rounded-pill">
                     Our
                     <span class="arial font-weight-bold text-main">
                         Products</span>
@@ -80,12 +83,9 @@
             <i class="bi bi-arrow-up"></i>
         </button>
     </div>
-    <div class="custom-cursor"></div>
-    <div class="click-effect"></div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/gsap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script>
         AOS.init({
@@ -94,6 +94,7 @@
             offset: 120,
         });
     </script>
+    <script src="js/tsparticles.fireworks.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <!-- footer -->
     <?php include "footer.php"; ?>

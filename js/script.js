@@ -141,65 +141,7 @@ $(document).ready(() => {
     lastScrollTop = scrollTop;
   });
 });
-// owl carousel
-$(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      600: {
-        items: 3,
-      },
-      1000: {
-        items: 4,
-      },
-    },
-  });
-});
 
-// // fireworks blasting
-// var myIndex = 0;
-// const container = document.querySelector(".fireworks-example");
-// console.log(container);
-// console.log(Fireworks);
-// const fireworks = new Fireworks(container, {
-//   rocketsPoint: 50,
-//   hue: { min: 0, max: 360 },
-//   delay: { min: 15, max: 30 },
-//   speed: 2,
-//   acceleration: 1.05,
-//   friction: 0.95,
-//   gravity: 1.5,
-//   particles: 50,
-//   trace: 3,
-//   explosion: 5,
-//   autoresize: true,
-//   brightness: {
-//     min: 50,
-//     max: 80,
-//     decay: { min: 0.015, max: 0.03 },
-//   },
-//   boundaries: {
-//     x: 50,
-//     y: 50,
-//     width: container.clientWidth,
-//     height: container.clientHeight,
-//   },
-//   sound: {
-//     enable: true,
-//     files: ["explosion0.mp3", "explosion1.html", "explosion2.html"],
-//     volume: { min: 1, max: 2 },
-//   },
-// });
-// fireworks.start();
 document.addEventListener("DOMContentLoaded", function () {
   let goTopBtn = document.getElementById("goTopBtn");
 
@@ -218,3 +160,129 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 });
+// swiper js
+// Import Swiper (Make sure swiper-bundle.min.js is locally available)
+document.addEventListener("DOMContentLoaded", function () {
+  let swiperContainer = document.querySelector(".swiper-container");
+
+  if (swiperContainer && typeof Swiper !== "undefined") {
+    let swiper = new Swiper(".swiper-container", {
+      loop: true,
+      slidesPerView: 1,
+      autoplay: {
+        delay: 2500, // Faster transitions for dynamic feel
+        disableOnInteraction: false,
+      },
+      on: {
+        slideChangeTransitionEnd: function () {
+          applyFireworkAnimations();
+        },
+      },
+    });
+
+    console.log("✅ Swiper initialized with advanced animations.");
+  } else {
+    console.warn("⚠️ Swiper is not defined or container is missing.");
+  }
+});
+
+// Function to apply firework-style animations
+function applyFireworkAnimations() {
+  let animations = ["explode-in", "slide-blast", "shatter"];
+  let activeSlide = document.querySelector(".swiper-slide-active img");
+
+  if (activeSlide) {
+    let randomAnim = animations[Math.floor(Math.random() * animations.length)];
+    activeSlide.classList.remove(...animations); // Remove old animations
+    void activeSlide.offsetWidth; // Force reflow for restart animation
+    activeSlide.classList.add(randomAnim);
+  }
+}
+
+// // fireworks blasting
+// document.addEventListener("DOMContentLoaded", function () {
+//   if (typeof fireworks === "undefined") {
+//     console.error(
+//       "❌ Fireworks library is not loaded. Check your script path."
+//     );
+//     return;
+//   }
+
+//   // Start fireworks animation
+//   fireworks({
+//     background: "transparent",
+//     colors: ["#ff0000", "#ff8000", "#ffff00", "#00ff00", "#0080ff", "#ff00ff"], // Vibrant colors
+//     brightness: { min: -5, max: 10 }, // More color pop
+//     saturation: { min: -10, max: 10 }, // Slight variation
+//     gravity: { min: 1, max: 3 }, // **Lower gravity for wider spread**
+//     //  // Ensures explosion happens within viewport
+//     rate: { min: 1, max: 3 }, // Keeps the fireworks steady
+//     speed: { min: 0.5, max: 0.9 }, // Slower launch speed for better visibility
+//     splitCount: { min: 250, max: 500 }, // **Increases explosion size (more particles)**
+//     sounds: false,
+//   });
+
+//   console.log("🔥 Fireworks started successfully!");
+// });
+// Fireworks Blasting (Default Settings)
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof fireworks === "undefined") {
+    console.error(
+      "❌ Fireworks library is not loaded. Check your script path."
+    );
+    return;
+  }
+
+  // Start fireworks animation with default settings
+  fireworks({
+    rate: { min: 0.5, max: 1 }, // **Lower rate → fewer shots fired**
+  });
+
+  console.log("🔥 Fireworks started successfully with default settings!");
+});
+// brands card swiper
+var brandSwiper = new Swiper(".brandSwiper", {
+  effect: "cards",
+  grabCursor: true,
+  loop: true,
+  autoplay: {
+    delay: 2000, // Adjust speed
+    disableOnInteraction: false,
+  },
+  cardsEffect: {
+    perSlideRotate: 2,
+    perSlideOffset: 8,
+  },
+  on: {
+    slideChangeTransitionStart: function () {
+      // Reset all slides' background color
+      document.querySelectorAll(".swiper-slide").forEach((slide) => {
+        slide.style.backgroundColor = ""; // Reset to default
+      });
+
+      // Get the previous slide and change its background color
+      let prevIndex = this.previousIndex;
+      let prevSlide = this.slides[prevIndex];
+      if (prevSlide) {
+        prevSlide.style.backgroundColor = getRandomColor(); // Apply a new color
+      }
+    },
+  },
+});
+
+// Function to generate random colors
+function getRandomColor() {
+  let colors = [
+    "rgb(206, 17, 17)",
+    "rgb(0, 140, 255)",
+    "rgb(10, 184, 111)",
+    "rgb(211, 122, 7)",
+    "rgb(118, 163, 12)",
+    "rgb(180, 10, 47)",
+    "rgb(35, 99, 19)",
+    "rgb(0, 68, 255)",
+    "rgb(218, 12, 218)",
+    "rgb(54, 94, 77)",
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
+}

@@ -1,28 +1,16 @@
 :root {
-  --color1: #7f5a83;
-  --color2: #ff4500;
-  --color3: #95a3a4;
+  --color1: #ffd700;
+  --color2: #4b0082;
+  --title-color: #ff4500;
   --color4: #ffecd1;
-  --theme-color: #ff4500;
-  --theme-color2: #008dd5;
-  --theme-bg-light: #95a3a4;
-  --color-dark: #01054c;
-  --color-gray: #f6f6f6;
-  --body-text-color: #757f95;
-  --color-white: #ffffff;
-  --hero-overlay: rgb(5, 3, 17);
-  --slider-arrow-bg: rgba(140, 82, 255, 0.2);
-  --box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
-  --box-shadow2: 0 0 15px rgba(0, 0, 0, 0.17);
-  --transition: all 0.5s ease-in-out;
-  --transition2: all 0.3s ease-in-out;
-  --border-info-color: rgba(0, 0, 0, 0.08);
-  --border-info-color2: rgba(0, 0, 0, 0.05);
-  --border-white-color: rgba(255, 255, 255, 0.08);
-  --border-white-color2: rgba(255, 255, 255, 0.05);
-  --footer-text-color: #f5faff;
-  --theme-gradient: linear-gradient(to right, #ff4500 0%, #7f5a83 100%);
+  --theme-gradient: linear-gradient(
+    135deg,
+    var(--color1),
+    var(--title-color),
+    var(--color2)
+  );
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +19,8 @@
 
 // default css starts
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Pacifico&display=swap");
 
 a {
   text-decoration: none !important;
@@ -48,7 +38,7 @@ h6 {
   font-weight: bold;
 }
 p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  font-family: fantasy;
 }
 .heading1 {
   font-size: 2.5rem;
@@ -233,30 +223,30 @@ textarea {
 
 /* custom css  */
 /* Base styles for custom cursor */
-.custom-cursor {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #0743e8;
-  border-radius: 50%;
-  position: absolute;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s ease, left 0.1s ease, top 0.1s ease;
-  z-index: 9999;
-}
+// .custom-cursor {
+//   width: 50px;
+//   height: 50px;
+//   border: 2px solid #0743e8;
+//   border-radius: 50%;
+//   position: absolute;
+//   pointer-events: none;
+//   transform: translate(-50%, -50%);
+//   transition: transform 0.1s ease, left 0.1s ease, top 0.1s ease;
+//   z-index: 9999;
+// }
 
-/* Click effect animation */
-.click-effect {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  border: 2px solid rgb(232, 4, 4);
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 0;
-  animation: none;
-}
+// /* Click effect animation */
+// .click-effect {
+//   position: absolute;
+//   width: 70px;
+//   height: 70px;
+//   border: 2px solid rgb(232, 4, 4);
+//   border-radius: 50%;
+//   pointer-events: none;
+//   transform: translate(-50%, -50%) scale(1);
+//   opacity: 0;
+//   animation: none;
+// }
 // general
 
 a {
@@ -452,262 +442,162 @@ header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-// about area
-.about-area {
-  position: relative;
-  display: block;
-}
+// Define Sass Variables
+$color1: #ffd700; // Gold
+$color2: #4b0082; // Indigo
+$title-color: #ff4500; // Orange-Red
+$color4: #ffecd1; // Soft Cream
 
-.about-left {
-  position: relative;
-  display: block;
-  margin-right: 50px;
-}
+// Welcome Section Styling
+#welcome {
+  background-color: $color4;
+  padding: 60px 0;
 
-.about-img {
-  position: relative;
-}
+  .content {
+    h3 {
+      color: $title-color;
+      font-size: 2rem;
+      font-weight: bold;
+    }
 
-.about-img img {
-  border-radius: 50%;
-  border: 10px solid var(--color-white);
-  box-shadow: var(--box-shadow);
-}
+    p {
+      color: $color2;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
 
-.about-img .img-2 {
-  position: absolute;
-  right: -50px;
-  bottom: -50px;
-  width: 280px;
-  box-shadow: none;
-}
+    ul {
+      padding-left: 0;
+      list-style: none;
 
-.about-img .img-3 {
-  position: absolute;
-  right: -30px;
-  top: -30px;
-  width: 200px;
-  box-shadow: none;
-}
+      li {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: $color2;
+        margin-bottom: 10px;
 
-.about-right {
-  position: relative;
-  display: block;
-  padding-left: 30px;
-}
+        i {
+          font-size: 1.2rem;
+          color: $title-color;
+          margin-right: 10px;
+        }
+      }
+    }
 
-.about-experience {
-  background: var(--theme-gradient);
-  box-shadow: var(--box-shadow);
-  position: absolute;
-  left: -30px;
-  bottom: 80px;
-  padding: 40px 20px;
-  border-radius: 10px;
-  text-align: center;
-}
+    // Read More Button Styling
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      background-color: $title-color;
+      color: #fff;
+      padding: 12px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 5px;
+      transition: 0.3s ease-in-out;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
-.about-experience h5 {
-  color: var(--color-white);
-  font-size: 20px;
-}
+      i {
+        font-size: 1.2rem;
+        margin-left: 8px;
+      }
 
-.about-experience span {
-  color: var(--color-white);
-  font-size: 70px;
-  font-weight: 900;
-  line-height: 1;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
-.about-list-wrap {
-  position: relative;
-  display: block;
-  margin-top: 25px;
-  margin-bottom: 35px;
-}
-
-.about-list {
-  position: relative;
-  display: block;
-}
-
-.about-list li {
-  position: relative;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid var(--border-info-color);
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-
-.about-list li:last-child {
-  border-bottom: none;
-}
-
-.about-list li .icon {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.about-list li .icon i {
-  font-size: 50px;
-  color: var(--theme-color);
-}
-
-.about-list li .icon img {
-  width: 50px;
-}
-.about-list li .about-item h4 {
-  display: flex; // Makes number and text stay on the same line
-  align-items: center; // Keeps them aligned properly
-  gap: 8px; // Adds spacing between the number and text
-}
-
-.about-list li .about-item h4 span {
-  color: var(--theme-color);
-  white-space: nowrap; // Prevents the number from wrapping
-  font-weight: bold;
-}
-
-.about-list li .about-item p {
-  margin-top: 5px;
-}
-
-@media all and (max-width: 991px) {
-  .about-right {
-    margin-top: 90px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .about-right {
-    padding-left: 0;
+      &:hover {
+        background-color: $color2;
+        color: $color1;
+      }
+    }
   }
 
-  .about-title {
-    font-size: 30px;
-  }
+  // Image Styling with Hover Effect
+  img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
 
-  .about-left {
-    margin-right: 0;
-  }
-
-  .about-left-content {
-    bottom: -70px;
-  }
-
-  .about-img {
-    width: 90%;
-  }
-
-  .about-experience {
-    left: -7px;
-    padding: 20px 10px;
-  }
-
-  .about-img .img-3 {
-    width: 140px;
-  }
-
-  .about-img .img-2 {
-    width: 150px;
-    right: -10px;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 // index counter
+
 .counter-section {
-  background: url("../images/indexbg.webp");
-  background-blend-mode: overlay;
-  background-size: cover;
-  background-position: center;
+  background: url("../images/counter-bg.webp") center/cover no-repeat;
   padding-bottom: 6em;
-  div.row.counter-container {
-    padding: 2em 4em;
-    padding-top: 3em;
-  }
 
-  h2 {
-    font-size: 2rem;
-    color: #004085; // Bootstrap primary color
-  }
-
-  p {
-    font-size: 1rem;
-    color: #6c757d; // Muted text
-  }
-
-  /* Counter Box Styling */
   .counter-box {
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
     position: relative;
-    background: #f8f9fa;
-    color: #000000;
-    border-radius: 10px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 5px 5px #8d898994;
-    height: 15em;
+    border: 3px solid transparent;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+      border-color 0.3s ease-in-out;
+
+    &.large {
+      height: 16em;
+      padding: 2em;
+      margin-bottom: 2em;
+    }
+
+    &.small {
+      height: 13em;
+    }
+
+    i {
+      margin-bottom: 10px;
+      transition: color 0.3s ease;
+    }
 
     .counter-number {
       font-size: 2.5rem;
+      font-weight: bold;
     }
-  }
 
-  /* Background Pattern (Initially Hidden) */
-  .counter-box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, yellow 10%, red 80%);
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    z-index: -1;
-  }
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        45deg,
+        rgba(255, 0, 0, 0.1),
+        rgba(255, 255, 0, 0.1)
+      );
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+    }
 
-  /* Hover Effect */
-  .counter-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    .counter-number {
-      color: #007bff;
-    }
-    .counter-sign {
-      color: #28a745;
-    }
-    h6.counter-label {
-      color: white;
-      text-transform: uppercase;
-    }
-    i.bi {
-      color: #dc3545;
-    }
-  }
+    &:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0px 10px 20px rgba(255, 69, 0, 0.3);
+      border-color: rgba(255, 69, 0, 0.8);
 
-  .counter-box:hover::before {
-    opacity: 1;
-  }
+      &::before {
+        opacity: 1;
+      }
 
-  /* Center Content */
-  .counter-box i {
-    display: block;
-    margin-bottom: 10px;
+      i {
+        color: #ff4500;
+      }
+
+      h6 {
+        color: #ff0000;
+      }
+    }
   }
 }
 
 // index products section
 
 section.our-products {
-  background-image: url("../images/sun-tornado.webp");
-  background-color: #00000090;
-  background-blend-mode: overlay;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  padding: 60px 0;
+
   h2 {
     max-width: 15em;
   }
@@ -716,6 +606,19 @@ section.our-products {
     position: relative;
     overflow: hidden;
     border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    clip-path: polygon(
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%,
+      0% 50%
+    ); // Hexagonal shape
+
+    &:hover {
+      transform: scale(1.05) rotate(2deg);
+    }
   }
 
   .product-img {
@@ -723,45 +626,30 @@ section.our-products {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
 
     img {
       width: 100%;
       border-radius: 15px;
       display: block;
+      transition: transform 0.3s ease-in-out;
     }
 
-    // Overlay Background with Slide Effect
+    // Gradient Overlay
     &::before {
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(
-        to right,
-        var(--color1),
-        var(--color2)
-      ); // Theme color
-      transition: transform 0.7s ease-in-out;
-      transform: translateY(-110%);
+      background: linear-gradient(to top, $color2, rgba(0, 0, 0, 0.6));
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
     }
 
     &:hover::before {
-      transform: translateY(110%);
+      opacity: 1;
     }
 
-    &::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      opacity: 0.8;
-      transition: transform 0.7s ease-in-out;
-      transform: translateY(-110%);
-    }
-
-    &:hover::after {
-      transform: none;
-    }
-
-    // Text and Button inside overlay
+    // Overlay Content
     .overlay {
       position: absolute;
       inset: 0;
@@ -772,13 +660,13 @@ section.our-products {
       padding-top: 20px;
       z-index: 1;
       opacity: 0;
-      transition: opacity 0.7s ease-in-out;
+      transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
     }
 
     h3 {
       font-size: 1.5rem;
       font-weight: bold;
-      color: #fff;
+      color: $color1;
       text-align: center;
       margin-bottom: 10px;
       transform: translateY(-10px);
@@ -787,34 +675,108 @@ section.our-products {
     }
 
     a.btn {
+      background-color: $title-color;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
       opacity: 0;
-      transform: translateY(-10px);
+      transform: translateY(10px);
       transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+      &:hover {
+        background-color: $color2;
+        color: $color1;
+      }
     }
 
     &:hover {
       .overlay {
         opacity: 1;
-        transition-delay: 0.3s;
-        background-color: #0c0315c9;
-        h3 {
-          font-weight: bold;
-        }
+        transform: translateY(0);
       }
 
       h3,
       a.btn {
         opacity: 1;
         transform: translateY(0);
-        transition-delay: 0.5s;
       }
     }
   }
 }
 
-// index-pricelist
+.fireworks-info {
+  background: #f8f9fa;
+  padding: 4em 0;
+
+  h3 {
+    color: var(--color2);
+    font-size: 2rem;
+  }
+
+  p {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+
+  .custom-card {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+
+    .icon-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      color: #ffffff;
+    }
+
+    h5 {
+      color: #343a40;
+      font-size: 1.2rem;
+    }
+
+    .text-muted {
+      font-size: 0.95rem;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+
+      .icon-box {
+        background: var(--color2) !important;
+      }
+
+      h5 {
+        color: var(--title-color);
+      }
+    }
+  }
+
+  // Custom icon colors
+  .info-quality .icon-box {
+    background: #004085;
+  }
+  .info-variety .icon-box {
+    background: #28a745;
+  }
+  .info-safety .icon-box {
+    background: #17a2b8;
+  }
+  .info-affordable .icon-box {
+    background: #ffc107;
+  }
+}
+// index parallax
 section.index-parallax {
-  background-image: url("../images/parallax1.jpg");
+  background-image: url("../images/index-parallax.webp");
   background-color: #0000008e;
   background-blend-mode: overlay;
   background-position: top center;
@@ -824,13 +786,45 @@ section.index-parallax {
   height: auto;
   position: relative;
 }
-
 // index brands
+.brands-section {
+  .brandSwiper {
+    width: 240px;
+    height: 320px;
+    margin: 0 auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: var(--title-color);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .brand-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+
+    img {
+      max-height: 80%;
+      max-width: 80%;
+      object-fit: contain;
+      border-radius: 12px;
+    }
+  }
+}
 
 // about page
 section.about {
   .about-banner {
-    background-image: url("../images/about.webp");
+    background-image: url("../images/about-banner.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -839,119 +833,258 @@ section.about {
     text-align: center;
   }
 }
-section.about-first {
-  h6.section-title {
-    display: block;
-    text-align: left;
-    display: block;
-    text-align: left;
-    margin-top: 0em;
-    margin-left: 1em;
-    margin-bottom: 2em;
-    &::after {
-      left: 2em;
-    }
-  }
-}
-.mission-section {
-  background: url("../images/mission-bg.webp") center no-repeat;
-  background-size: cover;
-  color: var(--color2);
-  text-align: center;
+// story section
+.our-story {
+  background: white;
+  padding: 80px 0;
+  color: #fff;
 
-  h2 {
-    color: var(--color2);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-
-  .mission-card {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px 0;
+  .story-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    color: #000000;
-
-    &:hover {
-      transform: scale(1.05);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-      background: var(--color1);
-      color: var(--color-white);
-    }
-  }
-
-  .mission-icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    transition: transform 0.3s ease-in-out;
-
-    i {
-      color: var(--color-dark);
-    }
-  }
-
-  .mission-card:hover .mission-icon {
-    transform: rotate(10deg) scale(1.2);
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-
-  p {
-    font-size: 1rem;
-    margin: 0;
-  }
-}
-
-section.why-choose {
-  background: url("../images/about-bg.webp") center no-repeat;
-  background-size: cover;
-  background-color: #000000a5;
-  background-blend-mode: overlay;
-
-  .feature-card {
-    border: none;
-    border-radius: 10px;
-    background: #fff; /* White background for visibility */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 20em;
 
     &:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3); /* Reddish glow effect */
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     }
 
-    .card-body {
-      text-align: center;
-      padding: 1.5rem;
+    .section-title {
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: var(--color2);
+      letter-spacing: 2px;
+    }
 
-      img {
-        width: 25%;
-        transition: transform 0.3s ease;
+    .story-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: var(--title-color);
+      margin-bottom: 15px;
+    }
 
-        &:hover {
-          transform: scale(1.1);
-        }
+    .theme-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: var(--title-color);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background: var(--color1);
+        color: var(--color2);
       }
+    }
+  }
 
-      h5 {
-        font-weight: bold;
-        margin-top: 10px;
-      }
+  .story-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-      p {
-        font-size: 1rem;
-        color: #333;
+    img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
       }
     }
   }
 }
+// why choose us
+.why-choose-us {
+  background: linear-gradient(135deg, var(--color1), var(--color2));
+  padding: 80px 0;
+  color: #fff;
 
+  .section-header {
+    text-align: center;
+    margin-bottom: 30px;
+
+    .section-title {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--color1);
+    }
+
+    .highlighted-text {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: var(--title-color);
+    }
+  }
+
+  .why-image {
+    position: relative;
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: clip-path 0.5s ease-in-out, transform 0.3s ease-in-out;
+
+      // Default shape
+      clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+
+      &:hover {
+        transform: scale(1.05);
+        // Changing the clip-path on hover
+        clip-path: polygon(0 15%, 85% 0, 100% 85%, 15% 100%);
+      }
+    }
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .feature-card {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease-in-out;
+
+      .bi-fire {
+        color: #ff4500; // Orange-Red for fireworks
+      }
+
+      .bi-tags-fill {
+        color: #4b0082; // Indigo for discounts
+      }
+
+      .bi-patch-check-fill {
+        color: #ffd700; // Gold for safety certification
+      }
+
+      .bi-lightning-charge-fill {
+        color: #00c3ff; // Electric blue for fast delivery
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+      }
+
+      .icon {
+        font-size: 2.5rem;
+      }
+
+      .content {
+        h5 {
+          font-size: 1.2rem;
+          font-weight: bold;
+          color: var(--color1);
+        }
+
+        p {
+          font-size: 0.9rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+// about mission section
+
+.mission-section {
+  background: #fff;
+  padding: 80px 0;
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mission-card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #ff4500, #ff8c00);
+      transition: left 0.3s ease-in-out;
+    }
+
+    &:hover::before {
+      left: 0;
+    }
+
+    .mission-icon {
+      font-size: 3rem;
+      color: #ff4500;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover .mission-icon {
+      transform: rotateY(360deg);
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #666;
+    }
+  }
+}
+// about parallax
 section.about-parallax {
   position: relative;
   background-image: url("../images/about-parallax.webp");
@@ -969,107 +1102,128 @@ section.about-parallax {
     color: #d8cb08;
   }
 }
-// .contact-section {
-//   background-color: white;
-//   position: relative;
-//   overflow: hidden;
-//   background-image: url("../images/texture.webp");
-//   background-position: center;
-//   background-size: cover;
+// about-contact section
+.contact-section {
+  padding: 80px 0;
+  background: #f8f9fa;
 
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     top: -10px;
-//     left: 0;
-//     right: 0;
-//     height: 15px;
-//     background: linear-gradient(
-//         45deg,
-//         var(--color1) 25%,
-//         transparent 25%,
-//         transparent 75%,
-//         var(--color1) 75%
-//       ),
-//       linear-gradient(
-//         -45deg,
-//         var(--color1) 25%,
-//         transparent 25%,
-//         transparent 75%,
-//         var(--color1) 75%
-//       );
-//     background-size: 20px 20px;
-//   }
+  .contact-images {
+    position: relative;
+    height: 350px;
 
-//   .contact-heading {
-//     color: var(--color3); // Using CSS variable directly
-//     font-size: 2.5rem;
-//     font-weight: 700;
-//     letter-spacing: -0.5px;
-//     position: relative;
-//     display: inline-block;
+    .w-50,
+    .w-100 {
+      position: relative;
+    }
 
-//     &::after {
-//       content: "";
-//       position: absolute;
-//       bottom: -10px;
-//       left: 50%;
-//       transform: translateX(-50%);
-//       width: 60px;
-//       height: 3px;
-//       background: var(--color2); // Using CSS variable directly
-//     }
-//   }
+    img {
+      position: absolute;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
-//   .contact-text {
-//     color: #555; // Replaced lighten(var(--color3), 15%) with a static color
-//     font-size: 1.1rem;
-//     line-height: 1.7;
-//     max-width: 600px;
-//     margin: 0 auto;
-//   }
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+      }
+    }
 
-//   .contact-btn {
-//     background-color: var(--color2); // Using CSS variable directly
-//     color: white;
-//     padding: 1rem 2.5rem;
-//     border-radius: 30px;
-//     font-weight: 600;
-//     transition: all 0.3s ease;
-//     position: relative;
-//     overflow: hidden;
+    // First Image - Top Left
+    .w-50:nth-child(1) img {
+      width: 45%;
+      top: 0;
+      left: 5%;
+      z-index: 2;
+    }
 
-//     &::before {
-//       content: "";
-//       position: absolute;
-//       top: 0;
-//       left: -100%;
-//       width: 100%;
-//       height: 100%;
-//       background: linear-gradient(
-//         120deg,
-//         transparent,
-//         rgba(255, 255, 255, 0.3),
-//         transparent
-//       );
-//       transition: all 0.5s;
-//     }
+    // Second Image - Top Right
+    .w-50:nth-child(2) img {
+      width: 45%;
+      top: 20%;
+      right: 5%;
+      z-index: 3;
+    }
 
-//     &:hover {
-//       background-color: #c82333; // Darker shade of --color2 (red)
-//       transform: translateY(-2px);
-//       box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3); // Using rgba equivalent of --color2
-//     }
+    // Third Image - Center Bottom (Overlapping the Top Images)
+    .w-100:nth-child(3) img {
+      width: 55%;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 4;
+    }
+  }
 
-//     &:focus {
-//       box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); // Using rgba equivalent of --color2
-//     }
-//   }
-// }
+  .contact-box {
+    background: linear-gradient(135deg, #ff4500, #c40000);
+    color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      position: relative;
+      z-index: 2;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .btn {
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 12px 25px;
+      border-radius: 50px;
+      background: #fff;
+      color: #ff4500;
+      transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+
+      &:hover {
+        background: #ffe000;
+        transform: scale(1.05);
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -100px;
+      left: -100px;
+      width: 250px;
+      height: 250px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      transition: transform 0.5s ease-in-out;
+      z-index: 1;
+    }
+
+    &:hover::before {
+      transform: scale(1.5);
+    }
+  }
+}
+
 // products page
 section.products {
   .products-banner {
     background-image: url("../images/products-banner.webp");
+    background-color: #000000a1;
+    background-blend-mode: overlay;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1098,6 +1252,114 @@ section.safety {
 .padding-bottom {
   padding-bottom: 5em;
 }
+.safety-timeline {
+  position: relative;
+  padding: 50px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #ddd; // Central timeline line
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+
+      .content {
+        text-align: right;
+      }
+
+      .icon {
+        left: auto;
+        right: -30px;
+      }
+    }
+  }
+  .timeline-item:hover .icon {
+    transform: translateY(-50%) rotate(360deg);
+  }
+
+  .icon {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 50%;
+    padding: 12px;
+    height: 2em;
+    border: 3px solid #ddd;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: transform 0.4s ease-in-out; // ✅ Smooth transition for hover effect
+  }
+
+  .content {
+    width: 45%;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 5;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; // ✅ Smooth hover effect
+
+    &.do {
+      border-left: 6px solid #28a745;
+    }
+
+    &.dont {
+      border-left: 6px solid #dc3545;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+      // Rotate the icon on hover
+    }
+  }
+
+  @media (max-width: 768px) {
+    &::before {
+      left: 10px;
+    }
+
+    .timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .icon {
+        left: 0;
+        right: auto;
+      }
+
+      .content {
+        width: 100%;
+        text-align: left !important;
+        margin-left: 50px;
+      }
+    }
+  }
+}
+
 // contact page
 section.contact {
   .contact-banner {
@@ -1113,132 +1375,102 @@ section.contact {
   }
 }
 
-section.four-card-container {
-  .card {
-    background-color: var(--color4);
-    border: 1px solid var(--color3);
-    color: #000000;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+// Contact Cards - Clip Path & Hover Effects
+.contact-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 165, 0, 0.8)
+  );
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4);
+  }
+
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+
+    i {
+      font-size: 2rem;
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  &:hover .card-title i {
+    transform: rotate(10deg) scale(1.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+// Contact Image Styling
+.contact-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Full-width Map Section
+.full-width-map {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  iframe {
+    width: 100%;
     height: 100%;
+    border: none;
+  }
 
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      background-color: var(--color2);
-      color: var(--color4) !important;
-      transition: 1s;
+  .map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+  }
 
-      * {
-        color: white !important; // Ensures all text inside changes to white
-      }
-    }
-
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .card-title {
-      color: var(--color2);
-      font-size: 1.5rem;
-    }
-
-    .card-text {
-      color: #000000;
-    }
+  &:hover .map-overlay {
+    background: rgba(0, 0, 0, 0);
   }
 }
-// contact page last section
-.contactlast {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-  .container-fluid {
-    height: 70px;
-  }
-}
-
-.contactlast .row {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.contactlast p {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.footer {
-  background-color: #111;
+footer.footer {
+  background-color: #11002fc7;
   background-image: url("../images/footer-bg.webp");
   background-blend-mode: overlay;
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 1.1rem;
-  margin-bottom: 0 !important; // Ensure no margin below the footer
-
-  /* Remove any potential padding at the bottom */
-  padding-bottom: 0 !important;
-
-  .footer-brand {
-    img {
-      width: 80px;
-      margin-right: 10px;
-    }
-    .brand-title {
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
-  }
-
-  .footer-text {
-    margin-top: 1rem;
-    color: #ccc;
-    font-size: 1rem;
-  }
-
-  .footer-quote {
-    font-style: italic;
-    font-size: 1rem;
-    color: #ddd;
-  }
-
   h4 {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: yellow;
-  }
-
-  .footer-links ul {
-    padding: 0;
-    li {
-      list-style: none;
-      margin-bottom: 0.5rem;
-      a {
-        color: #bbb;
-        text-decoration: none;
-        transition: color 0.3s;
-        &:hover {
-          color: #fff;
-        }
-      }
-    }
-  }
-
-  .copyright {
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0 !important;
-    color: #aaa;
+    color: var(--title-color);
   }
 }
 
-/* Remove any bottom margin/padding on .container */
-.container {
-  padding-bottom: 0 !important;
+// Responsive Tweaks
+@media (max-width: 768px) {
+  .contact-image {
+    margin-top: 20px;
+  }
+
+  .full-width-map {
+    height: 350px;
+  }
 }
 
 // index testimonial
@@ -1262,8 +1494,8 @@ section.four-card-container {
 .text-color {
   color: var(--color4) !important;
 }
-.text-blu {
-  color: var(--color1) !important;
+.text-red {
+  color: var(--title-color) !important;
 }
 .charcoal-bg {
   background-color: var(--color3) !important;
@@ -1273,6 +1505,9 @@ section.four-card-container {
 }
 .bg-yellow {
   background-color: var(--color1) !important;
+}
+.bg-red {
+  background-color: var(--title-color) !important;
 }
 .top-bg {
   background-color: var(--color1) !important;
@@ -1291,19 +1526,23 @@ section.four-card-container {
   display: none;
 }
 .cursive-font {
-  font-family: Comic Sans MS, cursive, sans-serif;
-  color: var(--color1) !important;
+  font-family: "Pacifico", cursive, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--title-color) !important;
 }
 .main-heading-font {
-  font-family: Verdana, "Segoe UI", Tahoma, Geneva, sans-serif;
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
   font-weight: 700;
+  font-style: normal;
 }
 .margin-bottom-4 {
   margin-bottom: 4em;
 }
 .theme-btn {
   font-size: 16px;
-  color: var(--color-white);
+  color: black;
   padding: 10px 24px;
   transition: all 0.5s;
   text-transform: capitalize;
@@ -1335,7 +1574,7 @@ section.four-card-container {
 }
 
 .theme-btn:hover {
-  color: var(--color-white);
+  color: var(--color4);
 }
 
 .theme-btn:hover::before {
@@ -1410,29 +1649,32 @@ div#top-btn {
   background-color: #ccc; // Adjust color
   margin: 20px 0; // Adjust spacing
 }
-// heading underline
+// Vibrant heading underline
 .section-title {
   position: relative;
   display: inline-block;
   font-size: 2rem;
   font-weight: bold;
-  color: #b22222; /* Deep red kumkum color */
+  color: var(--title-color); // Fiery Orange for impact
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
   &::after {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: -14px;
-    width: 200px;
-    height: 10px;
-    background: radial-gradient(
-      circle,
-      rgba(178, 34, 34, 0.9) 40%,
-      rgba(178, 34, 34, 0.6) 80%
+    bottom: -12px;
+    width: 180px;
+    height: 8px;
+    background: linear-gradient(
+      90deg,
+      var(--color1) 0%,
+      var(--title-color) 50%,
+      var(--color2) 100%
     );
-    filter: blur(3px);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6); // Golden glow effect
     transform: translateX(-50%);
-    border-radius: 50%;
+    border-radius: 50px;
   }
 }
 
@@ -1581,18 +1823,102 @@ div#top-btn {
 // Define keyframes for the wave animation
 // owl carousel
 /* Ensure Owl Carousel items are visible during animations */
-.owl-carousel .owl-item {
-  opacity: 1 !important;
-}
 
-/* Fix for Animate.css and Owl Carousel */
-.animated {
-  animation-fill-mode: both;
-}
-
-/* Ensure animations don't break the layout */
-.owl-stage {
-  display: flex;
-  align-items: center;
-}
 // Go to top button
+
+// swiper animations and css
+.swiper-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure it takes full height */
+  overflow: hidden; /* Prevent any extra space */
+}
+
+.slide-img {
+  width: 100%;
+  height: 100vh;
+  transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  object-fit: cover;
+}
+
+/* Animation Classes */
+/* Firework-style entrance animation */
+@keyframes explode-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-10deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+/* Left-right explosion effect */
+@keyframes slide-blast {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(10px) scale(1.2);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Shatter effect (NEW) */
+@keyframes shatter {
+  0% {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+    filter: blur(0);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.3) translate(10px, -10px);
+    filter: blur(3px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5) translate(50px, -50px) rotate(10deg);
+    filter: blur(6px);
+  }
+}
+
+/* Apply animations dynamically */
+.explode-in {
+  animation: explode-in 0.8s ease-out forwards;
+}
+.slide-blast {
+  animation: slide-blast 0.8s ease-out forwards;
+}
+.shatter {
+  animation: shatter 0.8s ease-out forwards;
+}
+
+#fireworks {
+  position: fixed; /* Ensures it covers the whole screen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Prevents blocking clicks */
+  z-index: 9999; /* Ensures it appears above other elements */
+  background: transparent; /* Ensures no background */
+}

@@ -40,7 +40,7 @@
     <!-- contact banner -->
     <section class="contact" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="contact-banner d-flex flex-column align-items-center justify-content-center">
-            <div class="text-container text-white font-weight-bold wow slideInLeft">
+            <!-- <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
                     class="text-main text-center heading1 font-weight-bold bg-white rounded-pill d-inline-block px-5 py-2">
                     Contact <span class="arial font-weight-bold text-yellow">
@@ -48,7 +48,7 @@
                 </h1>
                 <p class="heading4 text-center p-3">Igniting Celebrations with a Spark of Excellence.</p>
 
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="container four-card-container mt-5 mb-4" data-aos="fade-up" data-aos-duration="1500">
@@ -104,19 +104,15 @@
 
             <!-- Image on the Right -->
             <div class="col-12 col-md-6 text-center" data-aos="fade-left" data-aos-duration="1800">
-                <img src="images/contact-us-button.png" alt="Contact Us" class="contact-image img-fluid">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
+                        width="100%" height="100%" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Full-width Map Section -->
-    <div class="container-fluid full-width-map" data-aos="fade-up" data-aos-duration="2000">
-        <div class="map-overlay"></div>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
-            width="100%" height="100%" allowfullscreen="" loading="lazy">
-        </iframe>
-    </div>
 
     <!-- Footer -->
     <div class="contactlast">

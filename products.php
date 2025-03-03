@@ -44,7 +44,7 @@
     <!-- products banner -->
     <section class="products" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="products-banner d-flex flex-column align-items-center justify-content-start">
-            <div class="text-container text-white font-weight-bold wow slideInLeft">
+            <!-- <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
                     class="text-red d-inline-block px-5 py-2 text-center heading1 font-weight-bold bg-white rounded-pill">
                     Our
@@ -52,7 +52,7 @@
                         Products</span>
                 </h1>
 
-            </div>
+            </div> -->
         </div>
     </section>
     <div class="fixed point w0">

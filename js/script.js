@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Function to apply firework-style animations
 function applyFireworkAnimations() {
-  let animations = ["explode-in", "slide-blast", "shatter"];
+  let animations = ["slide-blast"];
   let activeSlide = document.querySelector(".swiper-slide-active img");
 
   if (activeSlide) {

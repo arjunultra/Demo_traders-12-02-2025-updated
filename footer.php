@@ -1,61 +1,49 @@
-<footer class="footer text-white pt-5 pb-3">
-  <div class="container">
+<footer class="footer-bg">
+  <div class="container pt-5 mt-lg-5">
     <div class="row">
-      <!-- Column 1: Demo Traders Title & Catchphrase -->
-      <div class="col-lg-3 col-md-6 col-12 text-center text-md-left">
-        <h2 class="brand-title font-weight-bold">Demo Traders</h2>
-        <p class="footer-quote font-italic">"Igniting joy in every celebration!"</p>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="arial heading2 pb-3 txt-warning">Our Profile</div>
+        <p class="helvetica text-white">We "Demo Traders" acknowledged as the renowned super stockist & wholesale
+          supplier of an exclusive range of firecrackers.</p>
+        <div class="arial heading5 pb-3 txt-warning">Quick Link</div>
+        <div class="tagcloud">
+          <a href="index.php" class="arial">Home</a>
+          <a href="about.php" class="arial">About</a>
+          <a href="products.php" class="arial">Products</a>
+          <a href="safety.php" class="arial">Safety Tips</a>
+          <a href="products.php" class="arial">Quick Purchase</a>
+          <a href="contact.php" class="arial">Contact Us</a>
+        </div>
       </div>
-
-      <!-- Column 2: Quick Links -->
-      <div class="col-lg-3 col-md-6 col-6">
-        <h4 class="footer-heading">Quick Links</h4>
-        <ul class="footer-links list-unstyled">
-          <li><i class="bi bi-house-door"></i> <a href="index.php">Home</a></li>
-          <li><i class="bi bi-info-circle"></i> <a href="about.php">About</a></li>
-          <li><i class="bi bi-box"></i> <a href="products.php">Products</a></li>
-          <li><i class="bi bi-shield-exclamation"></i> <a href="safety.php">Safety</a></li>
-          <li><i class="bi bi-envelope"></i> <a href="contact.php">Contact</a></li>
+      <div class="col-lg-4 col-md-6 col-12 text-center align-self-center">
+        <a href="index.php">
+          <img src="images/logo.webp" class="img-fluid w-75" alt="Demo Traders" title="Demo Traders">
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="arial heading2 txt-warning pb-3">Contact Information</div>
+        <ul class="list-unstyled">
+          <li class="helvetica text-white pb-3">
+            <p><i class="bi bi-geo-alt txt-warning"></i></p>
+            <div class="text1 clr">123,Demo complex,Demo street, Sivakasi - 626 123</div>
+          </li>
+          <li class="helvetica text-white pb-3">
+            <p><i class="bi bi-telephone txt-warning"></i></p>
+            <div class="text1 clr">(+91) 99999 99999</div>
+          </li>
+          <li class="helvetica text-white pb-3">
+            <p><i class="bi bi-envelope txt-warning"></i></p>
+            <div class="text1 clr">contact@demotraders.com</div>
+          </li>
         </ul>
       </div>
+      <div class="col-lg-12 text-center pt-4">
 
-      <!-- Column 3: Contact Details -->
-      <div class="col-lg-3 col-md-6 col-6">
-        <h4 class="footer-heading">Contact Us</h4>
-        <ul class="footer-links list-unstyled">
-          <li><i class="bi bi-geo-alt"></i> 123 Fireworks Street, City, Country</li>
-          <li><i class="bi bi-telephone"></i> +123 456 7890</li>
-          <li><i class="bi bi-envelope"></i> info@demotraders.com</li>
-          <li><i class="bi bi-whatsapp"></i> +123 456 7890</li>
-        </ul>
       </div>
-
-      <!-- Column 4: Fireworks Safety Tips -->
-      <div class="col-lg-3 col-md-6 col-12">
-        <h4 class="footer-heading">Safety Tips</h4>
-        <p class="safety-tip">🔥 Always light fireworks at arm’s length.</p>
-        <p class="safety-tip">🚫 Never relight a dud firework.</p>
-        <p class="safety-tip">👀 Keep a bucket of water nearby.</p>
-        <p class="safety-tip">🧑‍🤝‍🧑 Maintain a safe distance at all times.</p>
+      <div class="col-lg-12 text-center helvetica py-3 text-white">
+        Copyright © 2025 Demo Traders. All Rights Reserved. Developed by <a class="text-red"
+          href="http://www.srisoftwarez.com/">Sri Softwarez</a>
       </div>
-    </div>
-
-    <!-- SVG Fireworks Animation -->
-    <div class="text-center mt-4">
-      <svg width="100" height="100">
-        <circle cx="50" cy="50" r="3" fill="yellow">
-          <animate attributeName="r" from="3" to="40" dur="1s" repeatCount="indefinite" />
-          <animate attributeName="opacity" from="1" to="0" dur="1s" repeatCount="indefinite" />
-        </circle>
-      </svg>
-    </div>
-
-    <!-- Copyright -->
-    <div class="text-center mt-3">
-      <p class="copyright text-light">
-        © 2025, Demo Traders. All rights reserved. Developed by
-        <a target="_blank" class="text-red" href="https://www.srisoftwarez.com/">Sri Softwarez</a>
-      </p>
     </div>
   </div>
 </footer>

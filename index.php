@@ -42,16 +42,18 @@
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<img src="./images/index-banner-2.webp" class="slide-img" alt="demo traders" title="demo traders">
+				<img src="./images/index-banner-2.webp" class="slide-img img-fluid" alt="demo traders"
+					title="demo traders">
 			</div>
 			<div class="swiper-slide">
-				<img src="./images/index-banner.webp" class="slide-img" alt="demo traders" title="demo traders">
+				<img src="./images/index-banner.webp" class="slide-img img-fluid" alt="demo traders"
+					title="demo traders">
 			</div>
 		</div>
 	</div>
 	<section id="welcome" class="welcome section">
 		<div class="container">
-			<div class="row gy-4">
+			<div class="row align-items-center">
 				<!-- Image Section -->
 				<div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 					<a href="products.php"><img src="./images/intro.webp" class="img-fluid"
@@ -61,7 +63,7 @@
 				<!-- Content Section -->
 				<div class="col-lg-6 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-up"
 					data-aos-delay="200">
-					<h3>Welcome to Demo Traders - Your One-Stop Fireworks Destination!</h3>
+					<h3 class="py-5">Welcome to Demo Traders - Your One-Stop Fireworks Destination!</h3>
 					<p class="fst-italic">
 						Experience the thrill of vibrant fireworks with Demo Traders! We offer a dazzling collection of
 						fireworks for all occasions, ensuring your celebrations are unforgettable.
@@ -92,7 +94,7 @@
 			</div>
 			<div class="row" data-aos="fade-zoom-in" data-aos-easing="ease-in-back">
 				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card mb-md-4">
+					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt2.webp" alt="Ground Chakkars">
 							<div class="overlay">
@@ -103,7 +105,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card">
+					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt3.webp" alt="Fantastic Flowerpots">
 							<div class="overlay">
@@ -114,7 +116,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4">
-					<div class="product-card">
+					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt6.webp" alt="Bombastic Bombs">
 							<div class="overlay">
@@ -125,7 +127,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 my-lg-4">
-					<div class="product-card mb-md-4">
+					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt4.webp" alt="Roaring Rockets">
 							<div class="overlay">
@@ -136,7 +138,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 my-lg-4">
-					<div class="product-card">
+					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt7.webp" alt="Dazzling Displays">
 							<div class="overlay">
@@ -147,7 +149,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 my-lg-4">
-					<div class="product-card">
+					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt11.webp" alt="Sizzling Sparklers">
 							<div class="overlay">
@@ -163,7 +165,7 @@
 
 
 	<!-- Counter Section -->
-	<!-- Counter Section -->
+
 	<section class="counter-section py-5">
 		<div class="container text-center">
 			<!-- Section Heading -->
@@ -214,7 +216,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4">
-					<div class="counter-box small">
+					<div class="counter-box small lastbox">
 						<i class="bi bi-shield-check h1 text-info"></i>
 						<div class="counter-content">
 							<span class="counter-number" data-count="100">0</span>%
@@ -325,8 +327,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 text-center">
-					<img src="images/pricelist.webp" class="img-fluid w25 wow rotateIn" alt="Demo Traders"
-						title="Demo Traders" style="visibility: visible; animation-name: rotateIn;">
+					<div class="pricelist-wrapper">
+						<img src="images/pricelist.webp" class="img-fluid w25 wow rotateIn pricelist-image"
+							alt="Demo Traders" title="Demo Traders"
+							style="visibility: visible; animation-name: rotateIn;">
+					</div>
 
 				</div>
 				<div
@@ -359,11 +364,11 @@
 				<!-- Left Content -->
 				<div class="col-lg-3 text-center text-lg-left mb-4 mb-lg-0">
 					<h2 class="section-title text-main font-weight-bold text-center">Top Firework Brands</h2>
-					<p class="text-muted mt-lg-4">
+					<p class="text-muted mt-5">
 						We bring you the most **explosive** and **vibrant** fireworks from the best brands. Experience
 						stunning visuals and high-quality fireworks for all celebrations.
 					</p>
-					<a href="contact.php" class="theme-btn font-weight-bold mt-3">Contact Us</a>
+					<a href="contact.php" class="theme-btn font-weight-bold my-3">Contact Us</a>
 				</div>
 
 				<!-- Swiper Carousel (Center) -->

@@ -51,127 +51,133 @@
     </section>
 
     <section class="safety-timeline container">
-        <!-- Do's -->
-        <div class="timeline-item">
-            <div class="icon bg-success text-white">
-                <i class="bi bi-check-circle-fill"></i>
+        <div class="timeline-group">
+            <div class="timeline-item">
+                <div class="icon bg-success text-white">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="content do">
+                    <h4 class="font-weight-bold">Always read the instructions</h4>
+                    <p>Follow manufacturer guidelines before lighting fireworks.</p>
+                </div>
             </div>
-            <div class="content do">
-                <h4 class="font-weight-bold">Always read the instructions</h4>
-                <p>Follow manufacturer guidelines before lighting fireworks.</p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="icon bg-danger text-white">
-                <i class="bi bi-x-circle-fill"></i>
-            </div>
-            <div class="content dont">
-                <h4 class="font-weight-bold">Do not let children handle fireworks</h4>
-                <p>Always have adult supervision to prevent accidents.</p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="icon bg-success text-white">
-                <i class="bi bi-check-circle-fill"></i>
-            </div>
-            <div class="content do">
-                <h4 class="font-weight-bold">Keep a bucket of water nearby</h4>
-                <p>Be prepared for any emergency while using fireworks.</p>
+            <div class="timeline-item">
+                <div class="icon bg-danger text-white">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <div class="content dont">
+                    <h4 class="font-weight-bold">Do not let children handle fireworks</h4>
+                    <p>Always have adult supervision to prevent accidents.</p>
+                </div>
             </div>
         </div>
 
-        <div class="timeline-item">
-            <div class="icon bg-danger text-white">
-                <i class="bi bi-x-circle-fill"></i>
+        <div class="timeline-group">
+            <div class="timeline-item">
+                <div class="icon bg-success text-white">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="content do">
+                    <h4 class="font-weight-bold">Keep a bucket of water nearby</h4>
+                    <p>Be prepared for any emergency while using fireworks.</p>
+                </div>
             </div>
-            <div class="content dont">
-                <h4 class="font-weight-bold">Never relight malfunctioning fireworks</h4>
-                <p>Soak them in water and dispose of them safely.</p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="icon bg-success text-white">
-                <i class="bi bi-check-circle-fill"></i>
-            </div>
-            <div class="content do">
-                <h4 class="font-weight-bold">Use a long-handled lighter</h4>
-                <p>Maintain a safe distance while igniting fireworks.</p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="icon bg-danger text-white">
-                <i class="bi bi-x-circle-fill"></i>
-            </div>
-            <div class="content dont">
-                <h4 class="font-weight-bold">Do not wear loose clothing</h4>
-                <p>Avoid accidental burns by wearing fitted clothes.</p>
+            <div class="timeline-item">
+                <div class="icon bg-danger text-white">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <div class="content dont">
+                    <h4 class="font-weight-bold">Never relight malfunctioning fireworks</h4>
+                    <p>Soak them in water and dispose of them safely.</p>
+                </div>
             </div>
         </div>
 
-        <div class="timeline-item">
-            <div class="icon bg-success text-white">
-                <i class="bi bi-check-circle-fill"></i>
+        <div class="timeline-group">
+            <div class="timeline-item">
+                <div class="icon bg-success text-white">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="content do">
+                    <h4 class="font-weight-bold">Use a long-handled lighter</h4>
+                    <p>Maintain a safe distance while igniting fireworks.</p>
+                </div>
             </div>
-            <div class="content do">
-                <h4 class="font-weight-bold">Ensure pets stay away</h4>
-                <p>Fireworks can scare animals; keep them indoors.</p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="icon bg-danger text-white">
-                <i class="bi bi-x-circle-fill"></i>
-            </div>
-            <div class="content dont">
-                <h4 class="font-weight-bold">Never use fireworks indoors</h4>
-                <p>Always light fireworks in open spaces for safety.</p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="icon bg-success text-white">
-                <i class="bi bi-check-circle-fill"></i>
-            </div>
-            <div class="content do">
-                <h4 class="font-weight-bold">Dispose of fireworks safely</h4>
-                <p>Soak used fireworks in water before discarding.</p>
+            <div class="timeline-item">
+                <div class="icon bg-danger text-white">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <div class="content dont">
+                    <h4 class="font-weight-bold">Do not wear loose clothing</h4>
+                    <p>Avoid accidental burns by wearing fitted clothes.</p>
+                </div>
             </div>
         </div>
 
-        <div class="timeline-item">
-            <div class="icon bg-danger text-white">
-                <i class="bi bi-x-circle-fill"></i>
+        <div class="timeline-group">
+            <div class="timeline-item">
+                <div class="icon bg-success text-white">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="content do">
+                    <h4 class="font-weight-bold">Ensure pets stay away</h4>
+                    <p>Fireworks can scare animals; keep them indoors.</p>
+                </div>
             </div>
-            <div class="content dont">
-                <h4 class="font-weight-bold">Never point fireworks at others</h4>
-                <p>Handle fireworks responsibly to avoid injuries.</p>
+            <div class="timeline-item">
+                <div class="icon bg-danger text-white">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <div class="content dont">
+                    <h4 class="font-weight-bold">Never use fireworks indoors</h4>
+                    <p>Always light fireworks in open spaces for safety.</p>
+                </div>
             </div>
         </div>
 
-        <div class="timeline-item">
-            <div class="icon bg-success text-white">
-                <i class="bi bi-check-circle-fill"></i>
+        <div class="timeline-group">
+            <div class="timeline-item">
+                <div class="icon bg-success text-white">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="content do">
+                    <h4 class="font-weight-bold">Dispose of fireworks safely</h4>
+                    <p>Soak used fireworks in water before discarding.</p>
+                </div>
             </div>
-            <div class="content do">
-                <h4 class="font-weight-bold">Light only one firework at a time</h4>
-                <p>Reduce risk by not lighting multiple fireworks together.</p>
+            <div class="timeline-item">
+                <div class="icon bg-danger text-white">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <div class="content dont">
+                    <h4 class="font-weight-bold">Never point fireworks at others</h4>
+                    <p>Handle fireworks responsibly to avoid injuries.</p>
+                </div>
             </div>
         </div>
 
-        <div class="timeline-item">
-            <div class="icon bg-danger text-white">
-                <i class="bi bi-x-circle-fill"></i>
+        <div class="timeline-group">
+            <div class="timeline-item">
+                <div class="icon bg-success text-white">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="content do">
+                    <h4 class="font-weight-bold">Light only one firework at a time</h4>
+                    <p>Reduce risk by not lighting multiple fireworks together.</p>
+                </div>
             </div>
-            <div class="content dont">
-                <h4 class="font-weight-bold">Avoid using fireworks near dry grass</h4>
-                <p>Fireworks can start fires; choose a safe location.</p>
+            <div class="timeline-item">
+                <div class="icon bg-danger text-white">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <div class="content dont">
+                    <h4 class="font-weight-bold">Avoid using fireworks near dry grass</h4>
+                    <p>Fireworks can start fires; choose a safe location.</p>
+                </div>
             </div>
         </div>
     </section>
+
 
 
 

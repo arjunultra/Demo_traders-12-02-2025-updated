@@ -52,7 +52,7 @@
                 <div class="col-lg-6">
                     <div class="story-card" data-aos="fade-right">
                         <h6 class="section-title">About Us</h6>
-                        <h2 class="story-heading">Our Story</h2>
+                        <h2 class="story-heading mt-lg-5">Our Story</h2>
                         <p class="lead text-secondary">
                             Founded in 2007, Demo Traders has been lighting up the skies with the finest fireworks for
                             over a decade.
@@ -90,7 +90,7 @@
                 <!-- Right Side - Feature Cards -->
                 <div class="col-lg-6">
                     <div class="section-header">
-                        <h4 class="section-title">Why Choose Us?</h4>
+                        <h4 class="section-title mb-lg-5">Why Choose Us?</h4>
                         <h2 class="highlighted-text text-main">We Light Up Every Moment!</h2>
                     </div>
                     <div class="features ">
@@ -134,7 +134,7 @@
 
     <!-- Our Mission Section -->
     <section class="mission-section py-5">
-        <h2 class="text-center mb-5 font-weight-bold section-title">Our Mission</h2>
+        <h2 class="text-center mb-5 font-weight-bold section-title text-main">What we offer</h2>
         <div class="container wow bounceInUp" data-wow-delay="1.5s">
 
 
@@ -215,8 +215,7 @@
 
 
     <!-- Call-to-Action Section -->
-    <section class="about-parallax text-white" data-aos="fade-right" data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
+    <section class="about-parallax text-white" data-aos="" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="container text-center">
             <h2 class="heading1 font-weight-bold">Ready to Light Up the Sky?</h2>
             <p class="lead">Explore our wide range of fireworks and make your next event unforgettable.</p>

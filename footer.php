@@ -6,7 +6,7 @@
         <p class="helvetica text-white">We "Demo Traders" acknowledged as the renowned super stockist & wholesale
           supplier of an exclusive range of firecrackers.</p>
         <div class="arial heading5 pb-3 txt-warning">Quick Link</div>
-        <div class="tagcloud">
+        <div class="tagcloud mb-3 my-mb-0">
           <a href="index.php" class="arial">Home</a>
           <a href="about.php" class="arial">About</a>
           <a href="products.php" class="arial">Products</a>
@@ -21,7 +21,9 @@
         </a>
       </div>
       <div class="col-lg-4 col-md-6 col-12">
-        <div class="arial heading2 txt-warning pb-3">Contact Information</div>
+        <div class="arial heading2 txt-warning pb-3">
+          <h4 class="mt-3">Contact Information</h4>
+        </div>
         <ul class="list-unstyled">
           <li class="helvetica text-white pb-3">
             <p><i class="bi bi-geo-alt txt-warning"></i></p>

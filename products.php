@@ -42,7 +42,7 @@
 <body itemscope itemtype="http://schema.org/WebPage">
     <?php include "header.php"; ?>
     <!-- products banner -->
-    <section class="products" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <section class="products" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
         <div class="products-banner d-flex flex-column align-items-center justify-content-start">
             <!-- <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1

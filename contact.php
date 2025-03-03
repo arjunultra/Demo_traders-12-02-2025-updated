@@ -51,7 +51,7 @@
             </div> -->
         </div>
     </section>
-    <section class="container four-card-container mt-5 mb-4" data-aos="fade-up" data-aos-duration="1500">
+    <section class="container four-card-container mt-5 mb-4" data-aos="fade-left">
         <h2 class="section-title text-main font-weight-bold text-center mb-5">Contact Information</h2>
 
         <div class="row align-items-center">

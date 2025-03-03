@@ -45,12 +45,12 @@
         </div>
     </section>
     <!-- Our Story Section -->
-    <section class="our-story py-5">
+    <section class="our-story py-3 py-md-5">
         <div class="container">
             <div class="row justify-content-center">
                 <!-- Story Card -->
                 <div class="col-lg-6">
-                    <div class="story-card" data-aos="fade-right">
+                    <div class="story-card mb-5 mb-md-0" data-aos="fade-right">
                         <h6 class="section-title">About Us</h6>
                         <h2 class="story-heading mt-lg-5">Our Story</h2>
                         <p class="lead text-secondary">
@@ -67,7 +67,7 @@
 
                 <!-- Image Card -->
                 <div class="col-lg-6">
-                    <div class="story-image" data-aos="fade-left">
+                    <div class="story-image mb-5 mb-md-0" data-aos="fade-left">
                         <img src="./images/about-3.webp" alt="Fireworks">
                     </div>
                 </div>
@@ -82,7 +82,7 @@
             <div class="row align-items-center">
                 <!-- Left Side - Image & Overlay -->
                 <div class="col-lg-6">
-                    <div class="why-image">
+                    <div class="why-image mb-5 mb-md-0">
                         <img src="images/about-whychoose.webp" alt="Why Choose Us" class="img-fluid">
                     </div>
                 </div>
@@ -90,8 +90,8 @@
                 <!-- Right Side - Feature Cards -->
                 <div class="col-lg-6">
                     <div class="section-header">
-                        <h4 class="section-title mb-lg-5">Why Choose Us?</h4>
-                        <h2 class="highlighted-text text-main">We Light Up Every Moment!</h2>
+                        <h4 class="section-title mb-lg-5 text-red">Why Choose Us?</h4>
+                        <h2 class="highlighted-text mt-4 mt-md-0 text-main">We Light Up Every Moment!</h2>
                     </div>
                     <div class="features ">
                         <div class="feature-card">
@@ -133,7 +133,7 @@
     </section>
 
     <!-- Our Mission Section -->
-    <section class="mission-section py-5">
+    <section class="mission-section py-5 p-2">
         <h2 class="text-center mb-5 font-weight-bold section-title text-main">What we offer</h2>
         <div class="container wow bounceInUp" data-wow-delay="1.5s">
 

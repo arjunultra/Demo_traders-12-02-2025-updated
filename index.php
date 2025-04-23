@@ -3,22 +3,23 @@
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-	<title>Demo Traders | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers Discount Sale |
-		Sivakasi Pattasu Kadai</title>
+	<title>Kaleeswari Crackers Sivakasi | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers
+		Discount Sale |
+		Top Fireworks Brands</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:title" content="Demo Traders">
+	<meta property="og:title" content="Kaleeswari Crackers Sivakasi">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Demo Traders">
-	<meta property="og:url" content="https://www.demotraders.com">
-	<meta property="og:image" content="https://www.demotraders.com/images/android-icon-192x192.png">
+	<meta property="og:site_name" content="Kaleeswari Crackers Sivakasi">
+	<meta property="og:url" content="https://www.kaleswaricrackers.com">
+	<meta property="og:image" content="https://www.kaleswaricrackers.com/images/android-icon-192x192.png">
 	<meta name="keywords"
-		content="Demo Traders, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
+		content="Kaleeswari Crackers Sivakasi, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
 	<meta property="og:description" name="description"
 		content="We are one of the leading retail crackers shop and dealer in crackers & fireworks. We welcome you to the coolest fireworks site on the WEB, where you can get all top quality crackers & other fireworks-related products.">
 	<meta name="robots" content="all">
 	<meta name="revisit-after" content="10 Days">
-	<meta name="copyright" content="Demo Traders">
+	<meta name="copyright" content="Kaleeswari Crackers Sivakasi">
 	<meta name="language" content="English">
 	<meta name="distribution" content="Global">
 	<meta name="web_author" content="srisoftwarez.com">
@@ -42,12 +43,12 @@
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<img src="./images/index-banner-2.webp" class="slide-img img-fluid" alt="demo traders"
-					title="demo traders">
+				<img src="./images/index-banner-2.webp" class="slide-img img-fluid" alt="Kaleeswari Crackers Sivakasi"
+					title="Kaleeswari Crackers Sivakasi">
 			</div>
 			<div class="swiper-slide">
-				<img src="./images/index-banner.webp" class="slide-img img-fluid" alt="demo traders"
-					title="demo traders">
+				<img src="./images/index-banner.webp" class="slide-img img-fluid" alt="Kaleeswari Crackers Sivakasi"
+					title="Kaleeswari Crackers Sivakasi">
 			</div>
 		</div>
 	</div>
@@ -57,15 +58,16 @@
 				<!-- Image Section -->
 				<div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 					<a href="products.php"><img src="./images/intro.webp" class="img-fluid"
-							alt="Welcome to Demo Traders"></a>
+							alt="Welcome to Kaleeswari Crackers Sivakasi" title="Kaleeswari Crackers Sivakasi"></a>
 				</div>
 
 				<!-- Content Section -->
 				<div class="col-lg-6 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-up"
 					data-aos-delay="200">
-					<h3 class="py-5">Welcome to Demo Traders - Your One-Stop Fireworks Destination!</h3>
+					<h3 class="py-5">Welcome to Kaleeswari Crackers Sivakasi - Your One-Stop Fireworks Destination!</h3>
 					<p class="fst-italic">
-						Experience the thrill of vibrant fireworks with Demo Traders! We offer a dazzling collection of
+						Experience the thrill of vibrant fireworks with Kaleeswari Crackers Sivakasi! We offer a
+						dazzling collection of
 						fireworks for all occasions, ensuring your celebrations are unforgettable.
 					</p>
 					<ul>
@@ -96,7 +98,7 @@
 				<div class="col-12 col-md-4 col-lg-4">
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
-							<img src="./images/pdt2.webp" alt="Ground Chakkars">
+							<img src="./images/pdt2.webp" alt="Ground Chakkars" title="">
 							<div class="overlay">
 								<h3 class="product-title">Ground Chakkars</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
@@ -235,11 +237,11 @@
 			<p class="fs-12 fw-semibold text-success mb-1">
 				<span class="landing-section-heading cursive-font">FIREWORKS INSIGHTS</span>
 			</p>
-			<h3 class="font-weight-bold mb-2">Why Choose Demo Traders?</h3>
+			<h3 class="font-weight-bold mb-2">Why Choose Kaleeswari Crackers Sivakasi?</h3>
 			<div class="row justify-content-center">
 				<div class="col-xl-6">
 					<p class="text-muted fs-15 mb-5 fw-normal">
-						At Demo Traders, we provide the most spectacular fireworks at unbeatable prices.
+						At Kaleeswari Crackers Sivakasi, we provide the most spectacular fireworks at unbeatable prices.
 						Whether you're looking for small sparklers or grand aerial shells, we have something for every
 						celebration.
 					</p>
@@ -327,9 +329,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 text-center">
-					<div class="pricelist-wrapper">
-						<img src="images/pricelist.webp" class="img-fluid w25 wow rotateIn pricelist-image"
-							alt="Demo Traders" title="Demo Traders"
+					<div class="pricelist-wrapper" data-aos="custom-rotate">
+						<img src="images/pricelist.webp" class="img-fluid pricelist-image"
+							alt="Kaleeswari Crackers Sivakasi" title="Kaleeswari Crackers Sivakasi"
 							style="visibility: visible; animation-name: rotateIn;">
 					</div>
 
@@ -444,26 +446,26 @@
 
 
 	<div class="fixed point w0">
-		<a href="https://api.whatsapp.com/send?phone=919999999999">
-			<img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
+		<a href="https://api.whatsapp.com/send?phone=918870758418">
+			<img src="images/whatsappicon.png" class="priceicn float-left no-title" alt="" title="">
 		</a>
 	</div>
 	<div class="fixed point1 w0 d-none d-lg-block">
 		<span class="time-of-year">
-			<img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+			<img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
 			<div class="tooltip text-white carter text-center"> For More Details Call <br>
-				<i class="fa fa-phone text-white"></i> +91 99999 99999
+				<i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
 			</div>
 		</span>
 	</div>
 	<div class="fixed point1 w0 d-lg-none">
-		<a href="tel:+9199999 99999">
-			<img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+		<a href="tel:+918870758418">
+			<img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
 		</a>
 	</div>
 	<div class="fixed point2">
 		<a href="products.php">
-			<img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
+			<img src="images/quickpurchase.png" class="priceicn2 float-right blink no-title" alt="" title="">
 		</a>
 	</div>
 	<div id="top-btn">
@@ -484,6 +486,10 @@
 	</script>
 	<script src="js/tsparticles.fireworks.bundle.min.js"></script>
 	<script src="js/script.js"></script>
+	<script>
+		const keywords = ["Kaleeswari Crackers Sivakasi", "Online Diwali Crackers Sale", "Sivakasi Retail Crackers", "Top Fireworks Brands", "Crackers Discount Sale"];
+		assignRandomTitlesToImages(keywords, "img.no-title");
+	</script>
 	<?php include "footer.php"; ?>
 </body>
 

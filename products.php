@@ -56,26 +56,26 @@
         </div>
     </section>
     <div class="fixed point w0">
-        <a href="https://api.whatsapp.com/send?phone=91">
-            <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
+        <a href="https://api.whatsapp.com/send?phone=918870758418">
+            <img src="images/whatsappicon.png" class="priceicn float-left no-title" alt="" title="">
         </a>
     </div>
     <div class="fixed point1 w0 d-none d-lg-block">
         <span class="time-of-year">
-            <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+            <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
             <div class="tooltip text-white carter text-center"> For More Details Call <br>
-                <i class="fa fa-phone text-white"></i> +91
+                <i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
             </div>
         </span>
     </div>
     <div class="fixed point1 w0 d-lg-none">
-        <a href="tel:+91">
-            <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+        <a href="tel:+918870758418">
+            <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
         </a>
     </div>
     <div class="fixed point2">
         <a href="products.php">
-            <img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
+            <img src="images/quickpurchase.png" class="priceicn2 float-right blink no-title" alt="" title="">
         </a>
     </div>
     <div id="top-btn">

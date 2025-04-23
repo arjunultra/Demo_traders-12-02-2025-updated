@@ -112,28 +112,7 @@ textarea {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 #notfound {
   position: relative;
   height: 100vh;
@@ -224,32 +203,7 @@ textarea {
 // default css code ends
 
 /* custom css  */
-/* Base styles for custom cursor */
-// .custom-cursor {
-//   width: 50px;
-//   height: 50px;
-//   border: 2px solid #0743e8;
-//   border-radius: 50%;
-//   position: absolute;
-//   pointer-events: none;
-//   transform: translate(-50%, -50%);
-//   transition: transform 0.1s ease, left 0.1s ease, top 0.1s ease;
-//   z-index: 9999;
-// }
 
-// /* Click effect animation */
-// .click-effect {
-//   position: absolute;
-//   width: 70px;
-//   height: 70px;
-//   border: 2px solid rgb(232, 4, 4);
-//   border-radius: 50%;
-//   pointer-events: none;
-//   transform: translate(-50%, -50%) scale(1);
-//   opacity: 0;
-//   animation: none;
-// }
-// general
 
 a {
   color: var(--color-dark);
@@ -305,7 +259,7 @@ a:hover {
         color: var(--color2);
         text-decoration: none;
         overflow: hidden; // Ensures the background doesn't overflow outside
-        margin-right: 3em;
+        // margin-right: 3em;
 
         // Initial underline state (empty)
         &::after {
@@ -405,12 +359,6 @@ header {
   background-color: var(--color2);
   font-weight: bold;
   text-transform: uppercase;
-}
-
-// Sticky Navbar Styles
-.navbar-sticky {
-  background-color: var(--main-color);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 // Fixed Navbar Styles
@@ -652,6 +600,8 @@ section.our-products {
       background: linear-gradient(to top, $color2, rgba(0, 0, 0, 0.6));
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
+      pointer-events: none; 
+      
     }
 
     &:hover::before {
@@ -1983,17 +1933,7 @@ div#top-btn {
     width: 60px; /* Larger icon for desktops */
   }
 }
-/* cursor Animations */
-@keyframes clickAnimation {
-  0% {
-    transform: translate(-50%, -50%) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(2);
-    opacity: 0;
-  }
-}
+
 // Define keyframes for the wave animation
 // owl carousel
 /* Ensure Owl Carousel items are visible during animations */
@@ -2038,6 +1978,28 @@ div#top-btn {
   }
   100% {
     transform: scale(1) rotate(0);
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

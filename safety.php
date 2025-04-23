@@ -3,22 +3,23 @@
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-    <title>Demo Traders | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers Discount Sale |
+    <title>Kaleeswari Crackers Sivakasi | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers
+        Discount Sale |
         Sivakasi Pattasu Kadai</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="Demo Traders">
+    <meta property="og:title" content="Kaleeswari Crackers Sivakasi">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Demo Traders">
+    <meta property="og:site_name" content="Kaleeswari Crackers Sivakasi">
     <meta property="og:url" content="https://www.demotraders.com">
     <meta property="og:image" content="https://www.demotraders.com/images/android-icon-192x192.png">
     <meta name="keywords"
-        content="Demo Traders, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
+        content="Kaleeswari Crackers Sivakasi, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
     <meta property="og:description" name="description"
         content="We are one of the leading retail crackers shop and dealer in crackers & fireworks. We welcome you to the coolest fireworks site on the WEB, where you can get all top quality crackers & other fireworks-related products.">
     <meta name="robots" content="all">
     <meta name="revisit-after" content="10 Days">
-    <meta name="copyright" content="Demo Traders">
+    <meta name="copyright" content="Kaleeswari Crackers Sivakasi">
     <meta name="language" content="English">
     <meta name="distribution" content="Global">
     <meta name="web_author" content="srisoftwarez.com">
@@ -51,7 +52,11 @@
     </section>
 
     <section class="safety-guidelines container">
-        <div class="row">
+        <div class="row no-gutters">
+            <h1 class="my-2 mb-lg-5 p-4 heading3 text-red text-center">Kaleeswari Crackers: Fireworks with a Safety
+                First
+                Promise
+            </h1>
             <!-- Do's Section -->
             <div class="col-md-6 dos-section">
                 <h2 class="dos-heading main-heading-font">Do's</h2>
@@ -158,7 +163,29 @@
 
 
 
-    <!-- Back to Top Button -->
+    <div class="fixed point w0">
+        <a href="https://api.whatsapp.com/send?phone=918870758418">
+            <img src="images/whatsappicon.png" class="priceicn float-left no-title" alt="" title="">
+        </a>
+    </div>
+    <div class="fixed point1 w0 d-none d-lg-block">
+        <span class="time-of-year">
+            <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
+            <div class="tooltip text-white carter text-center"> For More Details Call <br>
+                <i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
+            </div>
+        </span>
+    </div>
+    <div class="fixed point1 w0 d-lg-none">
+        <a href="tel:+918870758418">
+            <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
+        </a>
+    </div>
+    <div class="fixed point2">
+        <a href="products.php">
+            <img src="images/quickpurchase.png" class="priceicn2 float-right blink no-title" alt="" title="">
+        </a>
+    </div>
     <div id="top-btn">
         <button id="goTopBtn" class="go-top">
             <i class="bi bi-arrow-up"></i>

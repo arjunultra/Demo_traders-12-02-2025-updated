@@ -3,22 +3,23 @@
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-    <title>Demo Traders | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers Discount Sale |
+    <title>Kaleeswari Crackers Sivakasi | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers
+        Discount Sale |
         Sivakasi Pattasu Kadai</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="Demo Traders">
+    <meta property="og:title" content="Kaleeswari Crackers Sivakasi">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Demo Traders">
+    <meta property="og:site_name" content="Kaleeswari Crackers Sivakasi">
     <meta property="og:url" content="https://www.demotraders.com">
     <meta property="og:image" content="https://www.demotraders.com/images/android-icon-192x192.png">
     <meta name="keywords"
-        content="Demo Traders, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
+        content="Kaleeswari Crackers Sivakasi, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
     <meta property="og:description" name="description"
         content="We are one of the leading retail crackers shop and dealer in crackers & fireworks. We welcome you to the coolest fireworks site on the WEB, where you can get all top quality crackers & other fireworks-related products.">
     <meta name="robots" content="all">
     <meta name="revisit-after" content="10 Days">
-    <meta name="copyright" content="Demo Traders">
+    <meta name="copyright" content="Kaleeswari Crackers Sivakasi">
     <meta name="language" content="English">
     <meta name="distribution" content="Global">
     <meta name="web_author" content="srisoftwarez.com">
@@ -38,7 +39,7 @@
 <body itemscope itemtype="http://schema.org/WebPage">
     <?php include "header.php"; ?>
     <!-- contact banner -->
-    <section class="contact" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+    <section class="contact" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="contact-banner d-flex flex-column align-items-center justify-content-center">
             <!-- <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
@@ -51,51 +52,51 @@
             </div> -->
         </div>
     </section>
-    <section class="container four-card-container mt-5 mb-4" data-aos="fade-left">
+    <section class="container four-card-container mt-5 mb-4 overflow-hidden">
         <h2 class="section-title text-main font-weight-bold text-center mb-5">Contact Information</h2>
 
         <div class="row align-items-center">
             <!-- Contact Information (Left) -->
             <div class="col-12 col-md-6">
                 <div class="row">
-                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="col-12 mb-4">
                         <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-geo-alt"></i> Location
                                 </h2>
-                                <p class="card-text flex-grow-1">Find us at: 123 Main Street, Sivakasi, Tamil Nadu,
+                                <p class="card-text flex-grow-1">Find us at: Sivakasi, Tamil Nadu,
                                     India</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1400">
+                    <div class="col-12 mb-4">
                         <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-telephone"></i> Phone
                                 </h2>
-                                <p class="card-text flex-grow-1">Call us: +91 99999 99999</p>
+                                <p class="card-text flex-grow-1">Call us: +91 8870838338</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1600">
+                    <div class="col-12 mb-4">
                         <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-whatsapp"></i> WhatsApp
                                 </h2>
-                                <p class="card-text flex-grow-1">Chat with us on WhatsApp: +91 88888 88888</p>
+                                <p class="card-text flex-grow-1">Chat with us on WhatsApp: +91 8870758418</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mb-4" data-aos="fade-up" data-aos-duration="1800">
+                    <div class="col-12 mb-4">
                         <div class="card contact-card">
                             <div class="card-body d-flex flex-column">
                                 <h2 class="card-title">
                                     <i class="bi bi-envelope"></i> Mail
                                 </h2>
-                                <p class="card-text flex-grow-1">Email us at: demotraders@example.com</p>
+                                <p class="card-text flex-grow-1">Email us at: kaleeswaricrackerssvks@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -103,7 +104,7 @@
             </div>
 
             <!-- Image on the Right -->
-            <div class="col-12 col-md-6 text-center" data-aos="fade-left" data-aos-duration="1800">
+            <div class="col-12 col-md-6 text-center">
                 <div class="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
@@ -117,38 +118,39 @@
     <!-- Footer -->
     <div class="contactlast">
         <div class="container-fluid no-gutters bg-danger d-flex align-items-center justify-content-center">
-            <p class="helvetica text-white text-center">
-                Copyright &copy; 2025, Demo Traders
-                <span class="">All rights reserved. Designed & Developed by Sri Softwarez</span>
+            <p class="helvetica text-white text-center mb-0 p-2">
+                Copyright &copy; 2025, Kaleeswari Crackers Sivakasi
+                All rights reserved. Designed & Developed by <a target="_blank" class="text-warning"
+                    href="https://www.srisoftwarez.com/">Sri Softwarez</a>
             </p>
         </div>
     </div>
 
 
     <div class="fixed point w0">
-        <a href="https://api.whatsapp.com/send?phone=91">
-            <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
+        <a href="https://api.whatsapp.com/send?phone=918870758418">
+            <img src="images/whatsappicon.png" class="priceicn float-left no-title" alt="" title="">
         </a>
     </div>
     <div class="fixed point1 w0 d-none d-lg-block">
         <span class="time-of-year">
-            <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+            <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
             <div class="tooltip text-white carter text-center"> For More Details Call <br>
-                <i class="fa fa-phone text-white"></i> +91
+                <i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
             </div>
         </span>
     </div>
     <div class="fixed point1 w0 d-lg-none">
-        <a href="tel:+91">
-            <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+        <a href="tel:+918870758418">
+            <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
         </a>
     </div>
     <div class="fixed point2">
         <a href="products.php">
-            <img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
+            <img src="images/quickpurchase.png" class="priceicn2 float-right blink no-title" alt="" title="">
         </a>
     </div>
-    <div id="top-btn">
+    <div id="top-btn" class="overflow-hidden">
         <button id="goTopBtn" class="go-top">
             <i class="bi bi-arrow-up"></i>
         </button>

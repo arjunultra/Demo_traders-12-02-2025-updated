@@ -1,40 +1,3 @@
-// // cursor
-// // custom cursor animations
-// // Select cursor elements
-
-// const cursor = document.querySelector(".custom-cursor");
-// const clickEffect = document.querySelector(".click-effect");
-// // console.log(clickEffect);
-// // console.log(cursor);
-
-// if (cursor && clickEffect) {
-//   document.addEventListener("mousemove", (e) => {
-//     cursor.style.left = `${e.pageX}px`;
-//     cursor.style.top = `${e.pageY}px`;
-//     cursor.style.transform = "translate(-60%, -60%)"; // Ensure centering
-
-//     clickEffect.style.left = `${e.pageX}px`;
-//     clickEffect.style.top = `${e.pageY}px`;
-//   });
-
-//   document.addEventListener("click", () => {
-//     clickEffect.style.animation = "clickAnimation 0.4s ease-out";
-
-//     // Reapply centering during click
-//     cursor.style.transform = "translate(-60%, -60%)";
-
-//     setTimeout(() => {
-//       clickEffect.style.animation = "none";
-//     }, 400);
-//   });
-
-//   clickEffect.addEventListener("animationend", () => {
-//     clickEffect.style.animation = "none"; // Reset click effect
-//   });
-// } else {
-//   console.error("Cursor or click effect element not found in the DOM.");
-// }
-
 // counter
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter-number");
@@ -142,6 +105,7 @@ $(document).ready(() => {
   });
 });
 
+
 document.addEventListener("DOMContentLoaded", function () {
   let goTopBtn = document.getElementById("goTopBtn");
 
@@ -161,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 });
 // swiper js
-// Import Swiper (Make sure swiper-bundle.min.js is locally available)
+
 document.addEventListener("DOMContentLoaded", function () {
   let swiperContainer = document.querySelector(".swiper-container");
 
@@ -199,32 +163,7 @@ function applyFireworkAnimations() {
   }
 }
 
-// // fireworks blasting
-// document.addEventListener("DOMContentLoaded", function () {
-//   if (typeof fireworks === "undefined") {
-//     console.error(
-//       "❌ Fireworks library is not loaded. Check your script path."
-//     );
-//     return;
-//   }
 
-//   // Start fireworks animation
-//   fireworks({
-//     background: "transparent",
-//     colors: ["#ff0000", "#ff8000", "#ffff00", "#00ff00", "#0080ff", "#ff00ff"], // Vibrant colors
-//     brightness: { min: -5, max: 10 }, // More color pop
-//     saturation: { min: -10, max: 10 }, // Slight variation
-//     gravity: { min: 1, max: 3 }, // **Lower gravity for wider spread**
-//     //  // Ensures explosion happens within viewport
-//     rate: { min: 1, max: 3 }, // Keeps the fireworks steady
-//     speed: { min: 0.5, max: 0.9 }, // Slower launch speed for better visibility
-//     splitCount: { min: 250, max: 500 }, // **Increases explosion size (more particles)**
-//     sounds: false,
-//   });
-
-//   console.log("🔥 Fireworks started successfully!");
-// });
-// Fireworks Blasting (Default Settings)
 document.addEventListener("DOMContentLoaded", function () {
   if (typeof fireworks === "undefined") {
     console.error(
@@ -286,3 +225,85 @@ function getRandomColor() {
   ];
   return colors[Math.floor(Math.random() * colors.length)];
 }
+
+function assignRandomTitlesToImages(keywords, excludeSelector = "") {
+  document.addEventListener('DOMContentLoaded', function () {
+    const allImages = Array.from(document.querySelectorAll('img'));
+    const excludedImages = excludeSelector
+      ? Array.from(document.querySelectorAll(excludeSelector))
+      : [];
+
+    const eligibleImages = allImages.filter(img => !excludedImages.includes(img));
+
+    if (keywords.length === 0) {
+      console.warn('No keywords provided!');
+      return;
+    }
+
+    // Assign titles
+    eligibleImages.forEach(img => {
+      const keyword = keywords[Math.floor(Math.random() * keywords.length)];
+      img.setAttribute('data-title', keyword);
+    });
+
+    // Tooltip element
+    const tooltip = document.createElement('div');
+    tooltip.style.position = 'absolute';
+    tooltip.style.background = '#333';
+    tooltip.style.color = '#fff';
+    tooltip.style.padding = '5px 10px';
+    tooltip.style.borderRadius = '5px';
+    tooltip.style.fontSize = '12px';
+    tooltip.style.pointerEvents = 'none';
+    tooltip.style.zIndex = '99999';
+    tooltip.style.opacity = '0';
+    tooltip.style.transition = 'opacity 0.2s ease';
+    document.body.appendChild(tooltip);
+
+    function showTooltip(img, e) {
+      const title = img.getAttribute('data-title');
+      if (!title) return;
+
+      tooltip.textContent = title;
+      tooltip.style.opacity = '1';
+
+      const padding = 15;
+      const tooltipWidth = tooltip.offsetWidth;
+      const tooltipHeight = tooltip.offsetHeight;
+
+      let left = e.pageX + padding;
+      let top = e.pageY + padding;
+
+      if (left + tooltipWidth > window.innerWidth) {
+        left = e.pageX - tooltipWidth - padding;
+      }
+      if (top + tooltipHeight > window.innerHeight) {
+        top = e.pageY - tooltipHeight - padding;
+      }
+
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+    }
+
+    // Global event listeners
+    document.addEventListener('mousemove', (e) => {
+      const img = e.target.closest('img') || e.target.closest('.product-img')?.querySelector('img');
+      if (!img || !img.hasAttribute('data-title')) {
+        tooltip.style.opacity = '0';
+        return;
+      }
+      showTooltip(img, e);
+    });
+
+    document.addEventListener('mouseout', (e) => {
+      if (e.target.closest('img') || e.target.closest('.product-img')) {
+        tooltip.style.opacity = '0';
+      }
+    });
+  });
+}
+
+
+
+
+

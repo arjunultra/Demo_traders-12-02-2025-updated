@@ -6,9 +6,9 @@
   --color5: #003382;
   --theme-gradient: linear-gradient(
     135deg,
-    var(--color1),
-    var(--title-color),
-    var(--color2)
+    var(--color1) 25%,
+    var(--title-color) 50%,
+  rgb(219, 243, 1) 100%
   );
 }
 
@@ -39,8 +39,8 @@ h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
-p {
-  font-family: fantasy;
+p,li,a {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 .heading1 {
   font-size: 2.5rem;
@@ -70,140 +70,11 @@ p {
   padding: 0 !important;
   margin: 0 !important;
 }
-
-.w0 {
-  width: 0%;
-}
-.fixed {
-  position: fixed;
-  z-index: 2;
-}
-.priceicn {
-  width: 50px;
-}
-.priceicn2 {
-  width: 120px;
-}
-.point {
-  bottom: 10px;
-  left: 10px;
-}
-.point1 {
-  bottom: 70px;
-  left: 10px;
-}
-.point2 {
-  bottom: 15px;
-  right: 10px;
-}
-body {
-  cursor: url("../images/cursor.cur") 16 16, auto !important;
-}
-a,
-button,
-input,
-select,
-textarea {
-  cursor: url("../images/pointer.cur") 16 16, auto !important;
-}
-.blink {
-  -webkit-animation: blink 1s;
-  animation: blink 1s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-
-#notfound {
-  position: relative;
-  height: 100vh;
-}
-#notfound .notfound {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.notfound {
-  max-width: 410px;
-  width: 100%;
-  text-align: center;
-}
-.oopslogo {
-  width: 350px;
-}
-.notfound h2 {
-  color: #000;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.notfound p {
-  color: #000;
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 15px;
-  margin-top: 5px;
-}
-.notfound a {
-  font-size: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: #0046d5;
-  display: inline-block;
-  padding: 15px 30px;
-  border-radius: 40px;
-  color: #fff;
-  font-weight: 700;
-  box-shadow: 0px 4px 15px -5px #0046d5;
-}
-
-.time-of-year {
-  margin: 100px 75px 10px 75px;
-  position: relative;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-}
-.time-of-year .tooltip {
-  background: #db2a1b;
-  border-radius: 3px;
-  bottom: -49px;
-  font-size: 20px;
-  display: block;
-  left: -67px;
-  padding: 15px;
-  pointer-events: none;
-  position: absolute;
-  width: 320px;
-  height: 100px;
-  -webkit-transform: translateY(10px);
-  transform: translateY(10px);
-  -webkit-transition: all 0.7s ease-out;
-  transition: all 0.7s ease-out;
-}
-.time-of-year .tooltip::after {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #db2a1b;
-  bottom: 58px;
-  content: " ";
-  position: absolute;
-  left: 0%;
-  margin-left: -13px;
-  transform: rotate(92deg);
-}
-.time-of-year:hover .tooltip {
-  opacity: 1;
-  pointer-events: auto;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-// default css code ends
-
+// custom css
 /* custom css  */
-
+.marquee {
+  font-family: Tahoma, sans-serif !important;
+}
 
 a {
   color: var(--color-dark);
@@ -336,18 +207,10 @@ a:hover {
   }
 }
 
-// Keyframes for the fill effect (optional if you want a more dynamic fill)
-@keyframes fill {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
 // header
-header {
+.header-info-box {
+  display: flex !important;
+  align-items: center !important;
   img.info-icon {
     width: 40px; /* Default size */
     height: auto;
@@ -379,7 +242,7 @@ header {
     width: 3em;
   }
 }
-
+/* *******************************************Index Page*************************************** */
 // index banner
 .banner-container {
   background-image: url("../images/index-banner1.webp");
@@ -399,7 +262,7 @@ $color2: #4b0082; // Indigo
 $title-color: #ff4500; // Orange-Red
 $color4: #ffecd1; // Soft Cream
 
-// Welcome Section Styling
+// Welcome Section
 #welcome {
   background-color: $color4;
   padding: 60px 0;
@@ -476,7 +339,7 @@ $color4: #ffecd1; // Soft Cream
     }
   }
 }
-// index counter
+// index counter section
 
 .counter-section {
   background: url("../images/counter-bg.webp") center/cover no-repeat;
@@ -552,7 +415,7 @@ $color4: #ffecd1; // Soft Cream
 // index products section
 
 section.our-products {
-  background-color: whitesmoke;
+ 
   padding: 60px 0;
 
   h2 {
@@ -686,6 +549,7 @@ section.our-products {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 1.5em;
     padding: 1.5em;
+    height: 11em;
 
     .icon-box {
       display: flex;
@@ -773,8 +637,9 @@ section.index-parallax {
   .brandSwiper {
     width: 100%; // Take full width for better scaling
     max-width: 500px; // Increase the max width for larger cards
-    height: 400px; // Increase the height
+    height: 300px; // Increase the height
     margin: 0 auto;
+    border-radius: 16px;
   }
 
   .swiper-slide {
@@ -793,14 +658,14 @@ section.index-parallax {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%; // Increase width of the card
-    height: 100%; // Ensure full height utilization
-    padding: 1.5rem; // Increase padding for better spacing
+    width: 100%;
+    height: 100%; 
+    
 
     img {
       max-height: 90%; // Allow image to take more space
       max-width: 90%;
-      object-fit: contain;
+      object-fit: cover;
       border-radius: 12px;
     }
   }
@@ -813,21 +678,9 @@ section.about {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30em;
+    height: 25em;
     width: 100%;
     text-align: center;
-    @media only screen and (max-width: 991.98px) {
-      // Tablets
-      height: 25em;
-      background-position: center top;
-    }
-
-    @media only screen and (max-width: 768px) {
-      // Mobile
-      height: 8em;
-      background-size: contain; // Adjusts for smaller screens
-      background-position: center top;
-    }
   }
 }
 // story section
@@ -1226,23 +1079,11 @@ section.products {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30em;
+    height: 24em;
     width: 100%;
     text-align: center;
     h1 {
       margin-top: 3em;
-    }
-    @media only screen and (max-width: 991.98px) {
-      // Tablets
-      height: 25em;
-      background-position: center top;
-    }
-
-    @media only screen and (max-width: 768px) {
-      // Mobile
-      height: 7em;
-      background-size: contain; // Adjusts for smaller screens
-      background-position: center top;
     }
   }
 }
@@ -1330,56 +1171,13 @@ section.safety {
       }
     }
   }
-
-  // Responsive Styles for Tablets (No Change)
-  @media (max-width: 991.98px) {
-    .guideline {
-      width: 100%;
-    }
-  }
-
-  // Mobile (Icon Stacked on Top)
-  @media (max-width: 768px) {
-    .row {
-      flex-direction: column;
-    }
-
-    .guideline {
-      display: flex;
-      flex-direction: column; // Stack elements in a column
-      align-items: center;
-      text-align: center;
-      padding: 20px;
-      height: auto;
-      position: relative;
-    }
-
-    .guideline .icon {
-      position: relative; // Remove absolute positioning
-      left: auto;
-      top: auto;
-      transform: none;
-      margin-bottom: 10px; // Push it above the content
-    }
-
-    .content {
-      text-align: center;
-    }
-
-    .dos-heading,
-    .donts-heading {
-      text-align: center;
-      margin-top: 30px;
-    }
-  }
+  
 }
 
 // contact page
 section.contact {
   .contact-banner {
     background-image: url("../images/contact-banner.webp");
-    // background-color: #0000009a;
-    // background-blend-mode: overlay;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1539,16 +1337,7 @@ section.contact {
   }
 }
 
-// Responsive Tweaks
-@media (max-width: 768px) {
-  .contact-image {
-    margin-top: 20px;
-  }
 
-  .full-width-map {
-    height: 350px;
-  }
-}
 
 // index testimonial
 
@@ -1621,71 +1410,49 @@ section.contact {
   margin-bottom: 4em;
 }
 .theme-btn {
-  font-size: 16px;
-  color: black;
-  padding: 1em 1.5em;
-  transition: all 0.5s;
-  text-transform: capitalize;
   position: relative;
-  border-radius: 50px;
-  font-weight: 500;
-  cursor: pointer;
-  text-align: center;
-  vertical-align: middle;
-  overflow: hidden;
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #0c3962;
   border: none;
-  background: var(--theme-gradient);
-  box-shadow: var(--box-shadow);
+  border-radius: 0.5em;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.4s ease, background 0.4s ease;
+  text-decoration: none;
   z-index: 1;
 }
 
-.theme-btn::before {
-  content: "";
-  height: 300px;
-  width: 300px;
-  background: var(--theme-color2);
-  border-radius: 50%;
+.theme-btn::before,
+.theme-btn::after {
+  content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%) scale(0);
-  transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  inset: 0;
+  background: linear-gradient(120deg, navy, #fff500, #ff0000);
+  background-size: 300% 300%;
   z-index: -1;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+  border-radius: inherit;
+}
+
+.theme-btn::before {
+  animation: themeHover 3s linear infinite;
+}
+
+.theme-btn:hover::before,
+.theme-btn:hover::after {
+  opacity: 1;
 }
 
 .theme-btn:hover {
-  color: var(--color4);
-}
-
-.theme-btn:hover::before {
-  transform: translateY(-50%) translateX(-50%) scale(1);
-}
-
-.theme-btn i {
-  margin-left: 10px;
-  transform: rotate(-35deg);
-  transition: var(--transition2);
-}
-
-.theme-btn:hover i {
-  transform: rotate(0);
-}
-
-.theme-btn span {
-  margin-right: 5px;
-}
-
-.theme-btn2 {
-  background: var(--color-white);
-  color: var(--theme-color);
-}
-
-.theme-btn2::before {
-  background: var(--theme-color);
-}
-
-.theme-btn2:hover {
-  color: var(--color-white);
+  color: white;
+  background: transparent;
+  box-shadow: 0 0 15px rgba(255, 245, 0, 0.3);
+  transition: 5s ease-in-out;
 }
 
 div#top-btn {
@@ -1758,181 +1525,7 @@ div#top-btn {
   }
 }
 
-// media queries
-// mobile
-@media only screen and (max-width: 768px) {
-  .notfound .notfound-404 {
-    height: 142px;
-  }
-  .pad {
-    padding: 40px 0;
-  }
-  header {
-    .logo-area {
-      img.info-icon {
-        width: 30px;
-      }
-    }
-  }
-  .banner-text {
-    max-width: 50%;
-    font-size: 0.8rem;
-    right: 2%;
-  }
-  // index page
-  .swiper-container {
-    height: auto !important;
-  }
-  section.intro-section {
-    .about-experience {
-      left: -7px;
-      top: 22px;
-      span {
-        font-size: 1rem;
-      }
-      h5 {
-        font-size: 1rem;
-      }
-    }
-    a.theme-btn {
-      display: block;
-    }
-  }
-  section.our-products {
-    h2 {
-      font-size: 1.5rem;
-    }
-  }
-  section.index-parallax {
-    h2 {
-      font-size: 1.5rem;
-    }
-    p.small-para {
-      display: none;
-    }
-  }
-  section.counter-section {
-    div.row.counter-container {
-      padding: 0;
-    }
-  }
-  .fireworks-info .custom-card .card-body {
-    flex-direction: column; // Stack icon and text
-    align-items: center;
-    text-align: center;
-  }
 
-  .fireworks-info .custom-card .icon-box {
-    margin-bottom: 0.75em; // Add spacing between icon and text
-  }
-  // about page
-  section.mission {
-    .about-card-container {
-      flex-wrap: wrap;
-      gap: 0.5em;
-      .about-card {
-        flex: 0 1 auto;
-      }
-    }
-  }
-  section.about-first {
-    h6.section-title {
-      display: block;
-      text-align: center;
-      margin: 0 auto;
-      &::after {
-        display: none;
-      }
-    }
-    .container {
-      .row {
-        padding: 1em;
-        a.theme-btn {
-          margin-bottom: 1.5em;
-          padding: 1em 4em;
-        }
-      }
-    }
-  }
-  // safety page
-
-  section.contact-section {
-    .contact-images .w-50:nth-child(1) img {
-      width: unset;
-    }
-    .contact-images .w-50:nth-child(2) img {
-      width: unset;
-    }
-    .contact-images .w-100:nth-child(3) img {
-      width: unset;
-    }
-  }
-
-  footer.footer {
-    svg.footer-svg {
-      visibility: hidden;
-    }
-  }
-}
-
-// tablet
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .pad {
-    padding: 40px 0;
-  }
-  // header
-  .navbar-dark .navbar-toggler {
-    margin: 0;
-    margin-left: auto;
-  }
-  // index page
-  header {
-    .logo-area {
-      img.info-icon {
-        width: 50px;
-      }
-    }
-  }
-  section.brands-section {
-    h2.section-title.my-text {
-      display: block !important;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 2em;
-    }
-  }
-  // about page
-  section.about-first {
-    padding: 2em;
-    h6.section-title {
-      display: block;
-      text-align: center;
-      margin: 0 auto;
-      &::after {
-        display: none;
-      }
-    }
-  }
-  .our-story .story-image {
-    margin-top: 3em;
-  }
-  // contact-section
-  section.contact-section {
-    .contact-box {
-      margin-top: 3em;
-    }
-  }
-  // safety page
-  .safety-guidelines .guideline {
-    height: 13em;
-  }
-}
-/* Large screens (desktops) */
-@media (min-width: 992px) {
-  .info-icon {
-    width: 60px; /* Larger icon for desktops */
-  }
-}
 
 // Define keyframes for the wave animation
 // owl carousel
@@ -1967,6 +1560,17 @@ div#top-btn {
 
 /* Animation Classes */
 /* Firework-style entrance animation */
+@keyframes themeHover {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 @keyframes explode-in {
   0% {
     opacity: 0;
@@ -2036,3 +1640,410 @@ div#top-btn {
   z-index: 9999; /* Ensures it appears above other elements */
   background: transparent; /* Ensures no background */
 }
+// media queries
+// mobile
+@media (min-width: 1px) and (max-width: 767.98px) {
+  .notfound .notfound-404 {
+    height: 142px;
+  }
+  .pad {
+    padding: 40px 0;
+  }
+  .header-info-box {
+      img.info-icon {
+        width: 30px;
+      }
+  }
+  .banner-text {
+    max-width: 50%;
+    font-size: 0.8rem;
+    right: 2%;
+  }
+  // index page
+  .swiper-container {
+    height: auto !important;
+  }
+  section.intro-section {
+    .about-experience {
+      left: -7px;
+      top: 22px;
+      span {
+        font-size: 1rem;
+      }
+      h5 {
+        font-size: 1rem;
+      }
+    }
+    a.theme-btn {
+      display: block;
+    }
+  }
+  section.our-products {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  section.index-parallax {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p.small-para {
+      display: none;
+    }
+  }
+  section.counter-section {
+    div.row.counter-container {
+      padding: 0;
+    }
+  }
+  .fireworks-info .custom-card {
+    height: auto;
+  }
+  .fireworks-info .custom-card .card-body {
+    flex-direction: column; // Stack icon and text
+    align-items: center;
+    text-align: center;
+  }
+
+  .fireworks-info .custom-card .icon-box {
+    margin-bottom: 0.75em; // Add spacing between icon and text
+  }
+  // about page
+  section.about {
+    .about-banner {
+      height: 8em;
+      background-size: cover; // Adjusts for smaller screens
+      background-position: center top;
+    }
+  }
+  section.mission {
+    .about-card-container {
+      flex-wrap: wrap;
+      gap: 0.5em;
+      .about-card {
+        flex: 0 1 auto;
+      }
+    }
+  }
+  section.about-first {
+    h6.section-title {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      &::after {
+        display: none;
+      }
+    }
+    .container {
+      .row {
+        padding: 1em;
+        a.theme-btn {
+          margin-bottom: 1.5em;
+          padding: 1em 4em;
+        }
+      }
+    }
+  }
+  // products page
+  section.products {
+    .products-banner {
+      height: 7em;
+      background-size: cover; // Adjusts for smaller screens
+      background-position: center top;
+    }
+  }
+  // safety page
+  section.safety {
+    .safety-banner {
+      height: 14.5em;
+      background-size: cover; // Adjusts for smaller screens
+      background-position: center top;
+    }
+  }
+  section.safety-guidelines {
+    .row {
+      flex-direction: column;
+    }
+
+    .guideline {
+      display: flex;
+      flex-direction: column; // Stack elements in a column
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+
+    .guideline .icon {
+      position: relative; // Remove absolute positioning
+      left: auto;
+      top: auto;
+      transform: none;
+      margin-bottom: 10px; // Push it above the content
+    }
+
+    .guideline .content {
+      text-align: center;
+    }
+
+    .dos-heading,
+    .donts-heading {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+
+  section.contact-section {
+    .contact-images .w-50:nth-child(1) img {
+      width: unset;
+    }
+    .contact-images .w-50:nth-child(2) img {
+      width: unset;
+    }
+    .contact-images .w-100:nth-child(3) img {
+      width: unset;
+    }
+  }
+  // contact page
+  section.contact {
+    .contact-banner {
+      height: 7em;
+    }
+  }
+  .contact-image {
+    margin-top: 20px;
+  }
+
+  .full-width-map {
+    height: 350px;
+  }
+
+  footer.footer {
+    svg.footer-svg {
+      visibility: hidden;
+    }
+  }
+}
+
+// tablet
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pad {
+    padding: 40px 0;
+  }
+  // header
+  .navbar-dark .navbar-toggler {
+    margin: 0;
+    margin-left: auto;
+  }
+  // index page
+  .header-info-box {
+      img.info-icon {
+        width: 50px;
+      }
+    
+  }
+  section.brands-section {
+    h2.section-title.my-text {
+      display: block !important;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2em;
+    }
+  }
+  .fireworks-info .custom-card {
+    height: 13em;
+  }
+  // about page
+  section.about {
+    .about-banner {
+      height: 25em;
+      background-position: center top;
+    }
+  }
+  section.about-first {
+    padding: 2em;
+    h6.section-title {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .our-story .story-image {
+    margin-top: 3em;
+  }
+  // products page
+  section.products {
+    .products-banner {
+      height: 15em;
+      background-position: center top;
+    }
+  }
+  // contact-section
+  section.contact-section {
+    .contact-box {
+      margin-top: 3em;
+    }
+  }
+  // safety page
+  section.safety {
+    .safety-banner {
+      height: 15em;
+      background-size: cover;
+      background-position: center top;
+    }
+  }
+  .safety-guidelines .guideline {
+    height: 13em;
+    width: 100%;
+  }
+  // contact page
+  section.contact {
+    .contact-banner {
+      height: 18em;
+      background-size: cover;
+    }
+  }
+}
+
+
+.w0 {
+  width: 0%;
+}
+.fixed {
+  position: fixed;
+  z-index: 2;
+}
+.priceicn {
+  width: 50px;
+}
+.priceicn2 {
+  width: 120px;
+}
+.point {
+  bottom: 10px;
+  left: 10px;
+}
+.point1 {
+  bottom: 70px;
+  left: 10px;
+}
+.point2 {
+  bottom: 15px;
+  right: 10px;
+}
+body {
+  cursor: url("../images/cursor.cur") 16 16, auto !important;
+}
+a,
+button,
+input,
+select,
+textarea {
+  cursor: url("../images/pointer.cur") 16 16, auto !important;
+}
+.blink {
+  -webkit-animation: blink 1s;
+  animation: blink 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound {
+  max-width: 410px;
+  width: 100%;
+  text-align: center;
+}
+.oopslogo {
+  width: 350px;
+}
+.notfound h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.notfound p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.notfound a {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #0046d5;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0px 4px 15px -5px #0046d5;
+}
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+    height: 142px;
+  }
+}
+
+.time-of-year {
+  margin: 100px 75px 10px 75px;
+  position: relative;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+.time-of-year .tooltip {
+  background: #db2a1b;
+  border-radius: 3px;
+  bottom: -49px;
+  font-size: 20px;
+  display: block;
+  left: -67px;
+  padding: 15px;
+  pointer-events: none;
+  position: absolute;
+  width: 320px;
+  height: 100px;
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.time-of-year .tooltip::after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #db2a1b;
+  bottom: 58px;
+  content: " ";
+  position: absolute;
+  left: 0%;
+  margin-left: -13px;
+  transform: rotate(92deg);
+}
+.time-of-year:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+// default css code ends
+

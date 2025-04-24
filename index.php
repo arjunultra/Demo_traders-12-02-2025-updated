@@ -48,7 +48,49 @@
 			</div>
 			<div class="swiper-slide">
 				<img src="./images/index-banner.webp" class="slide-img img-fluid" alt="Kaleeswari Crackers Sivakasi"
-					title="Kaleeswari Crackers Sivakasi">
+					title="Online Diwali Crackers Sale">
+			</div>
+		</div>
+	</div>
+	<!-- contact-bar -->
+	<!-- Info Cards Row -->
+	<div class="container-fluid">
+		<div class="row bg-dark-blue text-center p-2 p-md-3">
+			<div class="col-12 col-md-6 col-lg-4">
+				<div
+					class="header-info-box d-flex flex-column flex-md-row flex-lg-row  align-items-center shadow p-3 my-3 my-md-0 bg-warning rounded">
+					<div class="icon-container mr-lg-3">
+						<img class="info-icon" src="./images/location-pin.png" alt="location-pin"
+							title="Crackers Discount Sale">
+					</div>
+					<div class="content">
+						<h6 class="text-main">Address</h6>
+						<p class="m-0">Kaleeswari Crackers,Sivakasi</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div
+					class="header-info-box d-flex flex-column flex-md-row flex-lg-row  align-items-center shadow p-3 mb-3 mb-md-0 bg-warning rounded">
+					<div class="icon-container mr-lg-3">
+						<img class="info-icon" src="./images/phone.png" alt="Phone" title="Contact Kaleeswari Crackers">
+					</div>
+					<div class="content">
+						<h6 class="text-main">Call Us</h6>
+						<p class="m-0">(+91) 88707 58418 , 88708 38338</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-12 col-lg-4">
+				<div
+					class="header-info-box d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-start justify-content-md-center mt-0 mt-md-5 mt-lg-0 shadow p-2 p-lg-3 mb-4 mb-md-0 bg-warning rounded">
+					<div class="icon-container mr-3"><img class="info-icon" src="./images/mail.png" alt="Mail"
+							title="Kaleeswari Crackers Sivakasi"></div>
+					<div class="content">
+						<h6 class="text-main">Mail Us</h6>
+						<p class="mb-0">kaleeswaricrackerssvks@gmail.com</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -56,14 +98,15 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<!-- Image Section -->
-				<div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-					<a href="products.php"><img src="./images/intro.webp" class="img-fluid"
+				<div class="col-12 col-md-12 col-lg-6 order-1 order-lg-2 aos-init aos-animate mt-lg-5"
+					data-aos="fade-up" data-aos-delay="100">
+					<a class="mt-lg-5" href="products.php"><img src="./images/intro.webp" class="img-fluid"
 							alt="Welcome to Kaleeswari Crackers Sivakasi" title="Kaleeswari Crackers Sivakasi"></a>
 				</div>
 
 				<!-- Content Section -->
-				<div class="col-lg-6 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-up"
-					data-aos-delay="200">
+				<div class="col-12 col-md-12 col-lg-6 order-2 order-lg-1 content aos-init aos-animate"
+					data-aos="fade-up" data-aos-delay="200">
 					<h3 class="py-5">Welcome to Kaleeswari Crackers Sivakasi - Your One-Stop Fireworks Destination!</h3>
 					<p class="fst-italic">
 						Experience the thrill of vibrant fireworks with Kaleeswari Crackers Sivakasi! We offer a
@@ -98,8 +141,8 @@
 				<div class="col-12 col-md-4 col-lg-4">
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
-							<img src="./images/pdt2.webp" alt="Ground Chakkars" title="">
-							<div class="overlay">
+							<img src="./images/pdt2.webp" alt="Ground Chakkars" title="firecracker varieties">
+							<div class="overlay" title="chakkars">
 								<h3 class="product-title">Ground Chakkars</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
@@ -109,9 +152,9 @@
 				<div class="col-12 col-md-4 col-lg-4">
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
-							<img src="./images/pdt3.webp" alt="Fantastic Flowerpots">
-							<div class="overlay">
-								<h3 class="product-title">Fantastic Flowerpots</h3>
+							<img src="./images/pdt3.webp" alt="Fantastic Flowerpots" title="flowerpots">
+							<div class="overlay" title="flowerpots">
+								<h3 class="product-title">Flowerpots</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
 						</div>
@@ -120,8 +163,8 @@
 				<div class="col-12 col-md-4 col-lg-4">
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
-							<img src="./images/pdt6.webp" alt="Bombastic Bombs">
-							<div class="overlay">
+							<img src="./images/pdt6.webp" alt="Bombastic Bombs" title="Fireworks Bomb">
+							<div class="overlay" title="diwali bombs">
 								<h3 class="product-title">Bombastic Bombs</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
@@ -131,8 +174,8 @@
 				<div class="col-12 col-md-4 col-lg-4 my-lg-4">
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
-							<img src="./images/pdt4.webp" alt="Roaring Rockets">
-							<div class="overlay">
+							<img src="./images/pdt4.webp" alt="Roaring Rockets" title="Rockets">
+							<div class="overlay" title="rockets">
 								<h3 class="product-title">Roaring Rockets</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
@@ -142,8 +185,8 @@
 				<div class="col-12 col-md-4 col-lg-4 my-lg-4">
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
-							<img src="./images/pdt7.webp" alt="Dazzling Displays">
-							<div class="overlay">
+							<img src="./images/pdt7.webp" alt="Dazzling Displays" title="Display Novelties">
+							<div class="overlay" title="Display Novelties">
 								<h3 class="product-title">Dazzling Displays</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
@@ -154,7 +197,7 @@
 					<div class="product-card mb-md-4 mb-4 mb-lg-0">
 						<div class="product-img">
 							<img src="./images/pdt11.webp" alt="Sizzling Sparklers">
-							<div class="overlay">
+							<div class="overlay" title="Sparklers">
 								<h3 class="product-title">Sizzling Sparklers</h3>
 								<a class="btn btn-danger btn-lg" href="products.php">Buy Now</a>
 							</div>
@@ -177,51 +220,56 @@
 			</p>
 
 			<!-- Counters -->
-			<div class="row g-4 mt-4 justify-content-center">
+			<div class="row mt-4 justify-content-center">
 				<!-- Large Counters -->
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6 col-lg-6">
 					<div class="counter-box large">
 						<i class="bi bi-fire h1 text-danger"></i>
 						<div class="counter-content">
-							<span class="counter-number" data-count="15">0</span>+
+							<span class="counter-number" data-count="15">0</span><span
+								class="heading2 font-weight-bold">+</span>
 						</div>
 						<h6 class="font-weight-bold text-uppercase mt-2">Years of Experience</h6>
 					</div>
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6 col-lg-6">
 					<div class="counter-box large">
 						<i class="bi bi-box2-heart h1 text-primary"></i>
 						<div class="counter-content">
-							<span class="counter-number" data-count="250">0</span>+
+							<span class="counter-number" data-count="250">0</span><span
+								class="heading2 font-weight-bold">+</span>
 						</div>
 						<h6 class="font-weight-bold text-uppercase mt-2">Unique Fireworks</h6>
 					</div>
 				</div>
 
 				<!-- Small Counters -->
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-4 col-lg-4">
 					<div class="counter-box small">
 						<i class="bi bi-people h1 text-success"></i>
 						<div class="counter-content">
-							<span class="counter-number" data-count="5000">0</span>+
+							<span class="counter-number" data-count="5000">0</span><span
+								class="heading2 font-weight-bold">+</span>
 						</div>
 						<h6 class="font-weight-bold text-uppercase mt-2">Happy Customers</h6>
 					</div>
 				</div>
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-4 col-lg-4">
 					<div class="counter-box small">
 						<i class="bi bi-stars h1 text-warning"></i>
 						<div class="counter-content">
-							<span class="counter-number" data-count="98">0</span>%
+							<span class="counter-number" data-count="98">0</span><span
+								class="heading2 font-weight-bold">%</span>
 						</div>
 						<h6 class="font-weight-bold text-uppercase mt-2">Customer Satisfaction</h6>
 					</div>
 				</div>
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-4 col-lg-4">
 					<div class="counter-box small lastbox">
 						<i class="bi bi-shield-check h1 text-info"></i>
 						<div class="counter-content">
-							<span class="counter-number" data-count="100">0</span>%
+							<span class="counter-number" data-count="100">0</span><span
+								class="heading2 font-weight-bold">%</span>
 						</div>
 						<h6 class="font-weight-bold text-uppercase mt-2">Safety Guarantee</h6>
 					</div>
@@ -239,7 +287,7 @@
 			</p>
 			<h3 class="font-weight-bold mb-2">Why Choose Kaleeswari Crackers Sivakasi?</h3>
 			<div class="row justify-content-center">
-				<div class="col-xl-6">
+				<div class="col-12">
 					<p class="text-muted fs-15 mb-5 fw-normal">
 						At Kaleeswari Crackers Sivakasi, we provide the most spectacular fireworks at unbeatable prices.
 						Whether you're looking for small sparklers or grand aerial shells, we have something for every
@@ -249,7 +297,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-xl-6 col-12">
+				<div class="col-12 col-md-6 col-lg-6">
 					<div class="card custom-card shadow-none info-quality text-start">
 						<div class="card-body d-flex">
 							<div class="me-3">
@@ -285,7 +333,7 @@
 					</div>
 				</div>
 
-				<div class="col-xl-6 col-12">
+				<div class="col-12 col-md-6 col-lg-6">
 					<div class="card custom-card shadow-none info-safety text-start">
 						<div class="card-body d-flex">
 							<div class="me-3">
@@ -328,16 +376,15 @@
 	<section class="index-parallax">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 text-center">
-					<div class="pricelist-wrapper" data-aos="custom-rotate">
+				<div class="col-12 col-md-12 col-lg-6 text-center">
+					<div class="pricelist-wrapper" data-aos="fade-up">
 						<img src="images/pricelist.webp" class="img-fluid pricelist-image"
-							alt="Kaleeswari Crackers Sivakasi" title="Kaleeswari Crackers Sivakasi"
+							alt="Online Diwali Crackers Sale" title="Kaleeswari Crackers Sivakasi"
 							style="visibility: visible; animation-name: rotateIn;">
 					</div>
 
 				</div>
-				<div
-					class="col-lg-6 text-center text-lg-left d-flex flex-column align-items-center justify-content-center">
+				<div class="col-12 col-md-12 col-lg-6 text-center text-lg-left align-self-center">
 					<h2 class="text-warning font-weight-bold text-uppercase">Light Up Your Events with Our Exclusive
 						Price List</h2>
 					<p class="text-light">Unlock the magic of breathtaking fireworks and dazzling displays! Download our
@@ -360,57 +407,63 @@
 
 
 	<!-- Brands Section -->
-	<section class="brands-section bg-light text-dark py-5">
+	<section class="brands-section bg-light text-dark pad">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row">
 				<!-- Left Content -->
-				<div class="col-lg-3 text-center text-lg-left mb-4 mb-lg-0">
+				<div class="col-12 col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
 					<h2 class="section-title text-main font-weight-bold text-center">Top Firework Brands</h2>
 					<p class="text-muted mt-5">
 						We bring you the most **explosive** and **vibrant** fireworks from the best brands. Experience
 						stunning visuals and high-quality fireworks for all celebrations.
 					</p>
-					<a href="contact.php" class="theme-btn font-weight-bold my-3">Contact Us</a>
+					<!-- <a href="contact.php" class="theme-btn font-weight-bold my-3">Contact Us</a> -->
 				</div>
 
 				<!-- Swiper Carousel (Center) -->
-				<div class="col-lg-6">
+				<div class="col-12 col-md-4 col-lg-4">
 					<div class="swiper brandSwiper">
 						<div class="swiper-wrapper">
 							<!-- Brand 1 -->
 							<div class="swiper-slide">
 								<div class="brand-card">
-									<img src="images/brand-1.webp" alt="Brand 1" class="img-fluid">
+									<img src="images/brand-1.webp" alt="Brand 1" class="img-fluid"
+										title="firecracker brand">
 								</div>
 							</div>
 							<!-- Brand 2 -->
 							<div class="swiper-slide">
 								<div class="brand-card">
-									<img src="images/brand-2.webp" alt="Brand 2" class="img-fluid">
+									<img src="images/brand-2.webp" alt="Brand 2" class="img-fluid"
+										title="firecracker brand">
 								</div>
 							</div>
 							<!-- Brand 3 -->
 							<div class="swiper-slide">
 								<div class="brand-card">
-									<img src="images/brand-3.webp" alt="Brand 3" class="img-fluid">
+									<img src="images/brand-3.webp" alt="Brand 3" class="img-fluid"
+										title="firecracker brand">
 								</div>
 							</div>
 							<!-- Brand 4 -->
 							<div class="swiper-slide">
 								<div class="brand-card">
-									<img src="images/brand-4.webp" alt="Brand 4" class="img-fluid">
+									<img src="images/brand-4.webp" alt="Brand 4" class="img-fluid"
+										title="firecracker brand">
 								</div>
 							</div>
 							<!-- Brand 5 -->
 							<div class="swiper-slide">
 								<div class="brand-card">
-									<img src="images/brand-5.webp" alt="Brand 5" class="img-fluid">
+									<img src="images/brand-5.webp" alt="Brand 5" class="img-fluid"
+										title="firecracker brand">
 								</div>
 							</div>
 							<!-- Brand 6 -->
 							<div class="swiper-slide">
 								<div class="brand-card">
-									<img src="images/brand-6.webp" alt="Brand 6" class="img-fluid">
+									<img src="images/brand-6.webp" alt="Brand 6" class="img-fluid"
+										title="firecracker brand">
 								</div>
 							</div>
 						</div>
@@ -418,23 +471,23 @@
 				</div>
 
 				<!-- Right Content -->
-				<div class="col-lg-3 text-center text-lg-left">
+				<div class="col-12 col-md-4 col-lg-4 text-center text-lg-left">
 					<h3 class="font-weight-bold mb-3 text-red">Best-Selling Fireworks</h3>
 					<ul class="list-unstyled">
 						<li class="firework-item">
 							<a href="products.php" class="text-dark">🚀 Sky Rockets</a>
 						</li>
 						<li class="firework-item">
-							<a href="products.php" class="text-dark">🎂 Multi-Shot Cakes</a>
+							<a href="products.php" class="text-dark">🎇 Multi-Shot Cakes</a>
 						</li>
 						<li class="firework-item">
-							<a href="products.php" class="text-dark">💦 Fountains</a>
+							<a href="products.php" class="text-dark">🎁 GiftBoxes</a>
 						</li>
 						<li class="firework-item">
 							<a href="products.php" class="text-dark">🔥 Roman Candles</a>
 						</li>
 						<li class="firework-item">
-							<a href="products.php" class="text-dark">🎡 Spinners</a>
+							<a href="products.php" class="text-dark">🧨 Bombs</a>
 						</li>
 					</ul>
 				</div>
@@ -454,7 +507,7 @@
 		<span class="time-of-year">
 			<img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
 			<div class="tooltip text-white carter text-center"> For More Details Call <br>
-				<i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
+				<i class="fa fa-phone text-white"></i> +91 88708 38338
 			</div>
 		</span>
 	</div>
@@ -486,10 +539,6 @@
 	</script>
 	<script src="js/tsparticles.fireworks.bundle.min.js"></script>
 	<script src="js/script.js"></script>
-	<script>
-		const keywords = ["Kaleeswari Crackers Sivakasi", "Online Diwali Crackers Sale", "Sivakasi Retail Crackers", "Top Fireworks Brands", "Crackers Discount Sale"];
-		assignRandomTitlesToImages(keywords, "img.no-title");
-	</script>
 	<?php include "footer.php"; ?>
 </body>
 

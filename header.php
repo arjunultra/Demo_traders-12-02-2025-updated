@@ -58,32 +58,7 @@
         </div>
     </nav>
 
-    <!-- Info Cards Row -->
-    <div class="container-fluid">
-        <div class="row bg-dark-blue text-center p-2 p-md-3">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="header-info-box shadow p-3 my-3 my-md-0 bg-warning rounded">
-                    <img class="info-icon" src="./images/location-pin.png" alt="location-pin">
-                    <h6 class="text-main">Address</h6>
-                    <p class="m-0">Sivakasi</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="header-info-box shadow p-3 mb-3 mb-md-0 bg-warning rounded">
-                    <img class="info-icon" src="./images/phone.png" alt="Phone">
-                    <h6 class="text-main">Call Us</h6>
-                    <p class="m-0">(+91) 8870758418 , 8870838338</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="header-info-box mt-0 mt-md-5 mt-lg-0 shadow p-lg-3 mb-4 mb-md-0 bg-warning rounded">
-                    <img class="info-icon" src="./images/mail.png" alt="Mail">
-                    <h6 class="text-main">Mail Us</h6>
-                    <p class="m-0">kaleeswaricrackerssvks@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </header>
 
 

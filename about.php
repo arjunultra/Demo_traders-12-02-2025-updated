@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-    <title>Kaleeswari Crackers Sivakasi | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers
+    <title>Kaleeswari Crackers Sivakasi | Premium Quality Fireworks | Sivakasi Retail Crackers Supplier | Crackers
         Discount Sale |
         Sivakasi Pattasu Kadai</title>
     <meta charset="UTF-8">
@@ -92,7 +92,7 @@
                 <!-- Right Side - Feature Cards -->
                 <div class="col-lg-6">
                     <div class="section-header">
-                        <h4 class="section-title mb-lg-5 text-red">Why Choose Us?</h4>
+                        <h4 class="section-title mb-lg-5 text-dark">Why Choose Us?</h4>
                         <h2 class="highlighted-text mt-4 mt-md-0 text-main">We Light Up Every Moment!</h2>
                     </div>
                     <div class="features ">

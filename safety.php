@@ -58,7 +58,7 @@
                 Promise
             </h1>
             <!-- Do's Section -->
-            <div class="col-md-6 dos-section">
+            <div class="col-12 col-md-5 col-lg-5 dos-section">
                 <h2 class="dos-heading main-heading-font">Do's</h2>
                 <div class="guideline">
                     <div class="icon bg-success text-white">
@@ -106,9 +106,10 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 col-md-1 col-lg-2"></div>
 
             <!-- Don'ts Section -->
-            <div class="col-md-6 donts-section">
+            <div class="col-12 col-md-5 col-lg-5 donts-section">
                 <h2 class="donts-heading">Dont's</h2>
                 <div class="guideline">
                     <div class="icon bg-danger text-white">

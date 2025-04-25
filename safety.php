@@ -3,9 +3,9 @@
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-    <title>Kaleeswari Crackers Sivakasi | Online Diwali Crackers Sale | Sivakasi Retail Crackers Supplier | Crackers
-        Discount Sale |
-        Sivakasi Pattasu Kadai</title>
+    <title>Safe Crackers for Diwali |Kaleeswari Crackers Sivakasi| Diwali Crackers Purchase | Best Crackers for Sale |
+        Buy Crackers Online
+        Safety Guidelines</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="Kaleeswari Crackers Sivakasi">
@@ -14,9 +14,9 @@
     <meta property="og:url" content="https://www.demotraders.com">
     <meta property="og:image" content="https://www.demotraders.com/images/android-icon-192x192.png">
     <meta name="keywords"
-        content="Kaleeswari Crackers Sivakasi, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
+        content=" safe crackers for diwali,kaleeswari crackers sivakasi, diwali crackers purchase, best crackers for sale, buy crackers online, safety guidelines">
     <meta property="og:description" name="description"
-        content="We are one of the leading retail crackers shop and dealer in crackers & fireworks. We welcome you to the coolest fireworks site on the WEB, where you can get all top quality crackers & other fireworks-related products.">
+        content="We are one of the leading retail crackers shop and dealer in crackers & fireworks. We welcome you to the coolest fireworks website on the worldwideweb, where you can get all top quality crackers & other fireworks-related products.">
     <meta name="robots" content="all">
     <meta name="revisit-after" content="10 Days">
     <meta name="copyright" content="Kaleeswari Crackers Sivakasi">
@@ -40,7 +40,8 @@
     <?php include "header.php"; ?>
 
     <section class="safety" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-        <div class="safety-banner container-fluid d-flex flex-column align-items-center justify-content-center">
+        <div class="safety-banner container-fluid d-flex flex-column align-items-center justify-content-center"
+            title="Safe Crackers for Diwali">
             <div class="text-container text-white font-weight-bold wow slideInLeft">
                 <h1
                     class="text-main d-inline-block px-5 py-2 text-center heading1 font-weight-bold bg-white rounded-pill">
@@ -173,12 +174,12 @@
         <span class="time-of-year">
             <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
             <div class="tooltip text-white carter text-center"> For More Details Call <br>
-                <i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
+                <i class="fa fa-phone text-white"></i> +91 88708 38338
             </div>
         </span>
     </div>
     <div class="fixed point1 w0 d-lg-none">
-        <a href="tel:+918870758418">
+        <a href="tel:+918870838338">
             <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
         </a>
     </div>

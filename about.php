@@ -5,14 +5,14 @@
 <head itemscope itemtype="http://www.schema.org/website">
     <title>Kaleeswari Crackers Sivakasi | Premium Quality Fireworks | Sivakasi Retail Crackers Supplier | Crackers
         Discount Sale |
-        Sivakasi Pattasu Kadai</title>
+        Sivakasi Pattasu Kadal</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="Kaleeswari Crackers Sivakasi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Kaleeswari Crackers Sivakasi">
-    <meta property="og:url" content="https://www.demotraders.com">
-    <meta property="og:image" content="https://www.demotraders.com/images/android-icon-192x192.png">
+    <meta property="og:url" content="https://www.kaleswaricrackers.com">
+    <meta property="og:image" content="https://www.kaleswaricrackers.com/images/android-icon-192x192.png">
     <meta name="keywords"
         content="Kaleeswari Crackers Sivakasi, online diwali crackers sale, sivakasi retail crackers suppliers, crackers discount sale, sivakasi pattasu kadai">
     <meta property="og:description" name="description"
@@ -41,9 +41,7 @@
     <?php include "header.php"; ?>
     <!-- banner -->
     <section class="about" data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-delay="300">
-        <div class="about-banner d-flex flex-column align-items-center justify-content-center"
-            title="Kaleeswari Crackers">
-        </div>
+        <img class="img-fluid" src="images/about-banner.webp" alt="about banner" title="about kaleeswari crackers">
     </section>
     <!-- Our Story Section -->
     <section class="our-story py-3 py-md-5">
@@ -63,14 +61,14 @@
                             From small family gatherings to large public events, we provide the best selection of
                             fireworks to make every occasion special.
                         </p>
-                        <a href="products.php" class="theme-btn">Order Now</a>
+                        <a href="products.php" class="theme-btn text-white">Order Now</a>
                     </div>
                 </div>
 
                 <!-- Image Card -->
                 <div class="col-lg-6">
                     <div class="story-image mb-5 mb-md-0" data-aos="fade-left">
-                        <img src="./images/about-3.webp" alt="Fireworks">
+                        <img src="./images/about-3.webp" alt="Fireworks" title="Kaleeswari Crackers Sivakasi">
                     </div>
                 </div>
             </div>
@@ -85,7 +83,8 @@
                 <!-- Left Side - Image & Overlay -->
                 <div class="col-lg-6">
                     <div class="why-image mb-5 mb-md-0">
-                        <img src="images/about-whychoose.webp" alt="Why Choose Us" class="img-fluid">
+                        <img src="images/about-whychoose.webp" alt="Why Choose Us" class="img-fluid"
+                            title="Premium Quality Fireworks">
                     </div>
                 </div>
 
@@ -204,7 +203,7 @@
                             <i class="bi bi-award"></i>
                         </div>
                         <h3 class="font-weight-bold">Your Success, Our Commitment</h3>
-                        <p>We empower resellers with the best products, seamless service, and reliable supply chains to
+                        <p>We empower resellers with the best products to
                             help grow their business.</p>
                     </div>
                 </div>
@@ -217,7 +216,8 @@
 
 
     <!-- Call-to-Action Section -->
-    <section class="about-parallax text-white" data-aos="" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <section class="about-parallax text-white" data-aos="" data-aos-offset="300" data-aos-easing="ease-in-sine"
+        title="Sivakasi Pattasu Kadal">
         <div class="container text-center">
             <h2 class="heading1 font-weight-bold">Ready to Light Up the Sky?</h2>
             <p class="lead">Explore our wide range of fireworks and make your next event unforgettable.</p>
@@ -235,8 +235,8 @@
                                 alt="Fireworks Display" title="Fireworks Display">
                         </div>
                         <div class="w-50 p-2">
-                            <img src="images/about-last-3.webp" class="img-fluid rounded shadow-lg"
-                                alt="Happy Customers" title="Happy Customers">
+                            <img src="images/footer-image.webp" class="img-fluid rounded" alt="Happy Customers"
+                                title="Sivakasi Retail Crackers Shop">
                         </div>
                         <div class="w-100 p-2">
                             <img src="images/about-last-2.webp" class="img-fluid rounded shadow-lg"
@@ -247,8 +247,7 @@
 
                 <!-- Right: Content & CTA -->
                 <div class="col-lg-6">
-                    <div class="contact-box p-5 text-white rounded shadow-lg"
-                        style="background: linear-gradient(135deg, #ff4500, #c40000);">
+                    <div class="contact-box p-5 text-white rounded shadow-lg">
                         <h2 class="font-weight-bold h1 mb-4">Join the Fireworks Revolution!</h2>
                         <p class="lead mb-4">
                             Whether you're a **retailer, event organizer, or bulk buyer**, we offer **top-quality
@@ -276,12 +275,12 @@
         <span class="time-of-year">
             <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
             <div class="tooltip text-white carter text-center"> For More Details Call <br>
-                <i class="fa fa-phone text-white"></i> +91 8870758418 , 8870838338
+                <i class="fa fa-phone text-white"></i> +91 88708 38338
             </div>
         </span>
     </div>
     <div class="fixed point1 w0 d-lg-none">
-        <a href="tel:+918870758418">
+        <a href="tel:+918870838338">
             <img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
         </a>
     </div>
@@ -308,10 +307,7 @@
     </script>
     <script src="js/tsparticles.fireworks.bundle.min.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        const keywords = ["Kaleeswari Crackers Sivakasi", "Online Diwali Crackers Sale", "Sivakasi Retail Crackers", "Top Fireworks Brands", "Crackers Discount Sale"];
-        assignRandomTitlesToImages(keywords);
-    </script>
+
     <!-- jsDelivr  -->
     <!-- footer -->
     <?php include "footer.php"; ?>

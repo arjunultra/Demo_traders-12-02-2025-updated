@@ -5,7 +5,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="marquee L text-light text-center smallfnt">
-                        Diwali sale is open now. Buy early for the best discounts! Happy Diwali....!!!!
+                        சிறிய குடும்ப நிகழ்வுகளிலிருந்தும் பெரிய திருவிழாக்கள் வரை, எங்கள் பட்டாசு தொகுப்புகள் ஒவ்வொரு
+                        தருணத்தையும் வண்ணமும் ஒளியும் ஒலி கொண்டும் பிரகாசமாக்குகின்றன.
                         &nbsp; <i class="bi bi-whatsapp text-success"></i> +91 8870758418
                         &nbsp; <i class="bi bi-telephone-fill text-primary"></i> +91 8870758418, +91 8870838338
                     </div>
@@ -20,7 +21,7 @@
             <a class="navbar-brand text-red" href="index.php">
                 <img class="logo rounded-circle" src="./images/logo.webp" alt="Kaleeswari Crackers"
                     title="Kaleeswari Crackers">
-                <em class="text-red">Kaleeswari</em> <em class="text-main">Crackers</em>
+                <em class="text-red heading6">Kaleeswari</em> <em class="text-main heading6">Crackers</em>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
                 aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">

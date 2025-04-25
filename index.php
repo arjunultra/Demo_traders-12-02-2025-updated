@@ -285,7 +285,7 @@
 			<p class="fs-12 fw-semibold text-success mb-1">
 				<span class="landing-section-heading cursive-font">FIREWORKS INSIGHTS</span>
 			</p>
-			<h3 class="font-weight-bold mb-2">Why Choose Kaleeswari Crackers Sivakasi?</h3>
+			<h3 class="font-weight-bold mb-2">Why We're Sivakasi's #1 Fireworks Destination </h3>
 			<div class="row justify-content-center">
 				<div class="col-12">
 					<p class="text-muted fs-15 mb-5 fw-normal">
@@ -306,10 +306,11 @@
 								</span>
 							</div>
 							<div>
-								<h5 class="fw-semibold">Premium Quality</h5>
+								<h5 class="fw-semibold">Festival-Ready Collections</h5>
 								<p class="mb-0 text-muted fw-normal">
-									Our fireworks are sourced from the best manufacturers, ensuring stunning visuals and
-									safe performances.
+									Our curated bundles are designed for every major celebration — Diwali, New Year,
+									weddings, or temple festivals — so you never miss a beat when it’s time to light up
+									the sky.
 								</p>
 							</div>
 						</div>
@@ -323,10 +324,10 @@
 								</span>
 							</div>
 							<div>
-								<h5 class="fw-semibold">Wide Variety</h5>
+								<h5 class="fw-semibold">Sourced from the Best in Sivakasi</h5>
 								<p class="mb-0 text-muted fw-normal">
-									From sparklers to aerial shells, we offer an extensive range of fireworks to make
-									your celebrations unforgettable.
+									Proudly based in Sivakasi, we support local craftsmanship while delivering across
+									India — combining tradition with reach.
 								</p>
 							</div>
 						</div>
@@ -342,10 +343,10 @@
 								</span>
 							</div>
 							<div>
-								<h5 class="fw-semibold">Safety First</h5>
+								<h5 class="fw-semibold">Eco-Aware Options</h5>
 								<p class="mb-0 text-muted fw-normal">
-									Our products meet strict safety standards, and we provide guidance on responsible
-									firework use.
+									Explore our growing selection of eco-friendly fireworks that offer the thrill of the
+									burst with reduced smoke and sound — ideal for conscious celebrations.
 								</p>
 							</div>
 						</div>
@@ -359,10 +360,10 @@
 								</span>
 							</div>
 							<div>
-								<h5 class="fw-semibold">Affordable Prices</h5>
+								<h5 class="fw-semibold">Made for Memories</h5>
 								<p class="mb-0 text-muted fw-normal">
-									Get the best fireworks at competitive prices with exclusive discounts for bulk
-									purchases.
+									We don’t just sell fireworks — we help create moments that last. From kids’ delights
+									to showstopper finales, our range ensures your event is unforgettable.
 								</p>
 							</div>
 						</div>
@@ -386,14 +387,14 @@
 				</div>
 				<div class="col-12 col-md-12 col-lg-6 text-center text-lg-left align-self-center">
 					<h2 class="text-warning font-weight-bold text-uppercase">Light Up Your Events with Our Exclusive
-						Price List</h2>
-					<p class="text-light">Unlock the magic of breathtaking fireworks and dazzling displays! Download our
-						comprehensive
-						price list now to find the perfect fireworks for your celebrations.</p>
+						Collections</h2>
+					<p class="text-light">From intimate gatherings to grand festivals, our fireworks collections add
+						sparkle to every moment. Celebrate with colors, sound, and light that leave a lasting
+						impression.</p>
+
 					<div class="">
-						<a class="theme-btn mb-4 px-3 py-3 px-lg-5 py-lg-3 hvr-grow-shadow" href="products.php">Download
-							Our
-							Pricelist</a>
+						<a class="theme-btn mb-4 px-3 py-3 px-lg-5 py-lg-3 hvr-grow-shadow" href="products.php">Buy
+							Now</a>
 					</div>
 				</div>
 				<p class="mx-auto text-center text-light small-para">
@@ -490,6 +491,7 @@
 							<a href="products.php" class="text-dark">🧨 Bombs</a>
 						</li>
 					</ul>
+					<a class="theme-btn" href="contact.php">Contact Us</a>
 				</div>
 			</div>
 		</div>
@@ -512,7 +514,7 @@
 		</span>
 	</div>
 	<div class="fixed point1 w0 d-lg-none">
-		<a href="tel:+918870758418">
+		<a href="tel:+918870838338">
 			<img src="images/callicon.png" class="priceicn float-left no-title" alt="" title="">
 		</a>
 	</div>
